@@ -322,12 +322,12 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 팀명칭 | 강배우 |
 | 키워드 | AI 추천, 맞춤형 여행, 간편한 계획 |
 | 기술키워드 | 머신러닝, 데이터 분석, 웹 어플리케이션 |
-| 프로젝트명 | AI를 기반으로 하여 사용자의 가용 시간 및 예산을 고려하여 여행 일정을 추천해주는 서비스 |
+| 프로젝트명 | AI 기반 여행 일정 추천 서비스 |
 | 프로젝트 브랜드 | OTK |
-| 사용할 소프트웨어 | https://developers.google.com/maps?hl=ko |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 사용할 소프트웨어 | [OpenAI API](https://openai.com/api/)<br> [TensorFlow](https://github.com/tensorflow/tensorflow)<br> [Google Maps API](https://developers.google.com/maps?hl=ko) |
+|만들고자 하는 것| 여행 계획이 막막한 사람들을 위해 AI가 사용자 선택 키워드를 기반으로, 자동으로 일정과 예산을 계획하여, 쉽고 빠르게 여행을 준비할 수 있도록 돕는 서비스 |
+|팀그라운드룰| [GroundRule](https://github.com/Dahye-Kang/OTK/blob/main/GroundRule.MD) |
+|최종수정일|2025.03.12|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 25
