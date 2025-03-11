@@ -24,7 +24,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | [20](#team-20) | 스카이화 | AI 기반 예술 작품 해설 서비스 | 내 손 안의 큐레이터 |
 | [21](#team-21) | 투애니원 | BuddyEdu: 영유아를 위한 정서 지원 및 기초 교육 프로그램 | BuddyEdu |
 | [22](#team-22) | 큐리호스(Curihous) | 퀀트 기반 알고리즘 투자 자동화 서비스 | 스파이코 |
-| [23](#team-23) | | | |
+| [23](#team-23) | YagInfo |YagInfo |YagInfo |
 | [24](#team-24) | 강배우 | AI를 기반으로 하여 사용자의 가용 시간 및 예산을 고려하여 여행 일정을 추천해주는 서비스 | OTK |
 | [25](#team-25) | 치킨먹기 | 공모주 추천 |  |
 | [26](#team-26) | 결번 | - | - |
@@ -303,12 +303,12 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 ## Team 23
 |항목|내용|
 |---|---|
-| 팀명칭 |  |
-| 키워드 |  |
-| 기술키워드 | |
-| 프로젝트명 |  |
-| 프로젝트 브랜드 |  |
-| 사용할 소프트웨어 | |
+| 팀명칭 | YagInfo |
+| 키워드 | Ingredient list, Healthcare, Vision impairment assistance  |
+| 기술키워드 |AI, Photo recognition, text-to-speech |
+| 프로젝트명 | YagInfo |
+| 프로젝트 브랜드 |YagInfo  |
+| 사용할 소프트웨어 | AI<br> Image recognition<br> Text-to-speech |
 | 만들고자 하는 것 | |
 |팀그라운드룰| |
 |최종수정일| |
