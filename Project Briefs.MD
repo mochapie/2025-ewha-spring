@@ -197,7 +197,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |---|---|
 | 팀명칭 | 그린데빌 |
 | 키워드 | 보안, 개인정보, 모델 비교 |
-| 기술키워드 | Edge AI, Federated Learning, Localized/Global Model |
+| 기술키워드 | Edge AI, Federated Learning, Localized / Global Model |
 | 프로젝트명 | 연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교 |
 | 프로젝트 브랜드 | 그린데빌 |
 | 사용할 소프트웨어 | NVIDIA FLARE https://nvflare.readthedocs.io/en/main/flare_overview.html<br>FLOWER https://flower.ai/docs/framework/tutorial-series-get-started-with-flower-pytorch.html<br>Substra https://github.com/Substra/substra/tree/main/docs |
