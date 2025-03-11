@@ -215,9 +215,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 프로젝트명 | 채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼 |
 | 프로젝트 브랜드 | JobBridge |
 | 사용할 소프트웨어 | https://platform.openai.com/docs/guides/gpt<br>https://github.com/saadq/resumake<br>https://github.com/mozilla/pdf.js<br>https://github.com/UKPLab/sentence-transformers<br>https://github.com/deepset-ai/haystack |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 만들고자 하는 것 ||
+| 팀그라운드룰 | https://github.com/CodeManD00/CodeManDoo/blob/main/GroundRule.MD |
+| 최종수정일 ||
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 19
