@@ -10,7 +10,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | [6](#team-6) | 닌자토끼 | 회피형 성격 극복을 위한 맞춤형 습관 형성 서비스 | HabitAI |
 | [7](#team-7) | 지구정복 연구젝트 |  [멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구 | 미씽멀티버스 |
 | [8](#team-8) | 드랍 더 8bit | Collab8 (Collaboration + 8  무한한 협업 가능성을 의미) | HiveMind (집단 지성을 발휘하는 팀 협업 공간) |
-| [9](#team-9) | 구르미 | 뮤추얼클라우드 : 전지구적 자원의 탐색 및 분권형 관리의 필요성 | 반효경 교수님 |
+| [9](#team-9) | 구르미 | 소규모 AI 연구자를 위한 HPC2 기반 QoS-aware 스케줄링 기법 | CloudOptAI |
 | [10](#team-10) | 2ys | Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT | Secure IIOT |
 | [11](#team-11) | DevEwha | 컨테이너 기반 AI 워크플로우 파이프라인 최적화 (CI/CD, MLOps 관점) | AIOpsLab |
 | [12](#team-12) | 내가그린 | 클라우드 AI를 활용하여 사용자 데이터와 트래픽 분석을 통해 IT 환경 최적화를 목적으로 하는 프로그램 | (미정) |
@@ -104,14 +104,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 구르미 |
-| 키워드 | 클라우드, 블록체인, 네트워크 |
-| 기술키워드 | 클라우드, 블록체인, 네트워크 |
-| 프로젝트명 | 뮤추얼클라우드 : 전지구적 자원의 탐색 및 분권형 관리의 필요성 |
-| 프로젝트 브랜드 | 반효경 교수님 |
-| 사용할 소프트웨어 | https://github.com/nextcloud/server<br><br> |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 키워드 | 딥러닝 모델 학습 최적화, AI 연구 비용 절감, GPU 자원 스케줄링 |
+| 기술키워드 |HPC2, QoS-aware GPU Scheduling |
+| 프로젝트명 | 뮤추얼클라우드 : HPC2-ML Scheduler |
+| 프로젝트 브랜드 | CloudOptAI |
+| 사용할 소프트웨어 | 클라우드: AWS EC2 GPU 인스턴스, GCP TPU, Azure ML<br>컨테이너 관리: Kubernetes
+딥러닝 프레임워크: PyTorch, TensorFlow<br>데이터 분석: Prometheus, Grafana<br>스케줄링 알고리즘: Slurm, Kubernetes Scheduler |
+|만들고자 하는 것|만들고자 하는 것: HPC2 환경에서 AI 모델 학습을 위한 QoS-aware GPU 스케줄링 시스템 개발.<br>
+- AI 연구자가 클라우드에서 GPU 자원을 더 효율적으로 사용하도록 최적화<br>- 딥러닝 학습 시간을 단축 및 비용 절감 목표 |
+|팀그라운드룰|https://github.com/Team-Gurumi/Gurumi/blob/main/GroundRule.md|
+|최종수정일| 2025-03-12 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
