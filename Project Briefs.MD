@@ -94,9 +94,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 기술키워드 | Image-to-Image Translation, NLP, TTS |
 | 프로젝트명 | 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램 |
 | 프로젝트 브랜드 | EverTale(에버테일) |
-| 사용할 소프트웨어 | - GPT-4o : https://chatgpt.com/
-- Stable Diffusion : https://stablediffusionweb.com/
-- DALL·E : https://openai.com/dall-e |
+| 사용할 소프트웨어 | - GPT-4o : https://chatgpt.com/<br>- Stable Diffusion : https://stablediffusionweb.com/<br>- DALL·E : https://openai.com/dall-e |
 |만들고자 하는 것| AI 기반 이미지 보정, 스토리 자동 생성, 음성 합성 기술을 활용하여 아이의 그림과 이야기를 분석하고, 이를 자연스럽게 동화로 완성하는 서비스입니다. 부모도 창작 과정에 참여할 수 있도록 다양한 인터랙티브 요소를 제공하며, 완성된 동화는 디지털 책장에 저장되어 시간이 지나도 부모와 아이의 소중한 추억을 특별하게 보존할 수 있습니다. |
 |팀그라운드룰| https://github.com/DropThe8bit/2025-EWHA-CAPSTONE-DROPTHE8BIT/blob/main/GroundRule.md |
 |최종수정일| 2025.03.12 |
