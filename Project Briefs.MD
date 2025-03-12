@@ -5,7 +5,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | [1](#team-1) | 결번 | - | - |
 | [2](#team-2) | 결번 | - | - |
 | [3](#team-3) | 노페인 노게인 | 교통약자를 위한 무장애 길찾기 서비스 | PathEase |
-| [4](#team-4) | 이데댕김 | 이미지 기반 맞춤 영어 회화 학습 | PicChat |
+| [4](#team-4) | 이데댕김 | AI 기반 스마트 컨트랙트 취약점 분석 및 리포트 생성 | ChainGuard |
 | [5](#team-5) | 결번 | - | - |
 | [6](#team-6) | 닌자토끼 | 회피형 성격 극복을 위한 맞춤형 습관 형성 서비스 | HabitAI |
 | [7](#team-7) | 지구정복 연구젝트 |  [멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구 | 미씽멀티버스 |
@@ -48,14 +48,14 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 이데댕김 |
-| 키워드 | 영어 회화 학습, 이미지 기반, 텍스트 및 음성 채팅 |
-| 기술키워드 | 이미지 캡셔닝, 대화형 AI, RAG |
-| 프로젝트명 | 이미지 기반 맞춤 영어 회화 학습 |
-| 프로젝트 브랜드 | PicChat |
-| 사용할 소프트웨어 | https://research.google/pubs/show-and-tell-a-neural-image-caption-generator/<br>https://cocodataset.org/#download |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 키워드 | 블록체인 보안, 스마트 컨트랙트, AI 리포트  |
+| 기술키워드 | Web3, Solidity 분석(Mythril, Slither), LLM |
+| 프로젝트명 | AI 기반 스마트 컨트랙트 취약점 분석 및 리포트 생성 |
+| 프로젝트 브랜드 | ChainGuard |
+| 사용할 소프트웨어 | https://opensearch.org/<br>https://github.com/ConsenSys/mythril<br>https://github.com/crytic/slither |
+|만들고자 하는 것| AI 기반 스마트 컨트랙트 취약성 분석 및 리포트 생성을 통해 블록체인 개발자 및 스마트 컨트랙트 서비스 운영 기업이 전문가 의존도를 낮추면서 취약점에 대한 해결책을 빠르게 제공받아 보안 비용을 절감하고 신뢰성을 향상시킬 수 있도록 돕는 서비스 |
+|팀그라운드룰|https://github.com/EWHA-Best/Capstone/blob/main/GroundRule.md|
+|최종수정일|2025.03.12|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 6
