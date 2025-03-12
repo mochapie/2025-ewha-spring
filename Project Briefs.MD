@@ -67,9 +67,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | 회피형 성격 극복을 위한 맞춤형 습관 형성 서비스 |
 | 프로젝트 브랜드 | HabitAI |
 | 사용할 소프트웨어 | https://openai.com/index/openai-api/<br>RAG<br>https://github.com/sloria/TextBlob - 감정 분석<br>https://github.com/HabitRPG/habitica - 습관 형성 돕는 시스템<br>https://github.com/TheoKanning/openai-java - 자바에서 GPT 사용 라이브러리 |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것|회피 성향 진단과 개선을 위한 통합 플랫폼으로, 회피 지수 진단 서비스와 대화형 챗봇을 통해 개인 맞춤형 상담 및 조언을 상시 제공하며, 감정 분석 기반 피드백과 목표 관리 기능을 지원하는 서비스|
+|팀그라운드룰|https://github.com/Hanrann6/HabitAI/blob/main/GroundRule.MD|
+|최종수정일|2025-03-12|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 7
