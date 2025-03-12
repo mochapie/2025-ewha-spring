@@ -9,7 +9,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | [5](#team-5) | 결번 | - | - |
 | [6](#team-6) | 닌자토끼 | 회피형 성격 극복을 위한 맞춤형 습관 형성 서비스 | HabitAI |
 | [7](#team-7) | 지구정복 연구젝트 |  [멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구 | 미씽멀티버스 |
-| [8](#team-8) | 드랍 더 8bit | Collab8 (Collaboration + 8  무한한 협업 가능성을 의미) | HiveMind (집단 지성을 발휘하는 팀 협업 공간) |
+| [8](#team-8) | 드랍 더 8bit | 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램 | EverTale(에버테일) |
 | [9](#team-9) | 구르미 | 소규모 AI 연구자를 위한 HPC2 기반 QoS-aware 스케줄링 기법 | CloudOptAI |
 | [10](#team-10) | 2ys | Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT | Secure IIOT |
 | [11](#team-11) | DevEwha | 컨테이너 기반 AI 워크플로우 파이프라인 최적화 (CI/CD, MLOps 관점) | AIOpsLab |
@@ -90,14 +90,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 드랍 더 8bit |
-| 키워드 | 1. 멘토링 네트워크, 2. 커리어 성장, 3. 진로 탐색 |
-| 기술키워드 | 1. AI 기반 매칭 시스템, 2. 스케줄 최적화 및 일정 조율, 3. 진로 데이터 분석 및 추천 엔진 |
-| 프로젝트명 | Collab8 (Collaboration + 8  무한한 협업 가능성을 의미) |
-| 프로젝트 브랜드 | HiveMind (집단 지성을 발휘하는 팀 협업 공간) |
-| 사용할 소프트웨어 | 1. Surprise (Collaborative Filtering) → 협업 필터링 기반 추천 시스템 구현<br>2. spaCy (NLP Processing) → 사용자의 관심사 및 진로 목표 분석<br>3. Google Calendar API → 선배-후배 일정 동기화<br>4. LinkedIn Open Data → 실제 업계 종사자의 커리어 데이터 활용 가능<br>5. LangChain (LLM Integration) → GPT 기반 진로 추천 및 선배 Q&A 자동화 |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 키워드 | 동화 생성, 인터랙티브 스토리텔링, 디지털 책장 |
+| 기술키워드 | Image-to-Image Translation, NLP, TTS |
+| 프로젝트명 | 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램 |
+| 프로젝트 브랜드 | EverTale(에버테일) |
+| 사용할 소프트웨어 | - GPT-4o : https://chatgpt.com/
+- Stable Diffusion : https://stablediffusionweb.com/
+- DALL·E : https://openai.com/dall-e |
+|만들고자 하는 것| AI 기반 이미지 보정, 스토리 자동 생성, 음성 합성 기술을 활용하여 아이의 그림과 이야기를 분석하고, 이를 자연스럽게 동화로 완성하는 서비스입니다. 부모도 창작 과정에 참여할 수 있도록 다양한 인터랙티브 요소를 제공하며, 완성된 동화는 디지털 책장에 저장되어 시간이 지나도 부모와 아이의 소중한 추억을 특별하게 보존할 수 있습니다. |
+|팀그라운드룰| https://github.com/DropThe8bit/2025-EWHA-CAPSTONE-DROPTHE8BIT/blob/main/GroundRule.md |
+|최종수정일| 2025.03.12 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 9
