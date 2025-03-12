@@ -11,7 +11,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | [7](#team-7) | 지구정복 연구젝트 |  [멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구 | 미씽멀티버스 |
 | [8](#team-8) | 드랍 더 8bit | Collab8 (Collaboration + 8  무한한 협업 가능성을 의미) | HiveMind (집단 지성을 발휘하는 팀 협업 공간) |
 | [9](#team-9) | 구르미 | 뮤추얼클라우드 : 전지구적 자원의 탐색 및 분권형 관리의 필요성 | 반효경 교수님 |
-| [10](#team-10) | | | |
+| [10](#team-10) | 2ys | Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT | Secure IIOT |
 | [11](#team-11) | DevEwha | 컨테이너 기반 AI 워크플로우 파이프라인 최적화 (CI/CD, MLOps 관점) | AIOpsLab |
 | [12](#team-12) | 내가그린 | 클라우드 AI를 활용하여 사용자 데이터와 트래픽 분석을 통해 IT 환경 최적화를 목적으로 하는 프로그램 | (미정) |
 | [13](#team-13) | e시크 | 멀티 모달 데이터 학습을 이용한 수요 예측도 향상  | e시크 수요 예측 |
@@ -118,15 +118,15 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 ## Team 10
 |항목|내용|
 |---|---|
-| 팀명칭 |  |
-| 키워드 | |
-| 기술키워드 |  |
-| 프로젝트명 |  |
-| 프로젝트 브랜드 |  |
-| 사용할 소프트웨어 |  |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 팀명칭 | 2ys |
+| 키워드 | 자원 최적화, 보안, 효율적 전력 소비 |
+| 기술키워드 | 동작 전압 조절 기법, 태스크 모델링/스케줄링, 보안을 고려한 오프로딩 |
+| 프로젝트명 | Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT |
+| 프로젝트 브랜드 | Secure IIOT |
+| 사용할 소프트웨어 | https://github.com/cheshire1129/IIOT.git<br>System Programming : Linux (WSL)<br> Graph : Jupyter Notebook |
+|만들고자 하는 것| 보안을 적용한 효율적 자원 배분 |
+|팀그라운드룰|https://github.com/cheshire1129/IIOT/blob/master/GroundRule.MD|
+|최종수정일|2025-03-12|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
