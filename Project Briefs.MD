@@ -54,7 +54,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 프로젝트 브랜드 | PicChat |
 | 사용할 소프트웨어 | https://research.google/pubs/show-and-tell-a-neural-image-caption-generator/<br>https://cocodataset.org/#download |
 |만들고자 하는 것||
-|팀그라운드룰||
+|팀그라운드룰|https://github.com/EWHA-Best/Capstone/blob/main/GroundRule.md|
 |최종수정일||
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
