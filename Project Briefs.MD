@@ -333,12 +333,12 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 ## Team 25
 |항목|내용|
 |---|---|
-| 팀명칭 | 치킨먹기 |
+| 팀명칭 | 바위너구리 |
 | 키워드 | AI, 사진 편집, 그림 |
 | 기술키워드 | 리액트, 스프링부트, MySQL, 도커 |
 | 프로젝트명 | 미술 초보자가 보고 그릴 사진을 적절한 구도와 사이즈로 변환해주는 서비스 |
 | 프로젝트 브랜드 | Just draw like this - 이대로만 그려 |
-| 사용할 소프트웨어 | https://github.com/tensorflow/tensorflow (TensorFlow)<br>https://github.com/plotly/dash (데이터 시각화)<br> https://github.com/mrjbq7/ta-lib (TA-Lib)<br> https://github.com/pmorissette/ffn (Ffn) |
+| 사용할 소프트웨어 | https://github.com/tensorflow/tensorflow (TensorFlow)<br>https://github.com/plotly/dash (데이터 시각화)<br> https://github.com/mrjbq7/ta-lib (TA-Lib)<br> https://github.com/pmorissette/ffn (Ffn)<br> cloud : AWS EC2 |
 |만들고자 하는 것| 미술 초보자가 보고 그릴 사진을 적절한 구도와 사이즈로 변환해주는 드로잉 가이드 서비스 |
 |팀그라운드룰| [GroundRule](https://github.com/TEAM-ROCKRACCOON/.github/blob/main/GroundRule.MD) |
 |최종수정일| 25.03.12 |
