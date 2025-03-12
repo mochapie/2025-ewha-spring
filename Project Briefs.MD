@@ -2,26 +2,32 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 # 2025 Spring 전체 프로젝트 리스트
 |팀번호|팀명| 프로젝트명|브랜드명|
 |:---|:---|:---|:---|
+| [1](#team-1) | 결번 | - | - |
+| [2](#team-2) | 결번 | - | - |
 | [3](#team-3) | 노페인 노게인 | 교통약자를 위한 무장애 길찾기 서비스 | PathEase |
 | [4](#team-4) | 이데댕김 | 이미지 기반 맞춤 영어 회화 학습 | PicChat |
+| [5](#team-5) | 결번 | - | - |
 | [6](#team-6) | 닌자토끼 | 회피형 성격 극복을 위한 맞춤형 습관 형성 서비스 | HabitAI |
 | [7](#team-7) | 지구정복 연구젝트 |  [멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구 | 미씽멀티버스 |
 | [8](#team-8) | 드랍 더 8bit | Collab8 (Collaboration + 8  무한한 협업 가능성을 의미) | HiveMind (집단 지성을 발휘하는 팀 협업 공간) |
 | [9](#team-9) | 구르미 | 뮤추얼클라우드 : 전지구적 자원의 탐색 및 분권형 관리의 필요성 | 반효경 교수님 |
+| [10](#team-10) | | | |
 | [11](#team-11) | DevEwha | 컨테이너 기반 AI 워크플로우 파이프라인 최적화 (CI/CD, MLOps 관점) | AIOpsLab |
 | [12](#team-12) | 내가그린 | 클라우드 AI를 활용하여 사용자 데이터와 트래픽 분석을 통해 IT 환경 최적화를 목적으로 하는 프로그램 | (미정) |
 | [13](#team-13) | e시크 | 멀티 모달 데이터 학습을 이용한 수요 예측도 향상  | e시크 수요 예측 |
 | [14](#team-14) | team329 | Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach | team329 (연구트랙이라 팀명으로 대체합니다) |
 | [15](#team-15) | GRAD | 일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서 | 위드미 |
 | [16](#team-16) | 배꽃엔딩 | AI 기반 문서 분석 기술을 통해 계약서의 중요한 조항을 자동 추출하고, 사용자가 쉽게 이해할 수 있도록 제공하는 서비스 | DocSense |
-| [17](#team-17) | 그린데빌 | 연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교 |  |
+| [17](#team-17) | 그린데빌 | 연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교 | 그린데빌 |
 | [18](#team-18) | 코드만두(Code 만 Do!) | 채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼 | JobBridge |
 | [19](#team-19) | T파니 | 이미지 기반 상품 검색 및 추천  | 핏서치 |
 | [20](#team-20) | 스카이화 | AI 기반 예술 작품 해설 서비스 | 내 손 안의 큐레이터 |
 | [21](#team-21) | 투애니원 | BuddyEdu: 영유아를 위한 정서 지원 및 기초 교육 프로그램 | BuddyEdu |
 | [22](#team-22) | 큐리호스(Curihous) | 퀀트 기반 알고리즘 투자 자동화 서비스 | 스파이코 |
+| [23](#team-23) | YagInfo |YagInfo |YagInfo |
 | [24](#team-24) | 강배우 | AI를 기반으로 하여 사용자의 가용 시간 및 예산을 고려하여 여행 일정을 추천해주는 서비스 | OTK |
 | [25](#team-25) | 치킨먹기 | 공모주 추천 |  |
+| [26](#team-26) | 결번 | - | - |
 | [27](#team-27) | 용용 | AI를 기반으로 사용자가 보유한 가상화폐를 해커로부터 보호하기 위해 이중 보안 체계를 적용하는 지갑 솔루션 | Virtual Wallet |
 | [28](#team-28) | e스타트 | OCR과 AI를 활용한 20대의 과소비 방지를 위한 소비 패턴 분석 및 소비 습관 코칭 서비스 | TETS (Too Easy to Spend) |
 ## Team 3
@@ -33,9 +39,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | 교통약자를 위한 무장애 길찾기 서비스 |
 | 프로젝트 브랜드 | PathEase |
 | 사용할 소프트웨어 | https://github.com/openai/whisper<br>https://www.openstreetmap.org/<br>https://t-data.seoul.go.kr/ |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것| 교통약자를 대상으로 한 음성 서비스와 지도 API를 사용한 최적화된 경로를 제공하는 웹/앱 서비스 |
+|팀그라운드룰| https://github.com/Team-NoPainNoGain/NoPainNoGain/blob/main/GroundRule.md |
+|최종수정일| 2025.03.11 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 4
@@ -69,15 +75,15 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 ## Team 7
 |항목|내용|
 |---|---|
-| 팀명칭 | 지구정복 연구젝트 |
+| 팀명칭 | 우주정복 연구젝트 |
 | 키워드 | AI, Multi-modal data, Missing data optimization |
 | 기술키워드 | Pytorch, Cuda, Dall-E |
 | 프로젝트명 |  [멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구 |
-| 프로젝트 브랜드 | 미씽멀티버스 |
-| 사용할 소프트웨어 | https://huggingface.co/docs/transformers/ko/model_doc/clip<br>https://huggingface.co/docs/transformers/model_doc/flava |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 프로젝트 브랜드 | 미씽유니버스 |
+| 사용할 소프트웨어 | [CLIP](https://huggingface.co/docs/transformers/ko/model_doc/clip)<br> [FLAVA](https://huggingface.co/docs/transformers/model_doc/flava) |
+|만들고자 하는 것| 우주 탐사선을 통해 수집된 데이터 중 누락 모달리티 생성 연구|
+|팀그라운드룰| [GroundRule](https://github.com/Earth-Conquest-Research-Project/Multimodal-Missing-Data/blob/main/GroundRule.MD) |
+|최종수정일|2025.03.10|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 8
@@ -108,6 +114,22 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 |최종수정일||
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
+
+## Team 10
+|항목|내용|
+|---|---|
+| 팀명칭 |  |
+| 키워드 | |
+| 기술키워드 |  |
+| 프로젝트명 |  |
+| 프로젝트 브랜드 |  |
+| 사용할 소프트웨어 |  |
+|만들고자 하는 것||
+|팀그라운드룰||
+|최종수정일||
+
+  [Return Top](#2025-Spring-전체-프로젝트-리스트)
+
 ## Team 11
 |항목|내용|
 |---|---|
@@ -131,9 +153,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | 클라우드 AI를 활용하여 사용자 데이터와 트래픽 분석을 통해 IT 환경 최적화를 목적으로 하는 프로그램 |
 | 프로젝트 브랜드 | (미정) |
 | 사용할 소프트웨어 | GPT-4o : https://chatgpt.com/<br>React : https://ko.legacy.reactjs.org/<br>mySQL : https://www.mysql.com/ |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 만들고자 하는 것 | 인터넷 헤비유저에게 불필요한 디지털 환경오염을 줄이기 위한 방법을 실생활에서 제시해주어 경각심을 자극해주는 프로그램이다. 이는 클라우드 AI를 활용하여 친환경 IT 환경을 지향하고, 디지털 웨이스트를 정리해 데이터 및 인터넷 환경을 최적화하는 것을 목적으로 한다. |
+| 팀그라운드룰 | https://github.com/CAPSTONEEEEE/project-repo/blob/main/GroundRule.MD |
+| 최종수정일 | 2025.03.10 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 13
@@ -145,7 +167,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | 멀티 모달 데이터 학습을 이용한 수요 예측도 향상  |
 | 프로젝트 브랜드 | e시크 수요 예측 |
 | 사용할 소프트웨어 | https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0016627586 |
-|만들고자 하는 것||
+|만들고자 하는 것| 멀티모달 환경에서 모달리티 누락&데이터 이질성 문제를 극복할 수 있는 아키텍처 |
 |팀그라운드룰||
 |최종수정일||
 
@@ -159,9 +181,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach |
 | 프로젝트 브랜드 | team329 (연구트랙이라 팀명으로 대체합니다) |
 | 사용할 소프트웨어 | https://github.com/huggingface/transformers.git<br>https://chatgpt.com/ |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것| missing modality를 해결할 수 있는 연합학습 기반 모델 알고리즘 |
+|팀그라운드룰| https://github.com/dew1107/team329/blob/main/GroundRule.md |
+|최종수정일| 2025-03-10 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 15
@@ -173,9 +195,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | 일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서 |
 | 프로젝트 브랜드 | 위드미 |
 | 사용할 소프트웨어 | 생성형 AI API OpenAI GPT API(GPT-4o mini) https://chatgpt.com/ |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것| 일정 관리 개인맞춤 서비스 어플리케이션 |
+|팀그라운드룰| https://github.com/innoxo/TEAM-GRAD/blob/main/Ground_Rule.MD |
+|최종수정일|2025-03-10 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 16
@@ -187,23 +209,23 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | AI 기반 문서 분석 기술을 통해 계약서의 중요한 조항을 자동 추출하고, 사용자가 쉽게 이해할 수 있도록 제공하는 서비스 |
 | 프로젝트 브랜드 | DocSense |
 | 사용할 소프트웨어 | 자연어 처리(NLP) - NLTK (https://www.nltk.org/)<br>AI - LexNLP (https://github.com/LexPredict/lexpredict-lexnlp)<br>맞춤 학습 - RAG |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것| AI 기반 문서 분석 기술을 활용해 계약서의 중요한 조항을 자동 추출하고, 사회초년생·프리랜서·소상공인 등이 복잡한 법률 용어 없이 핵심 내용을 쉽게 이해할 수 있도록 돕는 서비스 |
+|팀그라운드룰| https://github.com/ppandpups/2025-ewha-spring/blob/main/GroundRule.MD |
+|최종수정일| 2025-03-11 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 17
 |항목|내용|
 |---|---|
 | 팀명칭 | 그린데빌 |
-| 키워드 | (연구 트랙)보안, 개인정보, 모델 비교 |
-| 기술키워드 | 엣지AI, 연합 학습, 로컬/글로벌 모델 |
+| 키워드 | 보안, 개인정보, 모델 비교 |
+| 기술키워드 | Edge AI, Federated Learning, Localized / Global Model |
 | 프로젝트명 | 연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교 |
-| 프로젝트 브랜드 |  |
+| 프로젝트 브랜드 | 그린데빌 |
 | 사용할 소프트웨어 | NVIDIA FLARE https://nvflare.readthedocs.io/en/main/flare_overview.html<br>FLOWER https://flower.ai/docs/framework/tutorial-series-get-started-with-flower-pytorch.html<br>Substra https://github.com/Substra/substra/tree/main/docs |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것| Federated learning 환경에서 텍스트, 이미지, 음성 등과 같은 이질적인 데이터로 학습한 특화된 로컬 모델과 일반화된 기존 추론 모델을 구현 및 비교 분석하여 보다 좋은 성능을 가지도록 연구 |
+|팀그라운드룰| https://github.com/2025start-GreenDevil/2025-start/blob/main/Groundrule.md |
+|최종수정일| 2025.3.11 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 18
@@ -215,9 +237,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | 채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼 |
 | 프로젝트 브랜드 | JobBridge |
 | 사용할 소프트웨어 | https://platform.openai.com/docs/guides/gpt<br>https://github.com/saadq/resumake<br>https://github.com/mozilla/pdf.js<br>https://github.com/UKPLab/sentence-transformers<br>https://github.com/deepset-ai/haystack |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 만들고자 하는 것 ||
+| 팀그라운드룰 | https://github.com/CodeManD00/CodeManDoo/blob/main/GroundRule.MD |
+| 최종수정일 ||
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 19
@@ -229,9 +251,10 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | 이미지 기반 상품 검색 및 추천  |
 | 프로젝트 브랜드 | 핏서치 |
 | 사용할 소프트웨어 | React Native: https://reactnative.dev<br>springboot: https://spring.io/projects/spring-boot<br>mysql: https://www.mysql.com<br>docker: https://www.docker.com |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것|옷 매칭에 어려움을 겪는 2030 이 본인이 가지고 있는 패션 아이템을 업로드하면, 다양한 코디 이미지를 학습시킨 AI 를 기반으로 그와 매치되는 아이템을 추천해주는 맞춤형 서비스|
+|팀그라운드룰|https://github.com/TEAM-FITSEARCH/BACK/blob/main/GroundRule.MD|
+|최종수정일|2025.03.10|
+
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 20
@@ -243,9 +266,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | AI 기반 예술 작품 해설 서비스 |
 | 프로젝트 브랜드 | 내 손 안의 큐레이터 |
 | 사용할 소프트웨어 | https://github.com/openai/CLIP |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것|한국어 언어 지원이 안돼서 미술 작품 감상에 어려움을 겪은 한국인 여행객을 위한 AI 기반 이미지 인식을 통한 작품 해설 제공 모바일 어플리케이션|
+|팀그라운드룰|https://github.com/Ewha-SkyEwha/SkyEwha/blob/7b6e6b60bd5d0a1fa16b42bf1eac3061efee9c6f/GroundRule.MD|
+|최종수정일|2025-03-10|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 21
@@ -257,37 +280,54 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 | 프로젝트명 | BuddyEdu: 영유아를 위한 정서 지원 및 기초 교육 프로그램 |
 | 프로젝트 브랜드 | BuddyEdu |
 | 사용할 소프트웨어 | https://i-nuri.go.kr/main/board/index.do?manage_idx=97&menu_idx=246<br>starfall.com<br>moodle.org |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 만들고자 하는 것 | ***주어, 동사, 목적어 분명한 서울형 문장으로 구성해주세요***<br> **1. 기초 교육 강화**<br>- 숫자, 언어, 기초 학습 능력을 향상시키기 위한 교육 콘텐츠 제공<br>- 연령별 맞춤형 학습 자료 제공<br><br>**2. 생활 습관 형성**<br>- 올바른 일상 루틴(예: 양치질, 정리정돈, 자기 전 책 읽기) 습득을 위한 생활 가이드 제공<br>- 습관 형성을 돕는 재미있는 챌린지 시스템 적용<br><br>**3. 정서 지원 기능**<br>- 또래 친구와의 가상 소통을 통해 감정을 표현하고 사회성을 기를 수 있는 안전한 환경 제공<br>- 아이들의 감정 상태를 분석하여 맞춤형 정서 지원 콘텐츠 추천<br><br>**4. 맞춤형 프로그램 제공**<br>- 사용자의 연령과 발달 수준을 분석하여 적절한 학습 및 정서 지원 콘텐츠 추천<br>- 부모와의 연계 기능을 통해 아이의 학습 및 정서 상태 공유 |
+|팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
+|최종수정일| 2025.03.10 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 22
-|항목|내용|
+| 항목 | 내용                                                                                                                                                                                                                                                                                      |
 |---|---|
-| 팀명칭 | 큐리호스(Curihous) |
-| 키워드 | 퀀트 투자, 자동 매매, 포트폴리오 관리 |
-| 기술키워드 | Spring Boot, React, Python |
-| 프로젝트명 | 퀀트 기반 알고리즘 투자 자동화 서비스 |
-| 프로젝트 브랜드 | 스파이코 |
-| 사용할 소프트웨어 | https://github.com/quantconnect/Lean |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 팀명칭 | 큐리호스(Curihous)   |
+| 키워드 | 금융 포트폴리오 최적화, 알고리즘 트레이딩, 투자 학습    |
+| 기술키워드 | Spring Boot, React, Python   |
+| 프로젝트명 | 초보 투자자가 AI 기반 자동매매를 활용하며 투자 원리를 학습하고 성장할 수 있는 맞춤형 퀀트 트레이딩 플랫폼  |
+| 프로젝트 브랜드 | 스파이코  |
+| 사용할 소프트웨어 | https://github.com/quantconnect/Lean  |
+| 만들고자 하는 것 |***주어, 동사, 목적어 분명한 서울형 문장으로 구성해주세요***<br> **1. 투자 기초 학습 모듈**<br>- 투자 기본 개념 학습<br>- 초보 투자자가 기본적인 투자 용어를 이해하고 투자에 대한 감을 잡을 수 있도록 지원<br><br>**2. AI 기반 맞춤형 투자 전략 추천**<br>- 사용자의 투자 성향 분석 후 사용자 스타일에 맞는 맞춤 전략 자동 생성<br>- 해당 전략의 백테스트 결과 제공<br><br>**3. 강화학습 기반 자동매매**<br>- 기존 자동 매매처럼 고정된 매매 조건이 아닌, AI가 시장 변화를 학습하면서 최적의 전략을 지속 업데이트 |
+| 팀그라운드룰 | https://github.com/Curihous/2025-EWHA-CAPSTONE-CURIHOUS/blob/main/GroundRule.MD  |
+| 최종수정일 | 2025.03.10  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
+
+## Team 23
+|항목|내용|
+|---|---|
+| 팀명칭 | YagInfo |
+| 키워드 | Ingredient list, Healthcare, Vision impairment assistance  |
+| 기술키워드 |AI, Photo recognition, text-to-speech |
+| 프로젝트명 | YagInfo |
+| 프로젝트 브랜드 |YagInfo  |
+| 사용할 소프트웨어 | AI<br> Image recognition<br> Text-to-speech |
+| 만들고자 하는 것 | |
+|팀그라운드룰| |
+|최종수정일| |
+
+  [Return Top](#2025-Spring-전체-프로젝트-리스트)
+
+
 ## Team 24
 |항목|내용|
 |---|---|
 | 팀명칭 | 강배우 |
 | 키워드 | AI 추천, 맞춤형 여행, 간편한 계획 |
 | 기술키워드 | 머신러닝, 데이터 분석, 웹 어플리케이션 |
-| 프로젝트명 | AI를 기반으로 하여 사용자의 가용 시간 및 예산을 고려하여 여행 일정을 추천해주는 서비스 |
+| 프로젝트명 | AI 기반 여행 일정 추천 서비스 |
 | 프로젝트 브랜드 | OTK |
-| 사용할 소프트웨어 | https://developers.google.com/maps?hl=ko |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 사용할 소프트웨어 | [OpenAI API](https://openai.com/api/)<br> [TensorFlow](https://github.com/tensorflow/tensorflow)<br> [Google Maps API](https://developers.google.com/maps?hl=ko) |
+|만들고자 하는 것| 여행 계획이 막막한 사람들을 위해 AI가 사용자 선택 키워드를 기반으로, 자동으로 일정과 예산을 계획하여, 쉽고 빠르게 여행을 준비할 수 있도록 돕는 서비스 |
+|팀그라운드룰| [GroundRule](https://github.com/Dahye-Kang/OTK/blob/main/GroundRule.MD) |
+|최종수정일|2025.03.12|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 25
