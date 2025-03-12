@@ -139,9 +139,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 프로젝트명 | 컨테이너 기반 AI 워크플로우 파이프라인 최적화 (CI/CD, MLOps 관점) |
 | 프로젝트 브랜드 | AIOpsLab |
 | 사용할 소프트웨어 | Docker<br>Kubernetes<br>Kubeflow<br>TensorFlow Extended (TFX) |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것| 컨테이너 기반 AI 워크플로우에서 CI/CD와 MLOps를 활용한 효율적인 파이프라인 최적화 방안 연구 |
+|팀그라운드룰| https://github.com/DevEwha/AIOpsLab/blob/main/GroundRule.MD</br> |
+|최종수정일| 2025-03-13 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 12
