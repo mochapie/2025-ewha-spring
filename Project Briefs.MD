@@ -282,7 +282,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 사용할 소프트웨어 | https://i-nuri.go.kr/main/board/index.do?manage_idx=97&menu_idx=246<br>starfall.com<br>moodle.org |
 | 만들고자 하는 것 | 언어 및 숫자 기초교육 기능과 함께 친구같은 AI와의 대화를 통해 정서 지원도 받을 수 있는 어린이 대상 교육 서비스 어플리케이션 |
 |팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
-|최종수정일| 2025.03.10 |
+|최종수정일| 2025.03.12 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 22
