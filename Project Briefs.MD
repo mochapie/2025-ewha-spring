@@ -26,7 +26,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | [22](#team-22) | 큐리호스(Curihous) | 퀀트 기반 알고리즘 투자 자동화 서비스 | 스파이코 |
 | [23](#team-23) | YagInfo |YagInfo |YagInfo |
 | [24](#team-24) | 강배우 | AI를 기반으로 하여 사용자의 가용 시간 및 예산을 고려하여 여행 일정을 추천해주는 서비스 | OTK |
-| [25](#team-25) | 치킨먹기 | 공모주 추천 |  |
+| [25](#team-25) | 바위너구리 | 미술 초보자가 보고 그릴 사진을 적절한 구도와 사이즈로 변환해주는 서비스 | Just draw like this - 이대로만 그려 |
 | [26](#team-26) | 결번 | - | - |
 | [27](#team-27) | 용용 | AI를 기반으로 사용자가 보유한 가상화폐를 해커로부터 보호하기 위해 이중 보안 체계를 적용하는 지갑 솔루션 | Virtual Wallet |
 | [28](#team-28) | e스타트 | OCR과 AI를 활용한 20대의 과소비 방지를 위한 소비 패턴 분석 및 소비 습관 코칭 서비스 | TETS (Too Easy to Spend) |
@@ -334,14 +334,14 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 치킨먹기 |
-| 키워드 | 금융, 추천시스템, AI |
-| 기술키워드 | 리액트, 스프링부트, 도커 |
-| 프로젝트명 | 공모주 추천 |
-| 프로젝트 브랜드 |  |
+| 키워드 | AI, 사진 편집, 그림 |
+| 기술키워드 | 리액트, 스프링부트, MySQL, 도커 |
+| 프로젝트명 | 미술 초보자가 보고 그릴 사진을 적절한 구도와 사이즈로 변환해주는 서비스 |
+| 프로젝트 브랜드 | Just draw like this - 이대로만 그려 |
 | 사용할 소프트웨어 | https://github.com/tensorflow/tensorflow (TensorFlow)<br>https://github.com/plotly/dash (데이터 시각화)<br> https://github.com/mrjbq7/ta-lib (TA-Lib)<br> https://github.com/pmorissette/ffn (Ffn) |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|만들고자 하는 것| 미술 초보자가 보고 그릴 사진을 적절한 구도와 사이즈로 변환해주는 드로잉 가이드 서비스 |
+|팀그라운드룰| [GroundRule](https://github.com/TEAM-ROCKRACCOON/.github/blob/main/GroundRule.MD) |
+|최종수정일| 25.03.12 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 27
