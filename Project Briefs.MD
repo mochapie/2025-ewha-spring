@@ -110,10 +110,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 프로젝트 브랜드 | CloudOptAI |
 | 사용할 소프트웨어 | 클라우드: AWS EC2 GPU 인스턴스, GCP TPU, Azure ML<br>컨테이너 관리: Kubernetes
 딥러닝 프레임워크: PyTorch, TensorFlow<br>데이터 분석: Prometheus, Grafana<br>스케줄링 알고리즘: Slurm, Kubernetes Scheduler |
-|만들고자 하는 것|만들고자 하는 것: HPC2 환경에서 AI 모델 학습을 위한 QoS-aware GPU 스케줄링 시스템 개발.<br>
-- AI 연구자가 클라우드에서 GPU 자원을 더 효율적으로 사용하도록 최적화<br>- 딥러닝 학습 시간을 단축 및 비용 절감 목표 |
-|팀그라운드룰|https://github.com/Team-Gurumi/Gurumi/blob/main/GroundRule.md|
-|최종수정일| 2025-03-12 |
+| 만들고자 하는 것 | HPC2 환경에서 AI 모델 학습을 위한 QoS-aware GPU 스케줄링 시스템 개발.<br>- AI 연구자가 클라우드에서 GPU 자원을 더 효율적으로 사용하도록 최적화<br>- 딥러닝 학습 시간을 단축 및 비용 절감 목표 |
+| 팀그라운드룰| https://github.com/Team-Gurumi/Gurumi/blob/main/GroundRule.md |
+| 최종수정일 | 2025-03-12 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
