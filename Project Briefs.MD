@@ -362,13 +362,13 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | e스타트 |
-| 키워드 | 금융, 소비 분석, 과소비 방지 |
-| 기술키워드 | OCR, AI, 데이터분석 |
-| 프로젝트명 | OCR과 AI를 활용한 20대의 과소비 방지를 위한 소비 패턴 분석 및 소비 습관 코칭 서비스 |
+| 키워드 | 금융, 소비 분석, 예산안 추천 |
+| 기술키워드 | NLP, 데이터분석, 오픈뱅킹 API |
+| 프로젝트명 | NLP와 오픈뱅킹 API를 활용한 20대의 과소비 방지를 위한 소비 패턴 분석 및 소비 습관 코칭 서비스 |
 | 프로젝트 브랜드 | TETS (Too Easy to Spend) |
-| 사용할 소프트웨어 | [Matplotlib] https://matplotlib.org/<br>]Teseract OCR] https://github.com/tesseract-ocr/tesseract |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+| 사용할 소프트웨어 | [Bert] https://github.com/google-research/bert<br>[Apriori] https://github.com/asaini/Apriori<br>[Matplotlib] https://matplotlib.org/ |
+|만들고자 하는 것|사용자의 예산안을 바탕으로 소비 내역을 분석하여 과소비를 예방하여주는 어플리케이션|
+|팀그라운드룰|https://github.com/2025-eStart/TETS/blob/main/GroundRule.MD|
+|최종수정일|2025.03.12|
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
