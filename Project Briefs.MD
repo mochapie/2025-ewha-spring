@@ -305,17 +305,17 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에 확인해주세요.
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 27
-|항목|내용|
-|---|---|
-| 팀명칭 | 용용 |
-| 키워드 | AI, 금융, 보안 |
-| 기술키워드 | 이중서명, TSS,  MPC |
-| 프로젝트명 | AI를 기반으로 사용자가 보유한 가상화폐를 해커로부터 보호하기 위해 이중 보안 체계를 적용하는 지갑 솔루션 |
-| 프로젝트 브랜드 | Virtual Wallet |
-| 사용할 소프트웨어 | https://github.com/safe-global/safe-smart-account<br>https://docs.aws.amazon.com/kms/latest/developerguide/overview.html |
-|만들고자 하는 것||
-|팀그라운드룰||
-|최종수정일||
+|항목| 내용                                                                                                                                                                                                                              |
+|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 팀명칭 | AI Persona                                                                                                                                                                                                                      |
+| 키워드 | AI, 심리학, 성격분석, 데이터 과학                                                                                                                                                                                                           |
+| 기술키워드 | 머신러닝, 자연어 처리(NPL), 심리학 모델, 반응 시간 분석                                                                                                                                                                                             |
+| 프로젝트명 | AI 기반 실시간 성격 분석 프로그램                                                                                                                                                                                                            |
+| 프로젝트 브랜드 | Personality X : PX                                                                                                                                                                                                              |
+| 사용할 소프트웨어 | Open API: https://openai.com<br>Google Cloud NLP:https://cloud.google.com/natural-language?hl=ko <br>Tensorflow:https://www.tensorflow.org/?hl=ko <br> PyTorch:https://pytorch.org <br>FastAPI:https://fastapi.tiangolo.com/ko/ |
+|만들고자 하는 것| -MBTI 스타일의 성격 유형 검사로 과학적 신뢰도를 높인 새로운 성격 분석 시스템 <br> -AI가 자연어를 이해하고 사용자의 응답을 바탕으로 심리 프로파일을 생성 <br> -반응시간 및 선택 패턴을 분석하여 신뢰도를 높인 검사 제공                                                                                             |
+|팀그라운드룰| https://github.com/EwhaCapstone-2025-Team27/GroundRule/blob/main/GroundRule.md                                                                                                                                                  |
+|최종수정일| 2025-03-11                                                                                                                                                                                                                      |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 28
