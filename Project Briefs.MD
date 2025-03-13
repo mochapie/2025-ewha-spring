@@ -17,7 +17,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | [13](#team-13) | e시크 | 멀티 모달 데이터 학습을 이용한 수요 예측도 향상  | e시크 수요 예측 |
 | [14](#team-14) | team329 | Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach | team329 (연구트랙이라 팀명으로 대체합니다) |
 | [15](#team-15) | GRAD | 일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서 | 위드미 |
-| [16](#team-16) | 배꽃엔딩 | AI 기반 문서 분석 기술을 통해 계약서의 중요한 조항을 자동 추출하고, 사용자가 쉽게 이해할 수 있도록 제공하는 서비스 | DocSense |
+| [16](#team-16) | 배꽃엔딩 | 공공기관의 데이터와 AI를 활용해 제품의 규제 이력과 제조사 정보를 조회하고, 안전한 대체 제품을 추천하는 서비스 | ProdCheck |
 | [17](#team-17) | 그린데빌 | 연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교 | 그린데빌 |
 | [18](#team-18) | 코드만두(Code 만 Do!) | 채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼 | JobBridge |
 | [19](#team-19) | T파니 | 이미지 기반 상품 검색 및 추천  | 핏서치 |
@@ -204,14 +204,14 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 배꽃엔딩 |
-| 키워드 | 계약서 분석, 내용 요약, 전문 용어 해설 |
-| 기술키워드 | 자연어 처리(NLP), AI, 맞춤 학습 |
-| 프로젝트명 | AI 기반 문서 분석 기술을 통해 계약서의 중요한 조항을 자동 추출하고, 사용자가 쉽게 이해할 수 있도록 제공하는 서비스 |
-| 프로젝트 브랜드 | DocSense |
-| 사용할 소프트웨어 | 자연어 처리(NLP) - NLTK (https://www.nltk.org/)<br>AI - LexNLP (https://github.com/LexPredict/lexpredict-lexnlp)<br>맞춤 학습 - RAG |
-|만들고자 하는 것| AI 기반 문서 분석 기술을 활용해 계약서의 중요한 조항을 자동 추출하고, 사회초년생·프리랜서·소상공인 등이 복잡한 법률 용어 없이 핵심 내용을 쉽게 이해할 수 있도록 돕는 서비스 |
+| 키워드 | 제품 분석, 유해 제품 감지, 대체제 추천 |
+| 기술키워드 | 데이터 크롤링, AI, 이미지 인식 |
+| 프로젝트명 | 공공기관의 데이터와 AI를 활용해 제품의 규제 이력과 제조사 정보를 조회하고, 안전한 대체 제품을 추천하는 서비스 |
+| 프로젝트 브랜드 | ProdCheck |
+| 사용할 소프트웨어 | 데이터 크롤링 } Scrapy (https://github.com/scrapy/scrapy)<br>AI } GPT-4o (https://chatgpt.com/)<br>이미지 인식 } Google Cloud Vision(https://cloud.google.com/vision) |
+|만들고자 하는 것| 제품 사진을 찍으면 AI가 정보를 추출하고 공공기관 데이터와 연동해 성분, 제조사, 공장 위생 상태, 규제 이력을 분석, 임산부·영유아·알러지 환자 맞춤 유해 성분 경고와 안전한 대체 제품 추천까지 제공하는 AI 기반 소비 도우미 서비스 |
 |팀그라운드룰| https://github.com/ppandpups/2025-ewha-spring/blob/main/GroundRule.MD |
-|최종수정일| 2025-03-11 |
+|최종수정일| 2025-03-13 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 17
