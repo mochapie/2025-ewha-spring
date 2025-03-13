@@ -34,14 +34,14 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 노페인 노게인 |
-| 키워드 | 교통약자, 음성인식, 경로 추천 |
-| 기술키워드 | 실시간 대중교통 연동, 지도 api 연동, 장애물 감지 및 경로 최적화 |
-| 프로젝트명 | 교통약자를 위한 무장애 길찾기 서비스 |
-| 프로젝트 브랜드 | PathEase |
-| 사용할 소프트웨어 | https://github.com/openai/whisper<br>https://www.openstreetmap.org/<br>https://t-data.seoul.go.kr/ |
-|만들고자 하는 것| 교통약자를 대상으로 한 음성 서비스와 지도 API를 사용한 최적화된 경로를 제공하는 웹/앱 서비스 |
+| 키워드 | 수어 인식, 비대면 진료, 베리어 프리 |
+| 기술키워드 | STT, TTS, mediapipe |
+| 프로젝트명 | 청각 장애인을 위한 수어-텍스트-음성 변환 비대면 진료 서비스 |
+| 프로젝트 브랜드 | HandDoc |
+| 사용할 소프트웨어 | TTS: https://www.ncloud.com/product/aiService/clovaDubbing   </br>    MediaPipe: https://www.ncloud.com/product/aiService/clovaDubbing </br> STT: https://www.ncloud.com/product/aiService/clovaSpeech  |
+|만들고자 하는 것| - 수어 인식 AI 모델을 통해, 청각장애인의 수어를 텍스트와 음성으로 변환해주는 비대면 진료 서비스 </br> - AI를 이용한 환자와 의료진 간의 대화내용 요약|
 |팀그라운드룰| https://github.com/Team-NoPainNoGain/NoPainNoGain/blob/main/GroundRule.md |
-|최종수정일| 2025.03.11 |
+|최종수정일| 2025.03.13 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 4
