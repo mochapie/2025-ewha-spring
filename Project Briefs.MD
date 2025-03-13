@@ -296,7 +296,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 사용할 소프트웨어 | https://github.com/quantconnect/Lean                                            |
 | 만들고자 하는 것 | 초보 투자자가 투자 개념을 익히고, AI가 성향을 분석해 맞춤 전략과 백테스트 결과를 제공하며, 시장 변화를 반영한 자동매매를 지원하는 서비스 |
 | 팀그라운드룰 | https://github.com/Curihous/2025-EWHA-CAPSTONE-CURIHOUS/blob/main/GroundRule.MD |
-| 최종수정일 | 2025.03.10                                                                      |
+| 최종수정일 | 2025.03.13                                                                      |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
