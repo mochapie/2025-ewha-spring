@@ -334,14 +334,14 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 바위너구리 |
-| 키워드 | AI, 사진 편집, 그림 |
-| 기술키워드 | 리액트, 스프링부트, MySQL, 도커 |
-| 프로젝트명 | 미술 초보자가 보고 그릴 사진을 적절한 구도와 사이즈로 변환해주는 서비스 |
-| 프로젝트 브랜드 | Just draw like this - 이대로만 그려 |
-| 사용할 소프트웨어 | https://github.com/tensorflow/tensorflow (TensorFlow)<br>https://github.com/plotly/dash (데이터 시각화)<br> https://github.com/mrjbq7/ta-lib (TA-Lib)<br> https://github.com/pmorissette/ffn (Ffn)<br> cloud : AWS EC2 |
-|만들고자 하는 것| 미술 초보자가 보고 그릴 사진을 적절한 구도와 사이즈로 변환해주는 드로잉 가이드 서비스 |
+| 키워드 | AI, 청소루틴관리, 라이프스타일테크 |
+| 기술키워드 | Integer Linear Programming, Reinforcement Learning |
+| 프로젝트명 | 개인 생활패턴과 날씨를 고려해 청소 & 위생 루틴을 추천하는 AI 서비스 |
+| 프로젝트 브랜드 | AI 깔끔비서 |
+| 사용할 소프트웨어 | https://github.com/tensorflow/tensorflow<br>https://github.com/pytorch/pytorch<br>https://github.com/thu-ml/tianshou |
+|만들고자 하는 것| 현대인은 위생과 청소의 중요성을 알지만, 바쁜 일정 속에서 관리하기 어려움. 이 서비스는 사용자의 생활 패턴과 날씨 데이터를 분석하여 최적의 청소 및 위생 루틴을 제공함. 이를 통해 더욱 효율적이고 건강한 생활 습관을 형성할 수 있음. |
 |팀그라운드룰| [GroundRule](https://github.com/TEAM-ROCKRACCOON/.github/blob/main/GroundRule.MD) |
-|최종수정일| 25.03.12 |
+|최종수정일| 25.03.13 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 ## Team 27
