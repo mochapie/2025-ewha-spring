@@ -208,7 +208,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 | 기술키워드 | 데이터 크롤링, AI, 이미지 인식 |
 | 프로젝트명 | 공공기관의 데이터와 AI를 활용해 제품의 규제 이력과 제조사 정보를 조회하고, 안전한 대체 제품을 추천하는 서비스 |
 | 프로젝트 브랜드 | ProdCheck |
-| 사용할 소프트웨어 | 데이터 크롤링 } Scrapy (https://github.com/scrapy/scrapy)<br>AI } GPT-4o (https://chatgpt.com/)<br>이미지 인식 } Google Cloud Vision(https://cloud.google.com/vision) |
+| 사용할 소프트웨어 | Scrapy (https://github.com/scrapy/scrapy)<br>GPT-4o (https://chatgpt.com/)<br>Google Cloud Vision (https://cloud.google.com/vision) |
 |만들고자 하는 것| 제품 사진을 찍으면 AI가 정보를 추출하고 공공기관 데이터와 연동해 성분, 제조사, 공장 위생 상태, 규제 이력을 분석, 임산부·영유아·알러지 환자 맞춤 유해 성분 경고와 안전한 대체 제품 추천까지 제공하는 AI 기반 소비 도우미 서비스 |
 |팀그라운드룰| https://github.com/ppandpups/2025-ewha-spring/blob/main/GroundRule.MD |
 |최종수정일| 2025-03-13 |
