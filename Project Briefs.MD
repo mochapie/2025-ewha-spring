@@ -46,7 +46,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  STT, TTS, mediapipe  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  TTS: https://www.ncloud.com/product/aiService/clovaDubbing   </br>    MediaPipe: https://www.ncloud.com/product/aiService/clovaDubbing </br> STT: https://www.ncloud.com/product/aiService/clovaSpeech   |
 |팀그라운드룰| https://github.com/Team-NoPainNoGain/NoPainNoGain/blob/main/GroundRule.md |
-|최종수정일| 2025.03.13 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -62,7 +62,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Web3, Solidity 분석(Mythril, Slither), LLM  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://opensearch.org/<br>https://github.com/ConsenSys/mythril<br>https://github.com/crytic/slither  |
 |팀그라운드룰|https://github.com/EWHA-Best/Capstone/blob/main/GroundRule.md|
-|최종수정일|2025.03.12|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -78,7 +78,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  RAG 기반 AI 챗봇을 기반으로 한 자연어 처리, 습관 형성 알고리즘,  데이터 분석  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://openai.com/index/openai-api/<br>RAG<br>https://github.com/sloria/TextBlob - 감정 분석<br>https://github.com/HabitRPG/habitica - 습관 형성 돕는 시스템<br>https://github.com/TheoKanning/openai-java - 자바에서 GPT 사용 라이브러리  |
 |팀그라운드룰|https://github.com/Hanrann6/HabitAI/blob/main/GroundRule.MD|
-|최종수정일|2025-03-12|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -94,7 +94,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Pytorch, Cuda, Dall-E  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  [CLIP](https://huggingface.co/docs/transformers/ko/model_doc/clip)<br> [FLAVA](https://huggingface.co/docs/transformers/model_doc/flava)  |
 |팀그라운드룰| [GroundRule](https://github.com/Earth-Conquest-Research-Project/Multimodal-Missing-Data/blob/main/GroundRule.MD) |
-|최종수정일|2025.03.10|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -110,7 +110,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Image-to-Image Translation, NLP, TTS  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  - GPT-4o : https://chatgpt.com/<br>- Stable Diffusion : https://stablediffusionweb.com/<br>- DALL·E : https://openai.com/dall-e  |
 |팀그라운드룰| https://github.com/DropThe8bit/2025-EWHA-CAPSTONE-DROPTHE8BIT/blob/main/GroundRule.md |
-|최종수정일| 2025.03.12 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -126,7 +126,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드| HPC2, QoS-aware GPU Scheduling  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  클라우드: AWS EC2 GPU 인스턴스, GCP TPU, Azure ML<br>컨테이너 관리: Kubernetes<br>딥러닝 프레임워크: PyTorch, TensorFlow<br>데이터 분석: Prometheus, Grafana<br>스케줄링 알고리즘: Slurm, Kubernetes Scheduler  |
 |팀그라운드룰| https://github.com/Team-Gurumi/Gurumi/blob/main/GroundRule.md |
-|최종수정일| 2025-03-12 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -142,7 +142,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  동작 전압 조절 기법, 태스크 모델링/스케줄링, 보안을 고려한 오프로딩  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/cheshire1129/IIOT.git<br>System Programming : Linux (WSL)<br> Graph : Jupyter Notebook  |
 |팀그라운드룰|https://github.com/cheshire1129/IIOT/blob/master/GroundRule.MD|
-|최종수정일|2025-03-12|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -158,7 +158,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Docker / Kubernetes / CI/CD  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Docker<br>Kubernetes<br>Kubeflow<br>TensorFlow Extended (TFX)  |
 |팀그라운드룰| https://github.com/DevEwha/AIOpsLab/blob/main/GroundRule.MD</br> |
-|최종수정일| 2025-03-13 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -174,7 +174,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  클라우드 AI, 데이터베이스, 트래픽 분석  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  GPT-4o : https://chatgpt.com/<br>React : https://ko.legacy.reactjs.org/<br>mySQL : https://www.mysql.com/  |
 |팀그라운드룰| https://github.com/CAPSTONEEEEE/NaegaGreen/blob/main/GroundRule.MD |
-|최종수정일| 2025.03.16 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -190,7 +190,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  인공지능, 멀티 모달, 데이터 학습  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0016627586  |
 |팀그라운드룰| https://github.com/Capstone-eSeek/eSeek/blob/main/GroundRule.MD |
-|최종수정일| 2025-03-12 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -206,7 +206,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  multi-modality, clustering, cross-attention  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/huggingface/transformers.git<br>https://chatgpt.com/  |
 |팀그라운드룰| https://github.com/dew1107/team329/blob/main/GroundRule.md |
-|최종수정일| 2025-03-10 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -222,7 +222,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  생성형 AI, MySQL, React  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  생성형 AI API OpenAI GPT API(GPT-4o mini) https://chatgpt.com/  |
 |팀그라운드룰| https://github.com/innoxo/TEAM-GRAD/blob/main/Ground_Rule.MD |
-|최종수정일|2025-03-10 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -238,7 +238,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  데이터 크롤링, AI, 이미지 인식  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Scrapy (https://github.com/scrapy/scrapy)<br>GPT-4o (https://chatgpt.com/)<br>Google Cloud Vision (https://cloud.google.com/vision)  |
 |팀그라운드룰| https://github.com/ppandpups/2025-ewha-spring/blob/main/GroundRule.MD |
-|최종수정일| 2025-03-13 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -254,7 +254,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Edge AI, Federated Learning, Localized / Global Model  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  NVIDIA FLARE https://nvflare.readthedocs.io/en/main/flare_overview.html<br>FLOWER https://flower.ai/docs/framework/tutorial-series-get-started-with-flower-pytorch.html<br>Substra https://github.com/Substra/substra/tree/main/docs  |
 |팀그라운드룰| https://github.com/2025start-GreenDevil/2025-start/blob/main/Groundrule.md |
-|최종수정일| 2025.3.11 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -270,7 +270,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  GPT-4 / OpenAI API / Google Jobs API   |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://platform.openai.com/docs/guides/gpt<br>https://github.com/saadq/resumake<br>https://github.com/mozilla/pdf.js<br>https://github.com/UKPLab/sentence-transformers<br>https://github.com/deepset-ai/haystack  |
 |팀그라운드룰| https://github.com/CodeManD00/CodeManDoo/blob/main/GroundRule.MD |
-|최종수정일||
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -286,7 +286,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  이미지처리, 추천 알고리즘, 자동배포   |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  React Native: https://reactnative.dev<br>springboot: https://spring.io/projects/spring-boot<br>mysql: https://www.mysql.com<br>docker: https://www.docker.com  |
 |팀그라운드룰|https://github.com/TEAM-FITSEARCH/BACK/blob/main/GroundRule.MD|
-|최종수정일|2025.03.10|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -302,7 +302,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  플러터, 스프링, CLIP  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/openai/CLIP  |
 |팀그라운드룰|https://github.com/Ewha-SkyEwha/SkyEwha/blob/7b6e6b60bd5d0a1fa16b42bf1eac3061efee9c6f/GroundRule.MD|
-|최종수정일|2025-03-10|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -318,7 +318,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Android, Spring, DALL-E  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://i-nuri.go.kr/main/board/index.do?manage_idx=97&menu_idx=246<br>starfall.com<br>moodle.org  |
 |팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
-|최종수정일| 2025.03.12 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -334,7 +334,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Spring Boot, React, Python                                                       |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/quantconnect/Lean                                             |
 |팀그라운드룰| https://github.com/Curihous/2025-EWHA-CAPSTONE-CURIHOUS/blob/main/GroundRule.MD |
-|최종수정일| 2025.03.13                                                                      |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -350,7 +350,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  AI, Photo recognition, text-to-speech  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  AI<br> Image recognition<br> Text-to-speech  |
 |팀그라운드룰| https://github.com/wewannagraduate/wewannagraduate/blob/main/GroundRule.md | 
-|최종수정일| 2025.03.12 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -366,7 +366,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  머신러닝, 데이터 분석, 웹 어플리케이션  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  [OpenAI API](https://openai.com/api/)<br> [TensorFlow](https://github.com/tensorflow/tensorflow)<br> [Google Maps API](https://developers.google.com/maps?hl=ko)  |
 |팀그라운드룰| [GroundRule](https://github.com/Dahye-Kang/OTK/blob/main/GroundRule.MD) |
-|최종수정일|2025.03.12|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -382,7 +382,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  Integer Linear Programming, Reinforcement Learning  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/tensorflow/tensorflow<br>https://github.com/pytorch/pytorch<br>https://github.com/thu-ml/tianshou  |
 |팀그라운드룰| [GroundRule](https://github.com/TEAM-ROCKRACCOON/.github/blob/main/GroundRule.MD) |
-|최종수정일| 25.03.13 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -398,7 +398,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  머신러닝, 자연어 처리(NPL), 심리학 모델, 반응 시간 분석  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Open API: https://openai.com<br>Google Cloud NLP:https://cloud.google.com/natural-language?hl=ko <br>Tensorflow:https://www.tensorflow.org/?hl=ko <br> PyTorch:https://pytorch.org <br>FastAPI:https://fastapi.tiangolo.com/ko/  |
 |팀그라운드룰| https://github.com/EwhaCapstone-2025-Team27/GroundRule/blob/main/GroundRule.md |
-|최종수정일| 2025-03-11 |
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -414,6 +414,6 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드|  NLP, 데이터분석, 오픈뱅킹 API  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  [Bert] https://github.com/google-research/bert<br>[Apriori] https://github.com/asaini/Apriori<br>[Matplotlib] https://matplotlib.org/  |
 |팀그라운드룰|https://github.com/2025-eStart/TETS/blob/main/GroundRule.MD|
-|최종수정일|2025.03.12|
+|최종수정일|  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
