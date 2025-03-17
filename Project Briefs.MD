@@ -306,16 +306,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 21  투애니원 
 |항목|내용|
 |---|---|
-|프로젝트명|  BuddyEdu: 영유아를 위한 정서 지원 및 기초 교육 프로그램  |
-|프로젝트 키워드|  영유아 기초 교육, 정서 지원, AI친구  |
-|무엇을 만들고자 하는가|  언어 및 숫자 기초교육 기능과 함께 친구같은 AI와의 대화를 통해 정서 지원도 받을 수 있는 어린이 대상 교육 서비스 어플리케이션  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
-|구현기술 키워드|  Android, Spring, DALL-E  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://i-nuri.go.kr/main/board/index.do?manage_idx=97&menu_idx=246<br>starfall.com<br>moodle.org  |
+|프로젝트명| AI 기반 부모 교육 및 양육 시뮬레이션 앱 – 초보 부모를 위한 맞춤형 연습과 상담 지원 |
+|프로젝트 키워드| 부모 교육, 양육 시뮬레이션, AI 챗봇, 대화 분석, 부모 커뮤니티 |
+|무엇을 만들고자 하는가| 초보 부모와 예비 부모가 실전 양육을 연습하고 올바른 양육 방법을 학습할 수 있도록 AI 기반 시뮬레이션과 상담 기능을 제공하는 애플리케이션을 개발합니다. 시뮬레이션을 진행한 후, 부모의 대화와 행동을 분석해 감정 피드백을 제공하고, 실시간 양육 상담 및 부모 커뮤니티 기능을 통해 경험 공유와 지원을 받을 수 있도록 설계합니다. |
+|고객| 초보 부모, 예비 부모 |
+|Pain Point| 초보 부모들은 실전 양육 경험이 부족하여 아이의 감정을 이해하는 것이 어렵고, 적절한 대처 방법을 배우기 위한 체계적인 가이드가 부족합니다. 또한, 일상적인 양육 고민을 해결할 전문가 상담이나 같은 경험을 공유할 수 있는 커뮤니티가 제한적입니다. |
+|기술 솔루션 서술| AI 기반 양육 시뮬레이션과 상담 챗봇을 활용해 초보 부모가 실전 경험을 쌓을 수 있도록 합니다. <br><br> **1. AI 기반 양육 시뮬레이션** <br> - OpenAI GPT-4를 활용하여 부모와 가상의 아이 간 대화 및 행동 선택지를 생성하며, AI가 아이의 반응을 시뮬레이션하여 제공 <br> - Microsoft Azure Emotion API를 통해 부모의 음성 또는 표정을 분석하여 감정 피드백을 제공 <br> - OpenAI DALL·E를 활용해 아이의 감정 상태를 이미지로 표현하여 시각적 피드백 제공 <br> <br> **2. AI 감정 분석 및 피드백 제공** <br> - IBM Watson Tone Analyzer와 Google Cloud Natural Language API를 활용해 부모의 대화 패턴을 분석하고, 양육 스타일을 진단 <br> - 감정 분석 데이터를 바탕으로 맞춤형 양육 피드백을 제공하여 더 나은 대화법을 학습하도록 유도 <br> <br> **3. AI 기반 양육 고민 상담 챗봇** <br> - OpenAI GPT-4 기반 챗봇을 활용하여 양육 관련 질문에 실시간 답변 제공 <br> - Google Cloud Natural Language API를 이용해 부모의 질문에서 주요 키워드를 추출하고, 관련된 상담 자료 및 전문가 조언을 연결 <br> - 필요 시 Microsoft Azure의 음성 텍스트 변환 API를 활용하여 부모가 음성으로 질문할 수 있도록 지원 <br> <br> **4. 성장 발달 체크 및 전문가 상담 연계** <br> - 아이의 나이 및 행동 패턴을 입력하면 IBM Watson과 Google Cloud AI를 활용하여 발달 단계 평가 <br> - 이상 징후가 감지되면 전문가 상담 서비스와 연계하여 적절한 추가 조치를 안내 <br> <br> **5. 부모 커뮤니티 및 교육 시스템** <br> - AI 추천 시스템을 통해 유사한 고민을 가진 부모들의 게시물을 추천 <br> - 주차별 교육 콘텐츠를 제공하며, 퀴즈 및 실습형 워크북을 통해 학습 효과를 극대화 |
+|구현기술 키워드| Android, iOS, Spring, OpenAI GPT-4, IBM Watson Tone Analyzer, Google Cloud Natural Language API, Microsoft Azure Emotion API, OpenAI DALL·E |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - **OpenAI GPT-4**: AI 기반 챗봇 및 시뮬레이션 대화 생성 [https://openai.com/product/gpt-4](https://openai.com/product/gpt-4) <br> - **IBM Watson Tone Analyzer**: 부모의 대화 패턴 및 감정 분석 [https://www.ibm.com/cloud/watson-tone-analyzer](https://www.ibm.com/cloud/watson-tone-analyzer) <br> - **Google Cloud Natural Language API**: 대화 및 감정 분석을 통한 양육 피드백 제공 [https://cloud.google.com/natural-language](https://cloud.google.com/natural-language) <br> - **Microsoft Azure Emotion API**: 부모의 음성 및 표정 감정 분석 [https://azure.microsoft.com/en-us/services/cognitive-services/emotion/](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/) <br> - **OpenAI DALL·E**: 시뮬레이션에서 아이의 감정 상태를 이미지로 시각화 [https://openai.com/research/dall-e](https://openai.com/research/dall-e) |
 |팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
-|최종수정일|  |
+|최종수정일| 2025.03.17 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
