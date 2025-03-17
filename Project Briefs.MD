@@ -12,7 +12,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[8](#team-8--드랍-더-8bit)|드랍 더 8bit|아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램|
 |[9](#team-9--구르미)|구르미|뮤추얼클라우드 : HPC2-ML Scheduler|
 |[10](#team-10--2ys)|2ys|Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT|
-|[11](#team-11--DevEwha)|DevEwha|컨테이너 기반 AI 워크플로우 파이프라인 최적화 (CI/CD, MLOps 관점)|
+|[11](#team-11--DevEwha)|DevEwha|Serverless Architecture를 이용한 실시간 AI 추론 최적화|
 |[12](#team-12--내가그린)|내가그린|클라우드 AI를 활용하여 사용자 데이터와 트래픽 분석을 통해 IT 환경 최적화를 목적으로 하는 프로그램|
 |[13](#team-13--e시크)|e시크|멀티 모달 데이터 학습을 이용한 수요 예측도 향상|
 |[14](#team-14--team329)|team329|Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach|
@@ -146,16 +146,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 11  DevEwha 
 |항목|내용|
 |---|---|
-|프로젝트명|  컨테이너 기반 AI 워크플로우 파이프라인 최적화 (CI/CD, MLOps 관점)  |
-|프로젝트 키워드|  AI 모델 배포 및 서빙 / MLOps 파이프라인 / 실시간 모델 추론  |
-|무엇을 만들고자 하는가|  컨테이너 기반 AI 워크플로우에서 CI/CD와 MLOps를 활용한 효율적인 파이프라인 최적화 방안 연구  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
-|구현기술 키워드|  Docker / Kubernetes / CI/CD  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Docker<br>Kubernetes<br>Kubeflow<br>TensorFlow Extended (TFX)  |
+|프로젝트명| Serverless Architecture를 이용한 실시간 AI 추론 최적화 |
+|프로젝트 키워드| 서버리스 ai 배포, 모델 경량화, 클라우드 기반 ai |
+|무엇을 만들고자 하는가| 최근 AI 모델 사이즈 증가로 인해 단일 서버 노드만으로 서빙이 안되는 경우가 늘어나기 때문에, 여러 개의 노드를 통해 서빙하면서 해당 노드의 utilization을 높여 가상화할 수 있도록 서버리스 아키텍처를 최적화하는 모델을 만드는 것이 목표입니다. |
+|고객| ai 모델을 활용하여 실시간 추론이 필요한 기업 및 개발자<br>대규모 GPU 서버를 운영하기 어려운 서비스 제공자<br>IoT, 모바일, 웹 어플리케이선에서 ai 기능을 구현하려는 개발자 |
+|Pain Point| 모델 크기 및 배포 부담, 높은 운영 비용, 응답 속도 지연 |
+|기술 솔루션 서술| 서버리스 아키텍처를 활용하여 모델 경량화 적용, 서버리스 환경에서 ai 배포, 가속 라이브러리 적용 등의 방식을 통해 ai 모델을 실시간으로 최적화하여 배포 및 운영할 수 있도록 합니다. |
+|구현기술 키워드| 서버리스 컴퓨팅, 모델 경량화, ai 가속 엔진, 실시간 ai 추론, 데이터 전처리 및 후처리 |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| AWS(https://aws.amazon.com/ko/)<br>TensorFlow(https://www.tensorflow.org/?hl=ko)<br>Docker(https://www.docker.com/)<br>Kubernetes(https://kubernetes.io/) |
 |팀그라운드룰| https://github.com/DevEwha/AIOpsLab/blob/main/GroundRule.MD</br> |
-|최종수정일|  |
+|최종수정일| 2025.03.17 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
