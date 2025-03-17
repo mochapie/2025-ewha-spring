@@ -229,13 +229,13 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |프로젝트명|  공공기관의 데이터와 AI를 활용해 제품의 규제 이력과 제조사 정보를 조회하고, 안전한 대체 제품을 추천하는 서비스  |
 |프로젝트 키워드|  제품 분석, 유해 제품 감지, 대체제 추천  |
 |무엇을 만들고자 하는가|  제품 사진을 찍으면 AI가 정보를 추출하고 공공기관 데이터와 연동해 성분, 제조사, 공장 위생 상태, 규제 이력을 분석, 임산부·영유아·알러지 환자 맞춤 유해 성분 경고와 안전한 대체 제품 추천까지 제공하는 AI 기반 소비 도우미 서비스  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
+|고객| 임산부 / 영유아 및 영유아 부모 / 알레르기 환자 등 제품 구매에 특별히 유의해야 할 사항이 있는 소비자 |
+|Pain Point| 1. 식약처, 환경부, 공정위 등 각 기관별 API 제공 방식이 다르고, 업데이트 주기가 일정하지 않을 수 있음<br>2. 일부 데이터는 API가 없거나 비공개되어 직접 크롤링해야 하는 경우 발생<br>3. 해외 제품의 경우, 국내 공공기관 데이터에 없는 정보일 가능성이 높음<br>4. 윤리적 기준(공장 위생 상태, 환경 문제, 노동법 준수 여부 등)을 반영한 대체 제품 추천 알고리즘 개발이 까다로움<br>5. 제품 패키지가 변경되거나 바코드가 훼손되었을 경우 인식률이 낮아질 수 있음<br>6. 국내 규제 기준과 해외 규제 기준이 다를 수 있음 → 해외 제품의 유해 여부 판단이 어려울 수 있음 |
+|기술 솔루션 서술| [프론트엔드]<br> react<br>[백엔드]<br> spring boot, AWS <br>[데이터베이스]<br> firebase<br>[데이터 크롤링]<br> Scrapy<br>[식약처 기준 데이터]<br> https://data.mfds.go.kr/OPCAA01F01/search?selectedTab=tab1&taskDivsCd=2&taskDivsDtlCd=1&srchSrvcKorNm=&btnSearch=<br>[AI]<br> GPT-4o, Google Cloud Vision |
 |구현기술 키워드|  데이터 크롤링, AI, 이미지 인식  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Scrapy (https://github.com/scrapy/scrapy)<br>GPT-4o (https://chatgpt.com/)<br>Google Cloud Vision (https://cloud.google.com/vision)  |
 |팀그라운드룰| https://github.com/ppandpups/2025-ewha-spring/blob/main/GroundRule.MD |
-|최종수정일|  |
+|최종수정일| 2025-03-17 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
