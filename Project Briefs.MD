@@ -304,14 +304,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. pull request전에
 |항목|내용|
 |---|---|
 | 팀명칭 | 졸업하고싶조 |
-| 키워드 | Ingredient list, Healthcare, Vision impairment assistance  |
-| 기술키워드 | AI, Photo recognition, text-to-speech |
-| 프로젝트명 | YagInfo |
+| 키워드 | Ingredient list, Healthcare |
+| 기술키워드 | AI, Photo recognition |
+| 프로젝트명 | 여러 병원에서 다수의 약을 처방받아 복용하는 사람들을 위한 복약 지도 서비스 |
 | 프로젝트 브랜드 | YagInfo  |
-| 사용할 소프트웨어 | AI<br> Image recognition<br> Text-to-speech |
-| 만들고자 하는 것 | 여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스 |
+| 사용할 소프트웨어 | Tesseract OCR https://github.com/tesseract-ocr/tesseract 
+  YOLO (You Only Look Once) https://github.com/AlexeyAB/darknet
+  OpenCV (https://opencv.org/) |
+| 만들고자 하는 것 | 이미지 인식, 텍스트 인식을 활용하여 알약을 인식하고, OCR 및 이미지 분석을 통해 현재 복용 중인 약의 정보를 제공하는 동시에 중복 복용 및 금기약을 자동으로 판별합니다. 또한, 복약 시간을 알람으로 설정하여 사용자가 약을 잊지 않고 정확한 시간에 복용할 수 있도록 돕고, 처방받은 약이 소진되기 전에 병원 방문을 미리 안내합니다. |
 |팀그라운드룰| https://github.com/wewannagraduate/wewannagraduate/blob/main/GroundRule.md | 
-|최종수정일| 2025.03.12 |
+|최종수정일| 2025.03.17 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
