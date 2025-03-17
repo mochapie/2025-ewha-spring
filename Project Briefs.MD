@@ -87,16 +87,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |무엇을 만들고자 하는가|  우주 탐사선을 통해 수집된 데이터 중 누락 모달리티 생성 연구 |
 |고객| 천문학 연구자, 위성 데이터 분석가, 기상 과학자, 천체 물리학자, 우주 환경 연구자 등 다양한 과학자들은 데이터 기반 연구를 수행하며, 이를 통해 우주 및 지구 환경을 분석하고 예측하는 역할을 합니다. 이들은 고품질의 데이터를 필요로 하지만, 다양한 기술적 한계와 환경적 요인으로 인해 데이터 손실, 오류, 노이즈 등의 문제가 발생합니다.   |
 |Pain Point| 과학 데이터의 신뢰성을 높이는 과정에서 여러 가지 문제가 발생합니다. 천문학 연구자들은 관측 장비의 한계와 환경적 요인으로 인해 결측 데이터가 자주 발생하며, 위성 데이터 분석가들은 위성 센서의 오류 및 데이터 전송 과정에서 발생하는 데이터 손실 문제를 겪습니다. 기상 과학자들은 다양한 센서에서 수집된 데이터가 일관되지 않거나 정확도가 낮아 모델링의 어려움을 겪으며, 천체 물리학자들은 다중 파장 관측 데이터에서 특정 파장의 정보가 손실되는 문제를 해결해야 합니다. 또한, 우주 환경 연구자들은 위성이 실시간으로 수집하는 데이터에서 노이즈와 이상치를 처리하는 데 많은 어려움을 겪고 있습니다. |
-|기술 솔루션 서술| 이러한 문제를 해결하기 위해 AI 및 데이터 분석 기술을 활용한 다양한 솔루션을 적용하고자 합니다. 결측 데이터를 보완하기 위해 멀티모달 AI, 생성형 AI(GAN, VAEs)를 활용하여 손실된 데이터를 복원할 예정입니다. 또한, 센서 오류 및 데이터 불일치 문제를 해결하기 위해 딥러닝 기반 데이터 정규화 및 보정 알고리즘을 도입하여 데이터를 정제하고 일관성을 유지하는 방법을 사용할 것입니다. 
-구체적으로, 다중 파장 관측에서 누락된 데이터를 예측하기 위해 물리적 모델링과 AI 기반 분석 기법을 결합하여 정확도를 높이는 방법 또는, 실시간 데이터에서 발생하는 노이즈와 이상치를 탐지하고 제거하기 위해 AI 기반 실시간 필터링 및 이상치 탐지 시스템을 적용할 예정입니다. 이러한 기술적 접근법을 통해 데이터의 신뢰성을 높이고, 연구의 정확도를 향상시키는 것이 저희 연구의 최종적인 목표입니다. |
+|기술 솔루션 서술| 이러한 문제를 해결하기 위해 AI 및 데이터 분석 기술을 활용한 다양한 솔루션을 적용하고자 합니다. 결측 데이터를 보완하기 위해 멀티모달 AI, 생성형 AI(GAN, VAEs)를 활용하여 손실된 데이터를 복원할 예정입니다. 또한, 센서 오류 및 데이터 불일치 문제를 해결하기 위해 딥러닝 기반 데이터 정규화 및 보정 알고리즘을 도입하여 데이터를 정제하고 일관성을 유지하는 방법을 사용할 것입니다. 구체적으로, 다중 파장 관측에서 누락된 데이터를 예측하기 위해 물리적 모델링과 AI 기반 분석 기법을 결합하여 정확도를 높이는 방법 또는, 실시간 데이터에서 발생하는 노이즈와 이상치를 탐지하고 제거하기 위해 AI 기반 실시간 필터링 및 이상치 탐지 시스템을 적용할 예정입니다. 이러한 기술적 접근법을 통해 데이터의 신뢰성을 높이고, 연구의 정확도를 향상시키는 것이 저희 연구의 최종적인 목표입니다. |
 |구현기술 키워드|  Pytorch, Cuda, Dall-E, Gemma3 4B   |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  [Gemma3 4B](https://huggingface.co/blog/gemma3)
- [CLIP](https://huggingface.co/docs/transformers/ko/model_doc/clip) 
-[FLAVA](https://huggingface.co/docs/transformers/model_doc/flava)
-[OpenCV](https://github.com/opencv/opencv)
-[NumPy](https://github.com/numpy/numpy)
-[PyTorch](https://github.com/pytorch/examples/tree/main/vae)
-[Hugging Face](https://github.com/huggingface/transformers)  |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  [Gemma3 4B](https://huggingface.co/blog/gemma3), [CLIP](https://huggingface.co/docs/transformers/ko/model_doc/clip), [FLAVA](https://huggingface.co/docs/transformers/model_doc/flava), [OpenCV](https://github.com/opencv/opencv), [NumPy](https://github.com/numpy/numpy), [PyTorch](https://github.com/pytorch/examples/tree/main/vae), [Hugging Face](https://github.com/huggingface/transformers)  |
 |팀그라운드룰| [GroundRule](https://github.com/Earth-Conquest-Research-Project/Multimodal-Missing-Data/blob/main/GroundRule.MD) |
 |최종수정일| 2025.03.17 |
 
