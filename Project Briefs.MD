@@ -335,27 +335,20 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
-## Team 23  졸업하고싶조 
+## Team 23 졸업하고싶조
 |항목|내용|
 |---|---|
-|프로젝트명| 여러 병원에서 다수의 약을 처방받아 복용하는 사람들을 위한 복약 지도 서비스 |
-|프로젝트 키워드| Ingredient list, Healthcare |
-|무엇을 만들고자 하는가| 이미지 인식, 텍스트 인식을 활용하여 알약을 인식하고, OCR 및 이미지 분석을 통해 현재 복용 중인 약의 정보를 제공하는 동시에 중복 복용 및 같이 복용하면 안 되는 약을 자동으로 판별합니다. 또한, 복약 시간을 알람으로 설정하여 사용자가 약을 잊지 않고 정확한 시간에 복용할 수 있도록 돕고, 처방받은 약이 소진되기 전에 병원 방문을 미리 안내합니다.  |
-|고객| 여러 병원을 다니고 중복 복용의 위험이 있는 환자 |
-|Pain Point| - 처방받은 약과 함께 먹으면 위험한 약을 판단하기 어려움
-- 약 포장지를를 잃어버릴 경우 무슨 약인지 판단하기가 쉽지 않음
-- 여러 병원의 처방약을 한눈에 관리하기 어려움 |
-|기술 솔루션 서술| - 스마트폰 카메라로 약 포장이나 처방전을 촬영하면 AI 이미지 인식으로 약 정보를 추출
-- OCR (Optical Character Recognition) 기술을 활용하여 텍스트를 디지털화
-- 약물 데이터베이스와 연동하여 약 성분 및 복용 정보를 제공 |
-|구현기술 키워드|  AI, Photo recognition, text-to-speech  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - OCR 모델: Tesseract OCR https://github.com/tesseract-ocr/tesseract 
-- AI 모델: YOLO (You Only Look Once) https://github.com/AlexeyAB/darknet, OpenCV (https://opencv.org/)
-- Database: Firebase Firestore 또는 MySQL
-- Frontend: React Native / Flutter
-- Backend: FastAPI / Node.js |
-|팀그라운드룰| https://github.com/wewannagraduate/wewannagraduate/blob/main/GroundRule.md | 
-|최종수정일| 2025-03-19 |
+|프로젝트명| YagInfo |
+|프로젝트 키워드| Ingredient list, Healthcare, Vision impairment assistance |
+|무엇을 만들고자 하는가| 여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스 |
+|고객| - 다수의 처방약을 복용하는 만성질환자<br> - 시각장애인 또는 노인 등 소리로 정보를 듣고 싶은 사용자<br> - 보호자 또는 요양보호사 |
+|Pain Point| - 처방약의 성분 및 복용법을 쉽게 확인하기 어려움<br> - 약 포장지나 설명서의 작은 글씨로 인해 시각적으로 불편함<br> - 여러 병원의 처방약을 한눈에 관리하기 어려움 |
+|기술 솔루션 서술| - 스마트폰 카메라로 약 포장이나 처방전을 촬영하면 AI 이미지 인식으로 약 정보를 추출<br> - OCR (Optical Character Recognition) 기술을 활용하여 텍스트를 디지털화<br> - Text-to-Speech (TTS) 기능을 적용해 시각장애인도 음성으로 정보를 확인 가능<br> - 약물 데이터베이스와 연동하여 약 성분 및 복용 정보를 제공 |
+|구현기술 키워드| AI, Photo recognition, Python |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - AI 모델: [Google Vision API](https://cloud.google.com/vision) 또는 [OpenCV](https://opencv.org/) 기반 OCR<br> - Database: [Firebase Firestore](https://firebase.google.com/docs/firestore) 또는 [MySQL](https://www.mysql.com/)<br> - Frontend: [React Native](https://reactnative.dev/) / [Flutter](https://flutter.dev/)<br> - Backend: [FastAPI](https://fastapi.tiangolo.com/) / [Node.js](https://nodejs.org/en/) |
+|팀그라운드룰| [팀그라운드룰](https://github.com/wewannagraduate/wewannagraduate/blob/main/GroundRule.md) |
+|최종수정일| 2025.03.19 |
+ 
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
