@@ -22,7 +22,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[18](#team-18--코드만두(Code-만-Do!))|코드만두(Code 만 Do!)|채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼|
 |[19](#team-19--T파니)|T파니|이미지 기반 상품 검색 및 추천|
 |[20](#team-20--스카이화)|스카이화|AI 기반 예술 작품 해설 서비스|
-|[21](#team-21--투애니원)|투애니원|BuddyEdu: 영유아를 위한 정서 지원 및 기초 교육 프로그램|
+|[21](#team-21--투애니원)|투애니원|AI 기반 부모 교육 및 양육 시뮬레이션 앱: 초보 부모를 위한 맞춤형 연습과 상담 지원|
 |[22](#team-22--큐리호스(Curihous))|큐리호스(Curihous)|초보 투자자가 AI 기반 자동매매를 활용하며 투자 원리를 학습하고 성장할 수 있는 맞춤형 퀀트 트레이딩 플랫폼|
 |[23](#team-23--졸업하고싶조)|졸업하고싶조|여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스|
 |[24](#team-24--강배우)|강배우|AI 기반 여행 일정 추천 서비스|
@@ -315,7 +315,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드| Android, iOS, Spring, OpenAI GPT-4, IBM Watson Tone Analyzer, Google Cloud Natural Language API, Microsoft Azure Emotion API, OpenAI DALL·E |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)| - **OpenAI GPT-4**: AI 기반 챗봇 및 시뮬레이션 대화 생성 [https://openai.com/product/gpt-4](https://openai.com/product/gpt-4) <br> - **IBM Watson Tone Analyzer**: 부모의 대화 패턴 및 감정 분석 [https://www.ibm.com/cloud/watson-tone-analyzer](https://www.ibm.com/cloud/watson-tone-analyzer) <br> - **Google Cloud Natural Language API**: 대화 및 감정 분석을 통한 양육 피드백 제공 [https://cloud.google.com/natural-language](https://cloud.google.com/natural-language) <br> - **Microsoft Azure Emotion API**: 부모의 음성 및 표정 감정 분석 [https://azure.microsoft.com/en-us/services/cognitive-services/emotion/](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/) <br> - **OpenAI DALL·E**: 시뮬레이션에서 아이의 감정 상태를 이미지로 시각화 [https://openai.com/research/dall-e](https://openai.com/research/dall-e) |
 |팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
-|최종수정일| 2025.03.17 |
+|최종수정일| 2025.03.20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
