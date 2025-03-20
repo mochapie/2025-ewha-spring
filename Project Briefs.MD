@@ -114,14 +114,13 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 9  구르미 
 |항목|내용|
 |---|---|
-|프로젝트명|  뮤추얼클라우드 : HPC2-ML Scheduler  |
-|프로젝트 키워드|  딥러닝 모델 학습 최적화, AI 연구 비용 절감, GPU 자원 스케줄링  |
-|무엇을 만들고자 하는가|  HPC2 환경에서 AI 모델 학습을 위한 QoS-aware GPU 스케줄링 시스템 개발.<br>- AI 연구자가 클라우드에서 GPU 자원을 더 효율적으로 사용하도록 최적화<br>- 딥러닝 학습 시간을 단축 및 비용 절감 목표  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
-|구현기술 키워드| HPC2, QoS-aware GPU Scheduling  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  클라우드: AWS EC2 GPU 인스턴스, GCP TPU, Azure ML<br>컨테이너 관리: Kubernetes<br>딥러닝 프레임워크: PyTorch, TensorFlow<br>데이터 분석: Prometheus, Grafana<br>스케줄링 알고리즘: Slurm, Kubernetes Scheduler  |
+|프로젝트명|  클라우드 기반 HPC에서 대화형과 긴급 처리 실현  |
+|프로젝트 키워드|  클라우드 내 HPC 환경 구축, AI 기반 스케줄링 및 최적화, 클라우드 자원 공유, 데이터 전송 및 스토리지 최적화  |
+|무엇을 만들고자 하는가|  다지역 클라우드 HPC 리소스를 연합하여 긴급 작업을 효율적으로 처리하고, AI 기반 자원 관리 및 동적 스케줄링 시스템을 개발하여 실시간 데이터 공유와 최적화된 데이터 전송을 지원하는 시스템 구축.  |
+|고객| 실시간 고객 지원 및 서비스 팀, 블랙프라이데이, 설날 등 고객이 모일 때의 기업,  긴급한 금융 해킹 거래 및 이상 현상 발 견시 금융 서비스 제공자 및 사이버 보안 전문가, 실시간으로 고객의 피드백에 반응하거나, 위기 상황을 처리해야 하는 경우, 테라 혹은 응급 상황 발생 시의 의료 분야 전문가 및 긴급 구조 및 구호 팀, 실시간 피드백을 요구하는 프로젝트나 시스템에서의 즉각적인 오류 해결을 해야 하는 소프트웨어 개발자 등 |
+|Pain Point| 기존 HPC 환경은 Throughput(자원 활용률 극대화) 중심의 Batch Processing에 최적화되어 있다. 그러나 대화형(Interactive) 및 긴급(Urgent) 작업은 빠른 응답 시간과 자원 선점이 필수적이며, 특히 재난 대응, 정밀 의료, 금융 실시간 거래 시스템 등에서 실시간 처리 필요성 급증하고 있다. 클라우드 HPC 도입으로 유연성은 높아졌으나, 긴급성과 실시간성을 보장하는 기술적/정책적 뒷받침은 아직 부족하고 연구가 필요한 상황이다.<br> 1. 정책적 문제 : 기존 HPC 시스템은 자원 활용률을 극대화하는 것이 목표였지만, 대화형 및 긴급 HPC는 자원의 즉각적인 사용이 필요하고 중요하다. 새로운 ROI 기반 지표를 통해 사용자 생산성 중심으로 평가가 이루어져야 한다.<br>2. 기술적 문제 : 대부분의 슈퍼 컴퓨터는 대화형 작업을 위한 별도 노드를 제공하지만 매우 제한적이기 때문에 즉각적 실행을 위한 reservation 시스템이 필요하다. 또한, 긴급 작업을 위해 기존 작업을 중단 preempt할 수 있는 새로운 스케줄링 기법을 연구해야 한다.|
+|기술 솔루션 서술| 1. 다지역 클라우드 HPC 리소스를 연합하여 긴급 상황 발생 시 Cross-Cloud Resource Rederation으로 자원을 즉시 할당합니다. 이를 위해 HPC 사용자의 작업 실행 시간, 데이터 처리량, 긴급 작업 기여도를 평가하는 AI 기반 자원 사용 메트릭 시스템을 구축합니다. 더불어 긴급 상황에서 여러 사용자의 협업을 위해 실시간 데이터 공유를 지원하는 새로운 접근 제어 방식을 제안합니다.<br> 2. 대화형 및 긴급 작업 처리에 최적화되지 않은 기존의 HPC 스케줄링을 개선합니다. 사전 예약 시스템과 선점형 작업, 스케줄러 총합 KPI를 활용하여 AI 기반 동적 스케줄링을 개발합니다. 또한 클러스터 관리 및 작업 스케줄링에 머신러닝 기반 우선순위 할당 기능을 추가하여 긴급 작업 발생 시 기존 작업을 다른 클러스터로 이동시키는 방안을 연구합니다.<br> 3.데이터 전송 속도와 신뢰성을 위해 QoS와 데이터 스트리밍을 도입합니다. HPC 스토리지에 NVMe 기반 고속 캐시를 추가하여 데이터 전송을 최적화합니다. |
+|구현기술 키워드| High-Performance Computing, Cloud Resource Allocation, Federated HPC Scheduling, Cluster Managment, Dynamic Scheduling, QoS, Data Streaming OptimSlurm, Kubernetes, GKE Preemptible VM, Ray Tune, KuberFlow, Apache Arrow, AWS EBS io2, TensorFlow/PyTorch, AWS EC2  |
 |팀그라운드룰| https://github.com/Team-Gurumi/Gurumi/blob/main/GroundRule.md |
 |최종수정일|  |
 
