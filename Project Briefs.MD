@@ -18,7 +18,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[14](#team-14--team329)|team329|Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach|
 |[15](#team-15--GRAD)|GRAD|일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서|
 |[16](#team-16--배꽃엔딩)|배꽃엔딩|공공 데이터와 AI를 활용해 가공식품의 성분을 조회 및 분석하고, 사용자의 조건에 맞는 안전한 대체 제품을 추천 및 비교해주는 서비스|
-|[17](#team-17--그린데빌)|그린데빌|연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교|
+|[17](#team-17--그린데빌)|그린데빌|전자 의료 기록(EHR) 기반 질병 예측 모델의 Federated Learning 환경 성능 비교|
 |[18](#team-18--코드만두(Code-만-Do!))|코드만두(Code 만 Do!)|채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼|
 |[19](#team-19--T파니)|T파니|이미지 기반 상품 검색 및 추천|
 |[20](#team-20--스카이화)|스카이화|AI 기반 예술 작품 해설 서비스|
@@ -253,16 +253,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 17  그린데빌 
 |항목|내용|
 |---|---|
-|프로젝트명|  연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교  |
-|프로젝트 키워드|  보안, 개인정보, 모델 비교  |
-|무엇을 만들고자 하는가|  Federated learning 환경에서 텍스트, 이미지, 음성 등과 같은 이질적인 데이터로 학습한 특화된 로컬 모델과 일반화된 기존 추론 모델을 구현 및 비교 분석하여 보다 좋은 성능을 가지도록 연구  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
-|구현기술 키워드|  Edge AI, Federated Learning, Localized / Global Model  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  NVIDIA FLARE https://nvflare.readthedocs.io/en/main/flare_overview.html<br>FLOWER https://flower.ai/docs/framework/tutorial-series-get-started-with-flower-pytorch.html<br>Substra https://github.com/Substra/substra/tree/main/docs  |
+|프로젝트명|  전자 의료 기록(EHR) 기반 질병 예측 모델의 Federated Learning 환경 성능 비교  |
+|프로젝트 키워드|  연합 학습, 전자 의료 기록(EHR), 질병 예측, 모델 비교  |
+|무엇을 만들고자 하는가|  연합 학습 환경에서 기록의 구조나 방식에서 이질성을 보이는 전자 의료 기록(EHR) 데이터를 활용한 질병 예측 모델을 각 의료 기관 및 환자군에 특화된 로컬 모델과 일반화된 기존 추론 모델을 각각 구현하여 둘의 성능을 비교하는 연구를 진행하고자 한다.  |
+|고객| 병원 기관(client), 환자 |
+|Pain Point| 전자 의료 기록(EHR) 데이터의 이질성으로 인해 종합적으로 데이터를 처리하는 데 어려움을 겪으며, 해당 데이터를 활용하더라도 일반화된 예측 모델은 각 병원 및 환자의 특수성을 반영하지 못해 성능 저하를 보일 수 있다. |
+|기술 솔루션 서술| non-IID(Independent and Identically Distributed) 데이터가 많은 의료 분야에 특화된 Federated Learning 플랫폼 환경에서 공개된 MIMIC_III 등의 EHR 데이터를 활용하여, Transformer 모델(ex. ClinicalBERT)을 일반화된 글로벌 모델과 각 병원에 특화된 로컬 모델로 각각 구현하여 성능을 비교하고자 한다. |
+|구현기술 키워드|  Federated Learning, Transformer model, NLP  |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  NVIDIA FLARE https://nvflare.readthedocs.io/en/main/flare_overview.html<br>FLOWER https://flower.ai/docs/framework/tutorial-series-get-started-with-flower-pytorch.html<br>Substra https://github.com/Substra/substra/tree/main/docs<br>ClinicalBERT https://github.com/kexinhuang12345/clinicalBERT  |
 |팀그라운드룰| https://github.com/2025start-GreenDevil/2025-start/blob/main/Groundrule.md |
-|최종수정일|  |
+|최종수정일| 2025-03-20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
