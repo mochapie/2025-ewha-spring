@@ -69,13 +69,13 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |프로젝트명|  회피형 성격 극복을 위한 맞춤형 습관 형성 서비스  |
 |프로젝트 키워드|  사용자의 행동 패턴&언어 습관&인지 오류 분석, 인터랙티브 AI 코칭, 행동 및 습관 교정  |
 |무엇을 만들고자 하는가| 회피 성향 진단과 개선을 위한 통합 플랫폼으로, 회피 지수 진단 서비스와 대화형 챗봇을 통해 개인 맞춤형 상담 및 조언을 상시 제공하며, 감정 분석 기반 피드백과 목표 관리 기능을 지원하는 서비스 |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
+|고객| 1. 김이화 (24세, 여) <br>• 직업: 대학생 <br>• 성격: 내성적이며 타인의 시선을 신경 쓰는 성향. 새로운 도전을 두려워하는 편. <br>• 고민 <br>◦ 새로운 사람들과 친해지기가 어렵다.<br>◦ 중요한 결정을 내릴 때 미루는 경향이 있다.<br>◦ 사회생활을 시작해야 하지만 두려움이 크다.<br>• 목표 <br>◦ 자기 주장하는 연습을 하고 싶다. <br>◦ 일상에서 작은 도전들을 시도하고 싶다. <br>◦ 스스로를 더 잘 이해하고 싶다. <br><br>2. 박민수 (27세, 남)<br>• 직업: IT 스타트업 개발자<br>• 성격: 회피 성향이 강하며, 인간관계를 피하려는 경향이 있음.<br>• 고민<br>◦ 회사에서 팀원들과 대화하는 게 부담스럽다.<br>◦ 거절하는 것이 어려워 과도한 업무를 맡는다.<br>◦ 연애나 사회적 모임을 피하는 편이다.<br>• 목표<br>◦ 자신감 있는 태도를 기르고 싶다.<br>◦ 타인과 자연스럽게 대화하는 법을 익히고 싶다.<br>◦ 건강한 인간관계를 형성하고 싶다. |
+|Pain Point| 1. 자신의 회피 패턴을 인식하지 못함<br>2. 의욕은 있지만 실천력이 부족함<br>3. 혼자서 극복하기 어려움 & 외부 피드백 부족 |
+|기술 솔루션 서술| Front-end: React<br>Back-end: Node.js + Express.js, AWS EC2<br>Database: MongoDB<br>AI: Chat-GPT 4o - 챗봇 서비스, RAG , Hugging Face Transformers - 성격 분석 기반 미션 제공 |
 |구현기술 키워드|  RAG 기반 AI 챗봇을 기반으로 한 자연어 처리, 습관 형성 알고리즘,  데이터 분석  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://openai.com/index/openai-api/<br>RAG<br>https://github.com/sloria/TextBlob - 감정 분석<br>https://github.com/HabitRPG/habitica - 습관 형성 돕는 시스템<br>https://github.com/TheoKanning/openai-java - 자바에서 GPT 사용 라이브러리  |
 |팀그라운드룰|https://github.com/Hanrann6/HabitAI/blob/main/GroundRule.MD|
-|최종수정일|  |
+|최종수정일| 2025-03-20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
