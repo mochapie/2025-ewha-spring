@@ -9,7 +9,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[4](#team-4--이데댕김)|이데댕김|AI 기반 스마트 컨트랙트 취약점 분석 및 리포트 생성|
 |[6](#team-6--닌자토끼)|닌자토끼|회피형 성격 극복을 위한 맞춤형 습관 형성 서비스|
 |[7](#team-7--우주정복-연구젝트)|우주정복 연구젝트|[멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구|
-|[8](#team-8--드랍-더-8bit)|드랍 더 8bit|아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램|
+|[8](#team-8--드랍-더-8bit)|드랍 더 8bit|아이가 그린 이미지를 AI가 캐릭터로 구현하여 창의력을 확장하고, 부모와 함께 동화를 제작하며 정서적 교감을 키우는 프로그램|
 |[9](#team-9--구르미)|구르미|뮤추얼클라우드 : HPC2-ML Scheduler|
 |[10](#team-10--2ys)|2ys|Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT|
 |[11](#team-11--DevEwha)|DevEwha|Serverless Architecture를 이용한 실시간 AI 추론 최적화|
@@ -98,16 +98,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 8  드랍 더 8bit 
 |항목|내용|
 |---|---|
-|프로젝트명|  아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램  |
+|프로젝트명|  아이가 그린 이미지를 AI가 캐릭터로 구현하여 창의력을 확장하고, 부모와 함께 동화를 제작하며 정서적 교감을 키우는 프로그램  |
 |프로젝트 키워드|  동화 생성, 인터랙티브 스토리텔링, 디지털 책장  |
 |무엇을 만들고자 하는가|  AI 기반 이미지 보정, 스토리 자동 생성, 음성 합성 기술을 활용하여 아이의 그림과 이야기를 분석하고, 이를 자연스럽게 동화로 완성하는 서비스입니다. 부모도 창작 과정에 참여할 수 있도록 다양한 인터랙티브 요소를 제공하며, 완성된 동화는 디지털 책장에 저장되어 시간이 지나도 부모와 아이의 소중한 추억을 특별하게 보존할 수 있습니다.  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
+|고객|  -어린 자녀를 양육하는 맞벌이 부부 <br> 자녀 연령대: 4~8세 <br> 가치관: 창의적 교육과 정서 발달을 중요하게 생각함. <br> 생활 패턴: 두 부부 모두 직장에서 바빠 자녀에게 많은 시간과 에너지를 투자하기 어려움. <br> 요구사항: 자녀의 창의력과 문제 해결 능력을 키울 수 있는 다양한 활동이나 교육적 자원을 찾고 있음. 시간이 부족한 상황에서 쉽게 활용할 수 있는 콘텐츠나 프로그램을 선호. <br><br> -유치원 또는 어린이집의 교육자 <br> 직업: 유치원 교사 <br> 가치관: 아이들의 창의력을 증진할 수 있는 학습, 가정과 연계해서 아이의 성장과 발달을 돕는 것이 중요하다고 생각함. <br> 필요: 기존의 단순한 교구나 활동으로는 집중력이 떨어지기에 새롭고 재미있는 방식으로 아이들의 호기심을 자극하는 콘텐츠가 필요 <br> 요구사항: 가정에서 부모와 아이와 함께할 수 있는 체험형 학습 콘텐츠를 찾고 있음. 그림 그리는 아이들, 글 쓰기를 좋아하는 아이들을 위해 특별한 학습을 하고 싶음. |
+|Pain Point|  -맞벌이 부부 (양육자) <br> 바쁜 일정으로 인해 자녀에게 충분한 교육적 케어를 해주지 못함 <br> 자녀의 창의력과 정서 발달을 지원할 수 있는 효과적이고 간편한 방법을 찾기 어려움 <br><br> -유치원 또는 어린이집의 교육자 <br> 창의력과 문제해결 능력을 효과적으로 키울 수 있는 맞춤형 콘텐츠의 부재. 가정과 연계해서 참여할 수 있는 효과적인 교육 프로그램 및 자료 부족 <br><br> - 기존 동화 생성 애플리케이션의 한계 극복 <br> 전체 줄거리와 이미지를 생성해 주기 때문에 창작 과정에서 아이의 창의력 발휘 기회 부족, 부모와의 정서적 교류 기회 부족한 문제 발생  |
+|기술 솔루션 서술|  [Backend] <br> - SpringBoot, Spring Security, Spring Data JPA, Spring Web, Oauth 2.0 <br> - AWS EC2, AWS S3, AWS RDS, Docker <br><br> [Frontend] <br> - React, Tailwind CSS <br><br> [데이터베이스] <br> - MySQL, Redis, Firebase <br><br> [협업 툴] <br> - Git, Github, Figma, Notion, Discord, Slack <br><br> [AI, API] <br> - Fast API : AI 모델과의 연동을 원활하게 구현한다. <br> - GPT-4o : 동화의 줄거리를 추천해주고, AI 기반 퀴즈를 생성한다. <br><br> - Hugging Face Diffusers API를 활용하며, 세부적으로 ControlNet, LoRA, Stable Diffusion을 사용하여 이미지를 세부적으로 보정하고 생성한다. <br> - ControlNet : 아이의 밑그림을 기반으로 선을 따서 자연스럽에 이미지에 색채를 더하고 보정한다. <br> - LoRA : 초기 생성한 주인공 이미지를 기반으로 그림체에 일관성을 부여한다. <br> - Stable Diffusion : 전체적인 동화의 분위기(빛, 그림자) 미세 조정한다. <br><br> - ElevenLabs : 부모의 음성을 복제하여 동화 스크립트를 읽어준다.  |
 |구현기술 키워드|  Image-to-Image Translation, NLP, TTS  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  - GPT-4o : https://chatgpt.com/<br>- Stable Diffusion : https://stablediffusionweb.com/<br>- DALL·E : https://openai.com/dall-e  |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  - GPT-4o : https://chatgpt.com/ <br> - Hugging Face Diffusers : https://huggingface.co/docs/diffusers/index <br> - ElevenLabs https://elevenlabs.io/docs/overview?utm_source=chatgpt.com  |
 |팀그라운드룰| https://github.com/DropThe8bit/2025-EWHA-CAPSTONE-DROPTHE8BIT/blob/main/GroundRule.md |
-|최종수정일|  |
+|최종수정일|  2025-03-20  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
