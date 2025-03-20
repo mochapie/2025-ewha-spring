@@ -214,13 +214,13 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |프로젝트명|  일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서  |
 |프로젝트 키워드|  일정관리, 개인맞춤 서비스,   |
 |무엇을 만들고자 하는가|  일정 관리 개인맞춤 서비스 어플리케이션  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
+|고객| 연령: 10~30대</br>특징: 시간 관리 및 하루에 주어진 목표를 달성하는데 어려움 및 지루함을 느끼는 사람들</br>니즈: 효율적인 시간 관리, 재미 추구, 보상 심리 극대화</br></br>일정관리에 어려움을 겪는 게임 매니아 ㅇㅇㅇ씨(25세,성별무관):과도한 인터넷 사용으로 일정관리에 어려움을 겪고 있던 ㅇㅇㅇ씨. 일상에서 게임을 플레이하면서도 효율적으로 인터넷 사용을 조절하면서 일정관리를 하고 싶어한다. 매일 해야 하는 업무에 대한 목표치를 정해두고 스스로 정한 기간 내에 달성하는데에 있어 보상의 부족함과 재미의 부재에 싫증을 느끼고 있다. 자신이 좋아하는 게임을 하면서도 일정 관리를 할 수 있는 방법을 모색하고 있다.|
+|Pain Point| 기존의 Idle 게임의 경우, 사용자가 직접 To-Do List를 작성하고 작업하기 좋은 환경만 구성해 준다는 제약점이 존재했음. 대부분의 게임은 사용자에게 긍정적인 효과 및 생활 개선의 영향보다는, 흥미 본위의 오락적인 성향이 강했음. Idler 장르가 출시되었으나, 사용자 맞춤형 인터페이스와 단순한 타이머 기능만 제공하여 일정 관리보다는 “Study With Me”와 같은 영상 매체와 같은 역할을 했음.“듀오링고”와 같이 게임의 형식을 빌려 학습을 도와주는 애플리케이션도 존재하지만, 학습이라는 범위에 국한되어 있어 범용성이 높지 않음.학습뿐만 아니라 전반적인 업무 관리까지 지원하며, 게임 시스템을 통해 지속적인 동기 부여를 유지할 수 있는 프로그램이 부재한 상황임. |
+|기술 솔루션 서술|  Windows 프로세스 모니터링(psutil, Windows API)과 활성 창 추적(pygetwindow, Windows API)을 활용하여 사용자가 실제로 실행한 프로그램을 감지함. 또한, 웹 브라우저 히스토리(browser-history 라이브러리 및 Chrome의 SQLite 히스토리 DB 접근)를 분석하여 웹사이트 사용 패턴을 추적함.이렇게 수집된 데이터는 사용자의 활동 유형을 AI가 분석한 후, 게임 내 환경과 캐릭터 성장에 반영됨. AI 모델로는 Scikit-learn(머신러닝 기반 활동 분류), TensorFlow(딥러닝을 활용한 행동 패턴 예측), PyTorch(실시간 AI 적용 및 환경 변화 분석)를 사용할 예정임.  |
 |구현기술 키워드|  생성형 AI, MySQL, React  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  생성형 AI API OpenAI GPT API(GPT-4o mini) https://chatgpt.com/  |
 |팀그라운드룰| https://github.com/innoxo/TEAM-GRAD/blob/main/Ground_Rule.MD |
-|최종수정일|  |
+|최종수정일| 2025-03-20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -344,11 +344,11 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |무엇을 만들고자 하는가| 여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스 |
 |고객| - 다수의 처방약을 복용하는 만성질환자<br> - 시각장애인 또는 노인 등 소리로 정보를 듣고 싶은 사용자<br> - 보호자 또는 요양보호사 |
 |Pain Point| - 처방약의 성분 및 복용법을 쉽게 확인하기 어려움<br> - 약 포장지나 설명서의 작은 글씨로 인해 시각적으로 불편함<br> - 여러 병원의 처방약을 한눈에 관리하기 어려움 |
-|기술 솔루션 서술| - 스마트폰 카메라로 약 포장이나 처방전을 촬영하면 AI 이미지 인식으로 약 정보를 추출<br> - OCR (Optical Character Recognition) 기술을 활용하여 텍스트를 디지털화<br> - Text-to-Speech (TTS) 기능을 적용해 시각장애인도 음성으로 정보를 확인 가능<br> - 약물 데이터베이스와 연동하여 약 성분 및 복용 정보를 제공 |
+|기술 솔루션 서술| - 스마트폰 카메라로 약 포장이나 처방전을 촬영하면 AI 이미지 인식으로 약 정보를 추출<br> - OCR (Optical Character Recognition) 기술을 활용하여 텍스트를 디지털화<br> - 약물 데이터베이스와 연동하여 약 성분 및 복용 정보를 제공 |
 |구현기술 키워드| AI, Photo recognition, Python |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)| - AI 모델: [Google Vision API](https://cloud.google.com/vision) 또는 [OpenCV](https://opencv.org/) 기반 OCR<br> - Database: [Firebase Firestore](https://firebase.google.com/docs/firestore) 또는 [MySQL](https://www.mysql.com/)<br> - Frontend: [React Native](https://reactnative.dev/) / [Flutter](https://flutter.dev/)<br> - Backend: [FastAPI](https://fastapi.tiangolo.com/) / [Node.js](https://nodejs.org/en/) |
 |팀그라운드룰| [팀그라운드룰](https://github.com/wewannagraduate/wewannagraduate/blob/main/GroundRule.md) |
-|최종수정일| 2025.03.19 |
+|최종수정일| 2025.03.20 |
  
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
