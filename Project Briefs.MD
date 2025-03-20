@@ -17,12 +17,12 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[13](#team-13--e시크)|e시크|멀티 모달 데이터 학습을 이용한 수요 예측도 향상|
 |[14](#team-14--team329)|team329|Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach|
 |[15](#team-15--GRAD)|GRAD|일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서|
-|[16](#team-16--배꽃엔딩)|배꽃엔딩|공공기관의 데이터와 AI를 활용해 제품의 규제 이력과 제조사 정보를 조회하고, 안전한 대체 제품을 추천하는 서비스|
+|[16](#team-16--배꽃엔딩)|배꽃엔딩|공공 데이터와 AI를 활용해 가공식품의 성분을 조회 및 분석하고, 사용자의 조건에 맞는 안전한 대체 제품을 추천 및 비교해주는 서비스|
 |[17](#team-17--그린데빌)|그린데빌|연합 학습(Federated Learning) 환경에서 이질적인 데이터 학습을 통해 로컬에 특화된 학습 모델과 일반적인 추론을 위한 학습 모델 비교|
 |[18](#team-18--코드만두(Code-만-Do!))|코드만두(Code 만 Do!)|채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼|
 |[19](#team-19--T파니)|T파니|이미지 기반 상품 검색 및 추천|
 |[20](#team-20--스카이화)|스카이화|AI 기반 예술 작품 해설 서비스|
-|[21](#team-21--투애니원)|투애니원|BuddyEdu: 영유아를 위한 정서 지원 및 기초 교육 프로그램|
+|[21](#team-21--투애니원)|투애니원|AI 기반 부모 교육 및 양육 시뮬레이션 앱: 초보 부모를 위한 맞춤형 연습과 상담 지원|
 |[22](#team-22--큐리호스(Curihous))|큐리호스(Curihous)|초보 투자자가 AI 기반 자동매매를 활용하며 투자 원리를 학습하고 성장할 수 있는 맞춤형 퀀트 트레이딩 플랫폼|
 |[23](#team-23--졸업하고싶조)|졸업하고싶조|여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스|
 |[24](#team-24--강배우)|강배우|AI 기반 여행 일정 추천 서비스|
@@ -114,16 +114,15 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 9  구르미 
 |항목|내용|
 |---|---|
-|프로젝트명|  뮤추얼클라우드 : HPC2-ML Scheduler  |
-|프로젝트 키워드|  딥러닝 모델 학습 최적화, AI 연구 비용 절감, GPU 자원 스케줄링  |
-|무엇을 만들고자 하는가|  HPC2 환경에서 AI 모델 학습을 위한 QoS-aware GPU 스케줄링 시스템 개발.<br>- AI 연구자가 클라우드에서 GPU 자원을 더 효율적으로 사용하도록 최적화<br>- 딥러닝 학습 시간을 단축 및 비용 절감 목표  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
-|구현기술 키워드| HPC2, QoS-aware GPU Scheduling  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  클라우드: AWS EC2 GPU 인스턴스, GCP TPU, Azure ML<br>컨테이너 관리: Kubernetes<br>딥러닝 프레임워크: PyTorch, TensorFlow<br>데이터 분석: Prometheus, Grafana<br>스케줄링 알고리즘: Slurm, Kubernetes Scheduler  |
+|프로젝트명|  클라우드 기반 HPC에서 대화형과 긴급 처리 실현  |
+|프로젝트 키워드|  클라우드 내 HPC 환경 구축, AI 기반 스케줄링 및 최적화, 클라우드 자원 공유, 데이터 전송 및 스토리지 최적화  |
+|무엇을 만들고자 하는가|  다지역 클라우드 HPC 리소스를 연합하여 긴급 작업을 효율적으로 처리하고, AI 기반 자원 관리 및 동적 스케줄링 시스템을 개발하여 실시간 데이터 공유와 최적화된 데이터 전송을 지원하는 시스템 구축.  |
+|고객| 실시간 고객 지원 및 서비스 팀, 블랙프라이데이, 설날 등 고객이 모일 때의 기업,  긴급한 금융 해킹 거래 및 이상 현상 발 견시 금융 서비스 제공자 및 사이버 보안 전문가, 실시간으로 고객의 피드백에 반응하거나, 위기 상황을 처리해야 하는 경우, 테라 혹은 응급 상황 발생 시의 의료 분야 전문가 및 긴급 구조 및 구호 팀, 실시간 피드백을 요구하는 프로젝트나 시스템에서의 즉각적인 오류 해결을 해야 하는 소프트웨어 개발자 등 |
+|Pain Point| 기존 HPC 환경은 Throughput(자원 활용률 극대화) 중심의 Batch Processing에 최적화되어 있다. 그러나 대화형(Interactive) 및 긴급(Urgent) 작업은 빠른 응답 시간과 자원 선점이 필수적이며, 특히 재난 대응, 정밀 의료, 금융 실시간 거래 시스템 등에서 실시간 처리 필요성 급증하고 있다. 클라우드 HPC 도입으로 유연성은 높아졌으나, 긴급성과 실시간성을 보장하는 기술적/정책적 뒷받침은 아직 부족하고 연구가 필요한 상황이다.<br> 1. 정책적 문제 : 기존 HPC 시스템은 자원 활용률을 극대화하는 것이 목표였지만, 대화형 및 긴급 HPC는 자원의 즉각적인 사용이 필요하고 중요하다. 새로운 ROI 기반 지표를 통해 사용자 생산성 중심으로 평가가 이루어져야 한다.<br>2. 기술적 문제 : 대부분의 슈퍼 컴퓨터는 대화형 작업을 위한 별도 노드를 제공하지만 매우 제한적이기 때문에 즉각적 실행을 위한 reservation 시스템이 필요하다. 또한, 긴급 작업을 위해 기존 작업을 중단 preempt할 수 있는 새로운 스케줄링 기법을 연구해야 한다.|
+|기술 솔루션 서술| 1. 다지역 클라우드 HPC 리소스를 연합하여 긴급 상황 발생 시 Cross-Cloud Resource Rederation으로 자원을 즉시 할당합니다. 이를 위해 HPC 사용자의 작업 실행 시간, 데이터 처리량, 긴급 작업 기여도를 평가하는 AI 기반 자원 사용 메트릭 시스템을 구축합니다. 더불어 긴급 상황에서 여러 사용자-의 협업을 위해 실시간 데이터 공유를 지원하는 새로운 접근 제어 방식을 제안합니다.<br> 2. 대화형 및 긴급 작업 처리에 최적화되지 않은 기존의 HPC 스케줄링을 개선합니다. 사전 예약 시스템과 선점형 작업, 스케줄러 총합 KPI를 활용하여 AI 기반 동적 스케줄링을 개발합니다. 또한 클러스터 관리 및 작업 스케줄링에 머신러닝 기반 우선순위 할당 기능을 추가하여 긴급 작업 발생 시 기존 작업을 다른 클러스터로 이동시키는 방안을 연구합니다.<br> 3.데이터 전송 속도와 신뢰성을 위해 QoS와 데이터 스트리밍을 도입합니다. HPC 스토리지에 NVMe 기반 고속 캐시를 추가하여 데이터 전송을 최적화합니다. |
+|구현기술 키워드| High-Performance Computing, Cloud Resource Allocation, Federated HPC Scheduling, Cluster Managment, Dynamic Scheduling, QoS, Data Streaming OptimSlurm, Kubernetes, GKE Preemptible VM, Ray Tune, KuberFlow, Apache Arrow, AWS EBS io2, TensorFlow/PyTorch, AWS EC2  |
 |팀그라운드룰| https://github.com/Team-Gurumi/Gurumi/blob/main/GroundRule.md |
-|최종수정일|  |
+|최종수정일| 2025-03-20  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -133,13 +132,15 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |프로젝트명|  Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT  |
 |프로젝트 키워드|  자원 최적화, 보안, 효율적 전력 소비  |
 |무엇을 만들고자 하는가|  보안을 적용한 효율적 자원 배분  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
+|고객| - 이름: 김수연 <br> - 나이: 45세 <br> - 성별: 여성 <br>- 직업(역할): 반도체 업계 OT 엔지니어 <br> <br>- 문제 시나리오: <br> 가열 공정 온도 센서 수치 조작 → 과열 방지 장치 무력화 <br>고온 가열기 3대 과열 → 설비 내부 폭발적 화재 -> 전체 생산라인 전소 <br> <br>- 사용자 요구사항 <br> 1. 자원 절약(전력 소비 감소) <br> 2. 보안 <br>3. 생산 데드라인 및 목표 생산량 준수
+ |
+|Pain Point| - 24시간 가동으로 인한 전력 낭비<br>- 공공 서버를 사용할 때 기밀 유출 우려<br>- 설비 조작 디지털화로 인한 중앙제어장치 해킹 우려  |
+|기술 솔루션 서술| - 전력 조절: Hybrid memory(DRAM, LPM) 사용, Offloading <br> - 주파수 조절: DVS <br> - 보안 강화 (TEE 환경 제공, 나아가 가상 머신 전체를 보호): AWS Nitro Enclave S3
+ |
 |구현기술 키워드|  동작 전압 조절 기법, 태스크 모델링/스케줄링, 보안을 고려한 오프로딩  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/cheshire1129/IIOT.git<br>System Programming : Linux (WSL)<br> Graph : Jupyter Notebook  |
 |팀그라운드룰|https://github.com/cheshire1129/IIOT/blob/master/GroundRule.MD|
-|최종수정일|  |
+|최종수정일| 2025/03/20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -226,16 +227,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 16  배꽃엔딩 
 |항목|내용|
 |---|---|
-|프로젝트명| 공공 데이터와 AI를 활용해 제품의 규제 이력과 제조사 정보를 조회하고, 안전한 대체 제품을 추천하는 서비스 |
+|프로젝트명| 공공 데이터와 AI를 활용해 가공식품의 성분을 조회 및 분석하고, 사용자의 조건에 맞는 안전한 대체 제품을 추천 및 비교해주는 서비스 |
 |프로젝트 키워드|  제품 분석, 유해 제품 감지, 대체제 추천  |
 |무엇을 만들고자 하는가| 제품 사진을 찍으면 AI가 정보를 추출하고 공공 데이터와 연동해 제품 성분을 분석하여, 사용자 맞춤 유해 성분 경고와 유사 제품 간 성분 비교를 통한 제품 추천을 해주고, 사용자가 궁금한 제품 성분과 안전 정보에 즉시 답변하는 AI 챗봇까지 제공하는 AI 기반 소비 도우미 서비스 |
 |고객| 임산부 / 영유아 및 영유아 부모 / 알레르기 환자 등 제품 구매에 특별히 유의해야 할 사항이 있는 소비자 |
 |Pain Point| 1. 식약처, 환경부, 공정위 등 각 기관별 API 제공 방식이 다르고, 업데이트 주기가 일정하지 않을 수 있음<br>2. 일부 데이터는 API가 없거나 비공개되어 직접 크롤링해야 하는 경우 발생<br>3. 해외 제품의 경우, 국내 공공기관 데이터에 없는 정보일 가능성이 높음<br>4. 제품 패키지가 변경되거나 훼손되었을 경우 인식률이 낮아질 수 있음<br>5. 국내 규제 기준과 해외 규제 기준이 다를 수 있음 → 해외 제품의 유해 여부 판단이 어려울 수 있음 |
-|기술 솔루션 서술| [프론트엔드]<br> react<br><br>[백엔드]<br> spring boot, AWS <br><br>[데이터베이스]<br> firebase<br><br>[데이터 크롤링]<br> Scrapy<br><br>[식약처 기준 데이터]<br> https://data.mfds.go.kr/OPCAA01F01/search?selectedTab=tab1&taskDivsCd=2&taskDivsDtlCd=1&srchSrvcKorNm=&btnSearch=<br><br>[AI]<br> GPT-4o, Google Cloud Vision |
+|기술 솔루션 서술| - 사용자 친화적인 웹 UI를 React로 개발하여 사진 업로드, 검색, 제품 비교, 챗봇 인터페이스 등을 제공한다. <br>- 백엔드로 Spring Boot 기반의 API 서버를 구축하여 프론트엔드와 AI 모델, 데이터베이스, 공공 데이터 API 간의 연결을 담당한다. 또한 AWS 클라우드 환경에서 서버를 운영하여 확장성과 안정성을 확보한다. <br>- 사용자 맞춤 제품 추천을 위해 데이터베이스로 Firebase에 사용자의 검색 이력과 제품 선호도를 저장하고, 실시간 데이터 동기화를 활용하여 업데이트된 제품 정보를 즉시 반영할 수 있도록 한다. <br>- 공공 데이터 API에서 제공되지 않는 정보를 확보하기 위해 Scrapy를 이용해 웹 크롤링을 수행한다. <br>- 식약처, 환경부, 공정위의 웹사이트에서 제공하는 공공 데이터를 연동하여 제품 성분, 리콜 정보 등의 데이터를 정기적으로 수집 및 업데이트한다. <br>- 제품 이미지 인식을 위해 Google Cloud Vision을 활용하여 제품 패키지에서 브랜드명, 제품명, 성분표를 추출한다. <br>- 사용자가 특정 성분이나 제품의 안전성에 대해 질문하면, GPT-4o 기반의 AI 챗봇이 공공 데이터와 학습된 내용을 기반으로 답변한다. |
 |구현기술 키워드|  데이터 크롤링, AI, 이미지 인식  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Scrapy (https://github.com/scrapy/scrapy)<br>GPT-4o (https://chatgpt.com/)<br>Google Cloud Vision (https://cloud.google.com/vision)  |
 |팀그라운드룰| https://github.com/ppandpups/2025-ewha-spring/blob/main/GroundRule.MD |
-|최종수정일| 2025-03-17 |
+|최종수정일| 2025-03-20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -293,13 +294,13 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |프로젝트명|  AI 기반 예술 작품 해설 서비스  |
 |프로젝트 키워드|  작품 해설, 이미지 인식, 연관 작품 추천 서비스  |
 |무엇을 만들고자 하는가| 한국어 언어 지원이 안돼서 미술 작품 감상에 어려움을 겪은 한국인 여행객을 위한 AI 기반 이미지 인식을 통한 작품 해설 제공 모바일 어플리케이션 |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
-|구현기술 키워드|  플러터, 스프링, CLIP  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/openai/CLIP  |
+|고객| 저희의 고객은 해외 유명 미술관, 박물관 등 전시 작품을 감상하는데 어려움을 겪고 있는 20대 한국인 여행객입니다. </br> </br> <페르소나> </br> </br> • 이름: 김한글 </br> </br> • 나이: 24살 </br> </br> • 성별: 여자 </br> </br> • 특징: 방학을 맞아 홀로 유럽 여행 중이며, 미술 작품 감상에 관심이 많아 여러 유명 미술관, 박물관을 돌아보고 있다. 미술에 조예가 깊지 않아, 미술관에서 제공하는 오디오 가이드를 항상 사용하고 있는데, 한국어 언어 지원이 안되는 경우가 많아 영어로 작품 해설을 듣게 되는 경우가 많다. 하지만 영어를 어려워해, 작품 해설을 이해하는데 어려움을 겪고 있다. |
+|Pain Point| 1. 한국어 작품 해설의 부재 </br> </br> - 가이드 없이 자유여행을 즐기는 20대 여행객들은 미술관에 방문했을 때 작품 감상에 어려움을 겪습니다. </br> </br> 2. 오디오 가이드의 퀄리티 부족 </br> </br> - 미술관에 오디오 가이드가 존재하하더라도, 한국어 오디오 가이드가 없거나, 번역이 어색해 오히려 작품 감상에 불편함을 겪습니다. |
+|기술 솔루션 서술| YOLO를 사용해 사진에서 그림 이미지를 추출한다.</br> </br> RAG를 사용해 사용자에게 단순히 그림에 대한 해설을 제공하는 것뿐만 아니라 사용자 검색 기록을 기반으로 맞춤화 된 작품 추천 서비스를 제공한다.</br> </br>OpenAI를 AI가 작품 설명을 자동 생성하도록 활용한다. </br> </br> CLIP을 사용해 사진 이미지가 주어지면 가장 관련성이 높은 작품 설명 텍스트를 예측하도록 한다.|
+|구현기술 키워드|  YOLOv5, 스프링, CLIP  |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  CLIP: https://github.com/openai/CLIP <br>OpenAPI: https://openai.com/index/openai-api/ <br>YOLOv5: https://github.com/ultralytics/yolov5?tab=readme-ov-file |
 |팀그라운드룰|https://github.com/Ewha-SkyEwha/SkyEwha/blob/7b6e6b60bd5d0a1fa16b42bf1eac3061efee9c6f/GroundRule.MD|
-|최종수정일|  |
+|최종수정일| 2025.03.20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -315,7 +316,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |구현기술 키워드| Android, iOS, Spring, OpenAI GPT-4, IBM Watson Tone Analyzer, Google Cloud Natural Language API, Microsoft Azure Emotion API, OpenAI DALL·E |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)| - **OpenAI GPT-4**: AI 기반 챗봇 및 시뮬레이션 대화 생성 [https://openai.com/product/gpt-4](https://openai.com/product/gpt-4) <br> - **IBM Watson Tone Analyzer**: 부모의 대화 패턴 및 감정 분석 [https://www.ibm.com/cloud/watson-tone-analyzer](https://www.ibm.com/cloud/watson-tone-analyzer) <br> - **Google Cloud Natural Language API**: 대화 및 감정 분석을 통한 양육 피드백 제공 [https://cloud.google.com/natural-language](https://cloud.google.com/natural-language) <br> - **Microsoft Azure Emotion API**: 부모의 음성 및 표정 감정 분석 [https://azure.microsoft.com/en-us/services/cognitive-services/emotion/](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/) <br> - **OpenAI DALL·E**: 시뮬레이션에서 아이의 감정 상태를 이미지로 시각화 [https://openai.com/research/dall-e](https://openai.com/research/dall-e) |
 |팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
-|최종수정일| 2025.03.17 |
+|최종수정일| 2025.03.20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -376,9 +377,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |무엇을 만들고자 하는가|  현대인은 위생과 청소의 중요성을 알지만, 바쁜 일정 속에서 관리하기 어려움. 단순 알람이나 체크리스트 기능만 제공하는 기존의 청소 관련 서비스와 달리, **AI 쓱싹비서**는 사용자의 생활 패턴과 일정을 학습하고 날씨 데이터를 분석하여 최적의 청소 타이밍 및 위생 루틴을 제공함. 이를 통해 사용자는 청소 계획에 대한 부담 없이 효율적으로 위생적인 생활공간을 유지하면서 본업에 집중할 수 있음. |
 |고객| **이름:** 김청소<br> **나이:** 22세<br> **직업:** 이화여자대학교 경영학과 3학년<br> **거주 형태:** 신촌 원룸 자취(8평)<br> **특징:** 수업, 과제, 대외활동, 알바 등 바쁜 스케줄로 인해 항상 시간이 부족하다고 느낌. 자취 1년 차로 집안일에 익숙하지 않음.<br><br> 김청소(22세, 이화여자대학교 경영학과 3학년)는 현재 8평 신촌 원룸에 1년째 거주 중이며 수업, 과제, 대외활동, 알바 등의 바쁜 일정으로 항상 시간이 부족하다고 느낀다. 그로 인해 청소할 시간이 없어 미루다가 결국 몰아서 대청소를 하는 일이 잦다. 뿐만 아니라 미세먼지 농도가 높은 날에 환기를 했다가 뒤늦게 알아채거나, 세탁한 날 저녁 비가 와 빨래가 충분히 마르지 않아 낭패를 본 적이 있다. 김청소 씨는 자투리 시간에 할 수 있는 간단한 청소 활동과, 기상 상황을 고려한 집안일의 알맞은 타이밍을 추천받아 매일 조금씩 자연스럽게 청소할 방법을 찾고 싶다. |
 |Pain Point| 1. **청소 습관 잡기의 어려움** - 스트레스, 시간 낭비<br>  &nbsp;&nbsp;&nbsp;1) 할 일을 나눠서 하는 게 좋다는 것은 인지하고 있지만 막상 하려면 어떻게 나눠야 할지 기준이 명확하지 않고, 바빠서 미루다가 몰아서 하며 스트레스 받는 현대인들이 많음.<br>  &nbsp;&nbsp;&nbsp;2) 집안일에 익숙하지 않은 경우 청소 시간 분배를 잘 하지 못해 청소 시간이 비효율적으로 늘어나기도 함.<br><br> 2. **맞춤형 청소 루틴 추천 서비스의 부재**<br>  &nbsp;&nbsp;&nbsp;1) 매일 개인의 일정은 달라지는데 기존 청소 관련 서비스는 동일한 청소 할 일들을 추천하는 데 그침.<br>  &nbsp;&nbsp;&nbsp;2) 즉 개인의 생활 패턴과 일정을 고려한 맞춤형 청소 루틴 추천 서비스가 필요함.<br><br> 3. **날씨를 고려한 청소 루틴 추천 서비스의 부재**<br>  &nbsp;&nbsp;&nbsp;1) 날씨에 따라 적절한 청소 방식이 달라지지만(예: 미세먼지 농도가 높은 날에는 환기 피해야 함, 비 오는 날에는 빨래 건조가 어려움) 기존 서비스들은 이를 고려하지 않음.<br>  &nbsp;&nbsp;&nbsp;2) 집안일에 익숙하지 않은 사람들은 청소할 때 기상 정보를 고려하는 것이 귀찮고 어려움. |
-|기술 솔루션 서술| **[Frontend]**<br> [React](https://react.dev/) / [TypeScript](https://www.typescriptlang.org/) / [Tailwind CSS](https://tailwindcss.com/) / [Zustand](https://zustand-demo.pmnd.rs/) / [React Query](https://tanstack.com/query/latest)<br><br> **[Backend]**<br> [Spring Boot](https://spring.io/projects/spring-boot) / [AWS EC2](https://aws.amazon.com/ko/ec2/) / [AWS S3](https://aws.amazon.com/ko/s3/) / [Docker](https://www.docker.com/) / [MySQL](https://dev.mysql.com/)<br><br> **[AI]**<br> [PuLP](https://coin-or.github.io/pulp/) / [Stable-Baselines3](https://stable-baselines3.readthedocs.io/) / [Tianshou](https://tianshou.readthedocs.io/) |
+|기술 솔루션 서술| 1. **사용자 생활패턴과 주거공간을 고려한 맞춤형 초기 청소 스케줄 생성**<br> &nbsp;&nbsp;&nbsp;1) pulp를 사용하여 Integer Linear Programming (ILP) 기반으로 청소 시간 배정<br>&nbsp;&nbsp;&nbsp;2) 사용자의 고정 일정을 피하고, 모든 청소 활동의 반복 주기를 최대한으로 충족하는 최적해를 구함<br><br>  2. **사용자의 청소 루틴 달성률을 반영한 청소 스케줄 맞춤형 개선**<br>&nbsp;&nbsp;&nbsp;1) ILP 방식으로 생성한 스케줄을 Reinforcement Learning (RL) 환경의 초기 상태로 설정<br>&nbsp;&nbsp;&nbsp;2) tianshou로 사용자의 실제 청소 완료 기록과 피드백을 반영하여 청소 수행률을 높이는 방향으로 스케줄 조정<br>&nbsp;&nbsp;&nbsp;3) DQN (Deep Q-Network) 알고리즘 활용<br><br>3. **날씨를 고려한 청소 루틴 추천**<br>&nbsp;&nbsp;&nbsp;1) 기상 데이터 기반 동적 청소 추천<br>&nbsp;&nbsp;&nbsp;    - OpenWeatherMap 등의 API를 활용하여 실시간 날씨 데이터를 가져옴<br>&nbsp;&nbsp;&nbsp; - 미세먼지, 습도, 강수량 등 날씨 요소를 분석하여 적절한 청소 루틴 추천<br>&nbsp;&nbsp;&nbsp;    - 예: 미세먼지가 높으면 창문 청소 및 환기 최소화, 습도가 높으면 욕실 곰팡이 방지 청소 우선<br>&nbsp;&nbsp;&nbsp;2) ILP 및 RL 기반 최적 청소 일정 조정<br>&nbsp;&nbsp;&nbsp;    - 기존 ILP 스케줄링 모델에 날씨 데이터를 반영하여 가중치 조정 |
 |구현기술 키워드|  Integer Linear Programming, Reinforcement Learning  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/tensorflow/tensorflow<br>https://github.com/pytorch/pytorch<br>https://github.com/thu-ml/tianshou  |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  **[Frontend]**<br> [React](https://react.dev/) / [TypeScript](https://www.typescriptlang.org/) / [Tailwind CSS](https://tailwindcss.com/) / [Zustand](https://zustand-demo.pmnd.rs/) / [React Query](https://tanstack.com/query/latest)<br><br> **[Backend]**<br> [Spring Boot](https://spring.io/projects/spring-boot) / [AWS EC2](https://aws.amazon.com/ko/ec2/) / [AWS S3](https://aws.amazon.com/ko/s3/) / [Docker](https://www.docker.com/) / [MySQL](https://dev.mysql.com/)<br><br> **[AI]**<br> [PuLP](https://coin-or.github.io/pulp/) / [Stable-Baselines3](https://stable-baselines3.readthedocs.io/) / [Tianshou](https://tianshou.readthedocs.io/)  |
 |팀그라운드룰| [GroundRule](https://github.com/TEAM-ROCKRACCOON/.github/blob/main/GroundRule.MD) |
 |최종수정일|  |
 
@@ -403,15 +404,15 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 28  e스타트 
 |항목|내용|
 |---|---|
-|프로젝트명|  NLP와 오픈뱅킹 API를 활용한 20대의 과소비 방지를 위한 소비 패턴 분석 및 소비 습관 코칭 서비스  |
-|프로젝트 키워드|  금융, 소비 분석, 예산안 추천  |
+|프로젝트명|  NLP와 오픈뱅킹 API를 활용한 소비 습관 코칭 서비스  |
+|프로젝트 키워드|  금융, 소비 분석, 소비 습관 코칭  |
 |무엇을 만들고자 하는가| 사용자의 예산안을 바탕으로 소비 내역을 분석하여 과소비를 예방하여주는 어플리케이션 |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
+|고객| **1. 박지윤 (25세, 여성)**: 체계적인 소비 관리를 원하는 사회초년생 <br> 박지윤은 첫 직장을 얻은 사회초년생으로, 월급을 효율적으로 관리하고 싶지만 지출 내역을 정리하는 것이 번거롭다고 느낀다. 매번 수동으로 가계부를 작성하는 것이 부담스럽고, 카드 내역만으로는 어디에 얼마를 썼는지 명확하게 파악하기 어려워서 본인의 소비 패턴을 보다 쉽게 분석하려 한다. 또, 취직하고 처음으로 큰 금액인 월급을 받게 되었는데 이에 따라 월급이 들어오면 과소비를 하는 버릇이 생겨 이를 개선하고자 한다. <br><br> **2. 이민재 (22세, 여성)**: 한정된 예산으로 효율적인 소비를 원하는 대학생 <br> 이민재는 대학생으로 한정된 용돈과 아르바이트 급여를 효율적으로 관리해야 한다. 생활비를 절약하고 싶지만, 매달 용돈이 어디로 새는지 정확히 파악하기 어려워 예상보다 빨리 소진되는 경우가 많다. 한정된 예산을 초과하지 않도록 지출을 관리하고 싶어한다.  |
+|Pain Point| **1. 충동 소비** <br> -소비를 조장하는 환경: 사용자 데이터를 이용한 맞춤형 광고가 온라인 상에서 끊임없이 제공되어 소비자가 소비 충동을 쉽게 느끼는 환경에 노출되어 있다. <br> - 합리적인 소비에 대한 기준 불분명: 어떤 소비가 합리적인지 판단이 어렵다. <br> - 소비 패턴 파악 부족: 자신의 소비 패턴을 몰라 월말에 돈이 없는 상황이 반복된다. <br><br> **2. 예산** <br> - 예산 설정 어려움: 예산을 설정하는 데 어려움을 겪는다. <br> - 지출 관리 부족: 자신의 지출을 예산에 비추어 확인하는 습관이 없어 계획보다 더 소비하게 된다. <br> - 피드백 부족: 예산을 초과해도 즉각적인 피드백을 받기 어렵다. |
+|기술 솔루션 서술| - 소비내역 불러오기: 오픈뱅킹 API <br> - 소비내역 데이터 분석: Bert, Apriori <br> - 소비내역 시각화: Matplotlib&Seaborn <br> - 소비패턴을 바탕으로 한 예산 설정: LSTM |
 |구현기술 키워드|  NLP, 데이터분석, 오픈뱅킹 API  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  [Bert] https://github.com/google-research/bert<br>[Apriori] https://github.com/asaini/Apriori<br>[Matplotlib] https://matplotlib.org/  |
 |팀그라운드룰|https://github.com/2025-eStart/TETS/blob/main/GroundRule.MD|
-|최종수정일|  |
+|최종수정일| 2025.03.20 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
