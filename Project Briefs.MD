@@ -132,11 +132,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |프로젝트명|  Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT  |
 |프로젝트 키워드|  자원 최적화, 보안, 효율적 전력 소비  |
 |무엇을 만들고자 하는가|  보안을 적용한 효율적 자원 배분  |
-|고객| - 이름: 김수연 <br> - 나이: 45세 <br> - 성별: 여성 <br>- 직업(역할): 반도체 업계 OT 엔지니어 <br> <br>- 문제 시나리오: <br> 가열 공정 온도 센서 수치 조작 → 과열 방지 장치 무력화 <br>고온 가열기 3대 과열 → 설비 내부 폭발적 화재 -> 전체 생산라인 전소 <br> <br>- 사용자 요구사항 <br> 1. 자원 절약(전력 소비 감소) <br> 2. 보안 <br>3. 생산 데드라인 및 목표 생산량 준수
- |
+|고객| - 이름: 김수연 <br> - 나이: 45세 <br> - 성별: 여성 <br>- 직업(역할): 반도체 업계 OT 엔지니어 <br> <br>- 문제 시나리오: <br> 가열 공정 온도 센서 수치 조작 → 과열 방지 장치 무력화 <br>고온 가열기 3대 과열 → 설비 내부 폭발적 화재 -> 전체 생산라인 전소 <br> <br>- 사용자 요구사항 <br> 1. 자원 절약(전력 소비 감소) <br> 2. 보안 <br>3. 생산 데드라인 및 목표 생산량 준수 |
 |Pain Point| - 24시간 가동으로 인한 전력 낭비<br>- 공공 서버를 사용할 때 기밀 유출 우려<br>- 설비 조작 디지털화로 인한 중앙제어장치 해킹 우려  |
-|기술 솔루션 서술| - 전력 조절: Hybrid memory(DRAM, LPM) 사용, Offloading <br> - 주파수 조절: DVS <br> - 보안 강화 (TEE 환경 제공, 나아가 가상 머신 전체를 보호): AWS Nitro Enclave S3
- |
+|기술 솔루션 서술| - 전력 조절: Hybrid memory(DRAM, LPM) 사용, Offloading <br> - 주파수 조절: DVS <br> - 보안 강화 (TEE 환경 제공, 나아가 가상 머신 전체를 보호): AWS Nitro Enclave S3|
 |구현기술 키워드|  동작 전압 조절 기법, 태스크 모델링/스케줄링, 보안을 고려한 오프로딩  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  https://github.com/cheshire1129/IIOT.git<br>System Programming : Linux (WSL)<br> Graph : Jupyter Notebook  |
 |팀그라운드룰|https://github.com/cheshire1129/IIOT/blob/master/GroundRule.MD|
