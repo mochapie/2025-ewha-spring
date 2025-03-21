@@ -10,7 +10,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[6](#team-6--닌자토끼)|닌자토끼|회피형 성격 극복을 위한 맞춤형 습관 형성 서비스|
 |[7](#team-7--우주정복-연구젝트)|우주정복 연구젝트|[멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구|
 |[8](#team-8--드랍-더-8bit)|드랍 더 8bit|아이가 그린 이미지를 AI가 캐릭터로 구현하여 창의력을 확장하고, 부모와 함께 동화를 제작하며 정서적 교감을 키우는 프로그램|
-|[9](#team-9--구르미)|클라우드 기반 HPC에서 대화형과 긴급 처리 실현|
+|[9](#team-9--구르미)|구르미|클라우드 기반 HPC에서 대화형과 긴급 처리 실현|
 |[10](#team-10--2ys)|2ys|Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT|
 |[11](#team-11--DevEwha)|DevEwha|Serverless Architecture를 이용한 실시간 AI 추론 최적화|
 |[12](#team-12--내가그린)|내가그린|AI를 활용하여 쌓여있는 이메일 등을 분류•정리 해주고, 이를 요약하여 답변 초안을 제공하는 사용자 맞춤형 시스템|
