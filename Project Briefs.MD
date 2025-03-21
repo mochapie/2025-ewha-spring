@@ -27,7 +27,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[23](#team-23--졸업하고싶조)|졸업하고싶조|여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스|
 |[24](#team-24--강배우)|강배우|AI 기반 여행 일정 추천 서비스|
 |[25](#team-25--바위너구리)|바위너구리|개인 생활패턴과 날씨를 고려해 청소 & 위생 루틴을 추천하는 AI 서비스|
-|[27](#team-27--AI-Persona)|AI Persona|AI 기반 실시간 성격 분석 프로그램|
+|[27](#team-27--AI-Persona)|정신차려|SafeDrive AI: 시선 추적·표정 분석·음성 분석 AI를 활용한 실시간 졸음·음주운전 감지 및 사고 예방 모바일 앱|
 |[28](#team-28--e스타트)|e스타트|NLP와 오픈뱅킹 API를 활용한 20대의 과소비 방지를 위한 소비 패턴 분석 및 소비 습관 코칭 서비스|
 
 
@@ -383,19 +383,19 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
-## Team 27  AI Persona 
+## Team 27  🚘 정신차려
 |항목|내용|
 |---|---|
-|프로젝트명|  AI 기반 실시간 성격 분석 프로그램  |
-|프로젝트 키워드|  AI, 심리학, 성격분석, 데이터 과학  |
-|무엇을 만들고자 하는가|  -MBTI 스타일의 성격 유형 검사로 과학적 신뢰도를 높인 새로운 성격 분석 시스템 <br> -AI가 자연어를 이해하고 사용자의 응답을 바탕으로 심리 프로파일을 생성 <br> -반응시간 및 선택 패턴을 분석하여 신뢰도를 높인 검사 제공  |
-|고객|  |
-|Pain Point|  |
-|기술 솔루션 서술|  |
-|구현기술 키워드|  머신러닝, 자연어 처리(NPL), 심리학 모델, 반응 시간 분석  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Open API: https://openai.com<br>Google Cloud NLP:https://cloud.google.com/natural-language?hl=ko <br>Tensorflow:https://www.tensorflow.org/?hl=ko <br> PyTorch:https://pytorch.org <br>FastAPI:https://fastapi.tiangolo.com/ko/  |
+|프로젝트명|  SafeDrive AI: 시선 추적·표정 분석·음성 분석 AI를 활용한 실시간 졸음·음주운전 감지 및 사고 예방 모바일 앱 |
+|프로젝트 키워드|  AI, 안전운전, 졸음·음주운전 감지, 실시간 분석, IoT, 시선추적, 모바일앱 |
+|무엇을 만들고자 하는가|  -MBTI 스타일의 성격 유형 검사로 과학적 신뢰도를 높인 새로운 성격 분석 시스템 <br> -AI가 자연어를 이해하고 사용자의 응답을 바탕으로 심리 프로파일을 생성 <br> -반응시간 및 선택 패턴을 분석하여 신뢰도를 높인 검사 제공 |
+|고객| - 일반 운전자 (야간 운전, 피로 누적 상태 운전)<br>- 교통 사고 방지를 원하는 기업 (물류회사, 렌터카 업체, 택시/버스 회사 등)<br>- 장거리 운전자가 많은 트럭, 택시, 버스 운전자|
+|Pain Point| - 졸음운전 및 음주운전 사고를  더정밀하게 감지하고 예방할 방법 필요 <br> - 기존 차량 내장 안전 시스템 (차선이탈 감지 등) 보다 더 정밀한 운전자 상태 분석 필요<br>- 음주 감지는 현재 알코올 측정기에 의존 → AI 기반 표정 및 음성 분석으로 보조 가능 |
+|기술 솔루션 서술| - 스마트폰 카메라를 활용해 AI가 눈동자 움직임 & 얼굴 표정을 분석하여 졸음운전 감지<br>- 음성 분석(NLP)을 통해 음주운전 가능성 판단<br>- 졸음/음주 감지 시 경고 알람 + 차량 속도 제한 기능 (IoT 연동 가능)<br>- 비상시 긴급 연락 시스템 (보호자 or 경찰 연락 가능) |
+|구현기술 키워드|  컴퓨터 비전, 머신러닝, 딥러닝, IoT, 시선 추적, 음성 분석, 실시간 데이터 처리 |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| 컴퓨터 비전<br>-MediaPipe(https://ai.google.dev/edge/mediapipe/solutions/guide?hl=ko)<br>-openCv(https://opencv.org)<br>모바일 개발<br>-Flutter(https://flutter.dev)<br>React Native(https://reactnative.dev)<br>머신러닝<br>-TensorFlow Lite(https://www.tensorflow.org/versions?hl=ko)<br>-PyTorch Mobile(https://pytorch.org/mobile/home/)<br>음성분석<br>-Whisper AI(https://openai.com/index/whisper/)<br>-Google Speach To Text(https://cloud.google.com/speech-to-text)<br>백엔드<br>-FastAPI(https://fastapi.tiangolo.com/ko/)<br>-FireBase(https://firebase.google.com/?hl=ko)<br>DB<br>-Firebase Firestore(https://firebase.google.com/docs/firestore) |
 |팀그라운드룰| https://github.com/EwhaCapstone-2025-Team27/GroundRule/blob/main/GroundRule.md |
-|최종수정일|  |
+|최종수정일| 2025.03.21 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
