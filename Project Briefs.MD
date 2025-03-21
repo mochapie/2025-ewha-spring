@@ -10,7 +10,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[6](#team-6--닌자토끼)|닌자토끼|회피형 성격 극복을 위한 맞춤형 습관 형성 서비스|
 |[7](#team-7--우주정복-연구젝트)|우주정복 연구젝트|[멀티모달  생성 AI] 멀티 모달리티 학습 환경에서 누락된 모달리티 데이터 생성 연구|
 |[8](#team-8--드랍-더-8bit)|드랍 더 8bit|아이가 그린 이미지를 AI가 캐릭터로 구현하여 창의력을 확장하고, 부모와 함께 동화를 제작하며 정서적 교감을 키우는 프로그램|
-|[9](#team-9--구르미)|구르미|뮤추얼클라우드 : HPC2-ML Scheduler|
+|[9](#team-9--구르미)|구르미|클라우드 기반 HPC에서 대화형과 긴급 처리 실현|
 |[10](#team-10--2ys)|2ys|Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT|
 |[11](#team-11--DevEwha)|DevEwha|Serverless Architecture를 이용한 실시간 AI 추론 최적화|
 |[12](#team-12--내가그린)|내가그린|AI를 활용하여 쌓여있는 이메일 등을 분류•정리 해주고, 이를 요약하여 답변 초안을 제공하는 사용자 맞춤형 시스템|
@@ -119,9 +119,10 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |고객| 실시간 고객 지원 및 서비스 팀, 블랙프라이데이, 설날 등 고객이 모일 때의 기업,  긴급한 금융 해킹 거래 및 이상 현상 발 견시 금융 서비스 제공자 및 사이버 보안 전문가, 실시간으로 고객의 피드백에 반응하거나, 위기 상황을 처리해야 하는 경우, 테라 혹은 응급 상황 발생 시의 의료 분야 전문가 및 긴급 구조 및 구호 팀, 실시간 피드백을 요구하는 프로젝트나 시스템에서의 즉각적인 오류 해결을 해야 하는 소프트웨어 개발자 등 |
 |Pain Point| 기존 HPC 환경은 Throughput(자원 활용률 극대화) 중심의 Batch Processing에 최적화되어 있다. 그러나 대화형(Interactive) 및 긴급(Urgent) 작업은 빠른 응답 시간과 자원 선점이 필수적이며, 특히 재난 대응, 정밀 의료, 금융 실시간 거래 시스템 등에서 실시간 처리 필요성 급증하고 있다. 클라우드 HPC 도입으로 유연성은 높아졌으나, 긴급성과 실시간성을 보장하는 기술적/정책적 뒷받침은 아직 부족하고 연구가 필요한 상황이다.<br> 1. 정책적 문제 : 기존 HPC 시스템은 자원 활용률을 극대화하는 것이 목표였지만, 대화형 및 긴급 HPC는 자원의 즉각적인 사용이 필요하고 중요하다. 새로운 ROI 기반 지표를 통해 사용자 생산성 중심으로 평가가 이루어져야 한다.<br>2. 기술적 문제 : 대부분의 슈퍼 컴퓨터는 대화형 작업을 위한 별도 노드를 제공하지만 매우 제한적이기 때문에 즉각적 실행을 위한 reservation 시스템이 필요하다. 또한, 긴급 작업을 위해 기존 작업을 중단 preempt할 수 있는 새로운 스케줄링 기법을 연구해야 한다.|
 |기술 솔루션 서술| 1. 다지역 클라우드 HPC 리소스를 연합하여 긴급 상황 발생 시 Cross-Cloud Resource Rederation으로 자원을 즉시 할당합니다. 이를 위해 HPC 사용자의 작업 실행 시간, 데이터 처리량, 긴급 작업 기여도를 평가하는 AI 기반 자원 사용 메트릭 시스템을 구축합니다. 더불어 긴급 상황에서 여러 사용자-의 협업을 위해 실시간 데이터 공유를 지원하는 새로운 접근 제어 방식을 제안합니다.<br> 2. 대화형 및 긴급 작업 처리에 최적화되지 않은 기존의 HPC 스케줄링을 개선합니다. 사전 예약 시스템과 선점형 작업, 스케줄러 총합 KPI를 활용하여 AI 기반 동적 스케줄링을 개발합니다. 또한 클러스터 관리 및 작업 스케줄링에 머신러닝 기반 우선순위 할당 기능을 추가하여 긴급 작업 발생 시 기존 작업을 다른 클러스터로 이동시키는 방안을 연구합니다.<br> 3.데이터 전송 속도와 신뢰성을 위해 QoS와 데이터 스트리밍을 도입합니다. HPC 스토리지에 NVMe 기반 고속 캐시를 추가하여 데이터 전송을 최적화합니다. |
-|구현기술 키워드| High-Performance Computing, Cloud Resource Allocation, Federated HPC Scheduling, Cluster Managment, Dynamic Scheduling, QoS, Data Streaming OptimSlurm, Kubernetes, GKE Preemptible VM, Ray Tune, KuberFlow, Apache Arrow, AWS EBS io2, TensorFlow/PyTorch, AWS EC2  |
+|구현기술 키워드| High-Performance Computing, Cloud Resource Allocation, Federated HPC Scheduling, Cluster Managment, Dynamic Scheduling, QoS, Data Streaming Optimization |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  Slurm(https://slurm.schedmd.com/slurm.conf.html), Kubernetes(https://kubernetes.io/), AWS(https://aws.amazon.com/ko/?nc2=h_lg), Ray Tune(https://docs.ray.io/en/latest/index.html), Apache Arrow(https://arrow.apache.org/), PyTorch(https://pytorch.org/)  |
 |팀그라운드룰| https://github.com/Team-Gurumi/Gurumi/blob/main/GroundRule.md |
-|최종수정일| 2025-03-20  |
+|최종수정일| 2025-03-21  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
