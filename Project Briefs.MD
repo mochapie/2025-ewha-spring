@@ -13,7 +13,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[9](#team-9--구르미)|구르미|클라우드 기반 HPC에서 대화형과 긴급 처리 실현|
 |[10](#team-10--2ys)|2ys|Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT|
 |[11](#team-11--DevEwha)|DevEwha|Serverless Architecture를 이용한 실시간 AI 추론 최적화|
-|[12](#team-12--내가그린)|내가그린|AI를 활용하여 쌓여있는 이메일 등을 분류•정리 해주고, 이를 요약하여 답변 초안을 제공하는 사용자 맞춤형 시스템|
+|[12](#team-12--내가그린)|내가그린|**소소행 (小小行)** : 지역 경제 활성화를 목적으로 AI를 활용한 소도시 여행 추천과 지역 축제 및 행사 정보를 제공해주며 소상공인들의 온/오프라인 판매를 돕는 통합 플랫폼|
 |[13](#team-13--e시크)|e시크|멀티 모달 데이터 학습을 이용한 수요 예측도 향상|
 |[14](#team-14--team329)|team329|Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach|
 |[15](#team-15--GRAD)|GRAD|일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서|
