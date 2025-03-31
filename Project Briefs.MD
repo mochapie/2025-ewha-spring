@@ -27,7 +27,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[23](#team-23--졸업하고싶조)|졸업하고싶조|여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스|
 |[24](#team-24--강배우)|강배우|SNS, 웹서핑 등을 통해 유용한 정보를 휴대폰 스크린샷으로 저장해두고 잊어버리는 사용자를 위해, 캡처된 정보를 카테고리별로 자동 분류·추천·알림 기능을 제공해주는 AI 기반 스마트 정보 관리 및 활용 서비스|
 |[25](#team-25--바위너구리)|바위너구리|개인 생활패턴과 날씨를 고려해 청소 & 위생 루틴을 추천하는 AI 서비스|
-|[27](#team-27--AI-Persona)|정신차려|SafeDrive AI: 시선 추적·표정 분석·음성 분석 AI를 활용한 실시간 졸음·음주운전 감지 및 사고 예방 모바일 앱|
+|[27](#team-27--용용)|용용|그린업(Green UP): CNN 기반 AI가 쓰레기 종류를 인식하고 올바른 분리배출 방법을 안내하는 스마트 분리배출 서비스|
 |[28](#team-28--e스타트)|e스타트|NLP와 오픈뱅킹 API를 활용한 20대의 과소비 방지를 위한 소비 패턴 분석 및 소비 습관 코칭 서비스|
 
 
@@ -384,19 +384,19 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
-## Team 27  🚘 정신차려
+## Team 27  용용
 |항목|내용|
 |---|---|
-|프로젝트명|  SafeDrive AI: 시선 추적·표정 분석·음성 분석 AI를 활용한 실시간 졸음·음주운전 감지 및 사고 예방 모바일 앱 |
-|프로젝트 키워드|  AI, 안전운전, 졸음·음주운전 감지, 실시간 분석, IoT, 시선추적, 모바일앱 |
-|무엇을 만들고자 하는가|  -MBTI 스타일의 성격 유형 검사로 과학적 신뢰도를 높인 새로운 성격 분석 시스템 <br> -AI가 자연어를 이해하고 사용자의 응답을 바탕으로 심리 프로파일을 생성 <br> -반응시간 및 선택 패턴을 분석하여 신뢰도를 높인 검사 제공 |
-|고객| - 일반 운전자 (야간 운전, 피로 누적 상태 운전)<br>- 교통 사고 방지를 원하는 기업 (물류회사, 렌터카 업체, 택시/버스 회사 등)<br>- 장거리 운전자가 많은 트럭, 택시, 버스 운전자|
-|Pain Point| - 졸음운전 및 음주운전 사고를  더정밀하게 감지하고 예방할 방법 필요 <br> - 기존 차량 내장 안전 시스템 (차선이탈 감지 등) 보다 더 정밀한 운전자 상태 분석 필요<br>- 음주 감지는 현재 알코올 측정기에 의존 → AI 기반 표정 및 음성 분석으로 보조 가능 |
-|기술 솔루션 서술| - 스마트폰 카메라를 활용해 AI가 눈동자 움직임 & 얼굴 표정을 분석하여 졸음운전 감지<br>- 음성 분석(NLP)을 통해 음주운전 가능성 판단<br>- 졸음/음주 감지 시 경고 알람 + 차량 속도 제한 기능 (IoT 연동 가능)<br>- 비상시 긴급 연락 시스템 (보호자 or 경찰 연락 가능) |
-|구현기술 키워드|  컴퓨터 비전, 머신러닝, 딥러닝, IoT, 시선 추적, 음성 분석, 실시간 데이터 처리 |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)| 컴퓨터 비전<br>-MediaPipe(https://ai.google.dev/edge/mediapipe/solutions/guide?hl=ko)<br>-openCv(https://opencv.org)<br>모바일 개발<br>-Flutter(https://flutter.dev)<br>React Native(https://reactnative.dev)<br>머신러닝<br>-TensorFlow Lite(https://www.tensorflow.org/versions?hl=ko)<br>-PyTorch Mobile(https://pytorch.org/mobile/home/)<br>음성분석<br>-Whisper AI(https://openai.com/index/whisper/)<br>-Google Speach To Text(https://cloud.google.com/speech-to-text)<br>백엔드<br>-FastAPI(https://fastapi.tiangolo.com/ko/)<br>-FireBase(https://firebase.google.com/?hl=ko)<br>DB<br>-Firebase Firestore(https://firebase.google.com/docs/firestore) |
+|프로젝트명| **그린업(Green UP)**: CNN 기반 AI가 쓰레기 종류를 인식하고 올바른 분리배출 방법을 안내하는 스마트 분리배출 서비스 |
+|프로젝트 키워드| 분리배출, 환경 보호, 스마트 가이드 |
+|무엇을 만들고자 하는가| 사용자가 버리려는 물건을 촬영하면 CNN 기반 AI 이미지 분류 모델이 자동으로 물건의 종류를 인식하고, 지역별 맞춤 분리배출 방법을 안내하는 서비스 |
+|고객| - 김민지, 25세, 대학생<br>- 기본 정보: 자취 중이며, 자주 배달음식을 시켜 먹음. 깔끔한 성격을 가지고 있어 집안 환경을 정리하는 데 신경을 많이 쓴다.<br>- 목표: 환경을 생각하는 라이프스타일을 실천하고 싶지만, 어떻게 해야 할지 몰라 어려움을 겪고 있음.<br>- 주요 문제: 분리배출 방법에 대한 정보가 부족하고, 쓰레기마다 검색해야 하는 정보가 많고, 지역별 규정까지 따져야 해서 번거로움을 느낀다. 배달음식을 시키면 다양한 쓰레기가 생기는데, 어떻게 버려야 할지 잘 모른다.|
+|Pain Point| - 쓰레기마다 분리배출 방법이 달라 헷갈림 <br> - 지역별로 규정이 다르지만 이를 쉽게 찾을 방법이 없음<br>- 잘못된 분리배출로 인해 재활용이 어려워지는 문제 발생 |
+|기술 솔루션 서술| 사용자가 버리려는 물건을 촬영하면<br>→ CNN 기반 이미지 분류 모델이 해당 물건이 어떤 종류인지 인식<br>→ 인식된 물건의 카테고리를 기반으로 공공데이터 API에서 지역별 분리배출 정보를 가져옴<br>→ 사용자가 거주하는 지역에 맞는 분리배출 가이드를 제공<br>→ 사용자가 분리배출 방법을 따라 실행하면 데이터를 기록하고 패턴을 분석하여 개선점을 제안 |
+|구현기술 키워드| CNN, Spring Boot, React |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| [BE]<br>- Framework: Spring https://spring.io/projects/spring-boot<br>- DB: MySQL https://www.mysql.com/<br>[FE]<br>- Framework: React https://react.dev/<br>[AI]<br>- CNN(Convolutional Neural Network, 이미지 분류)<br>- openCV https://opencv.org/<br>- LangChain https://python.langchain.com/docs/tutorials/rag/<br>[API]<br>- 공공데이터 포털 API(지역별 분리배출 가이드 제공): https://www.data.go.kr/index.do |
 |팀그라운드룰| https://github.com/EwhaCapstone-2025-Team27/GroundRule/blob/main/GroundRule.md |
-|최종수정일| 2025.03.21 |
+|최종수정일| 2025.03.31 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
