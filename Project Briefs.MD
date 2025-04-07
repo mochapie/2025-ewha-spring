@@ -58,6 +58,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |기술 솔루션 서술| 1. 스마트 컨트랙트의 보안 취약점 중 대표적인 Reentrancy Attack과 Integer Overflow/Underflow를 탐지하고 대응 방안을 제시하는 기능을 우선적으로 제공하는 솔루션 <br> 2. 스마트 컨트랙트 보안 취약점 데이터를 기반으로 CodeBERT AI모델을 Fine-tuning하여, 코드 내 보안 결함을 자동으로 탐지 및 분석하여 자동화하는 솔루션 <br> 3. 해킹 시뮬레이션 오픈 소스 (echidna)를 통해 보안 점수 및 개선 방안을 제공하는 솔루션 <br> 4. 보안 분야의 비전문가도 쉽게 이해할 수 있도록, 생성형 AI(GPT-4.5)를 활용해 쉬운 용어로 분석 리포트 생성을 자동화하는 솔루션 |
 |구현기술 키워드|  Fine-tuning, 블록체인 보안, Slither,<br> Fine-tuned CodeBERT, echidna, GPT-4.5  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  스마트 컨트랙트 보안 분석 도구 <br> - 스마트 컨트랙트 보안 분석을 위한 오픈 소스 도구: Slither (https://github.com/crytic/slither) <br> - 이더리움 해킹 시뮬레이션 오픈소스 : echidna (https://github.com/crytic/echidna) <br><br> AI 모델 <br> - 코드에 특화된 AI 모델 : CodeBERT (https://github.com/microsoft/CodeBERT) <br> -  생성형 AI 모델 : GPT-4.5 (https://openai.com/) <br><br> 파인튜닝 프레임워크 <br> - AI 모델을 쉽게 활용하고 파인튜닝 할 수 있는 라이브러리 :  Hugging Face Transformers (https://huggingface.co/docs/transformers) <br>- 오픈소스 머신러닝 프레임워크 : PyTorch (https://pytorch.org/) <br><br> 프론트엔드 <br> - UI개발을 위한 JS 라이브러리 :  React <br><br> 백엔드 <br> - JAVA 기반 프레임워크 : SpringBoot <br> - 서버 배포, 데이터 저장 : AWS (https://aws.amazon.com/) EC2, S3|
+|팀그라운드룰| https://github.com/EWHA-Best/Capstone/blob/main/GroundRule.md |
 |최종수정일| 2025.03.21 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
