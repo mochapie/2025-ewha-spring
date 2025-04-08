@@ -18,7 +18,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[14](#team-14--team329)|team329|Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach|
 |[15](#team-15--GRAD)|GRAD|일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서|
 |[16](#team-16--배꽃엔딩)|배꽃엔딩|공공 데이터와 AI를 활용해 가공식품의 성분을 조회 및 분석하고, 비교하여 사용자의 제약 조건에 맞는 동일 제품군 및 대체 제품을 추천해주는 서비스|
-|[17](#team-17--그린데빌)|그린데빌|전자 의료 기록(EHR) 기반 질병 예측 모델의 Federated Learning 환경 성능 비교|
+|[17](#team-17--그린데빌)|그린데빌|전자 의료 기록(EHR) 기반 질병 예측 모델의 Source-free domain adaptation 적용 및 성능 비교|
 |[18](#team-18--코드만두(Code-만-Do!))|코드만두(Code 만 Do!)|채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼|
 |[19](#team-19--카드메이트)|카드메이트|카드별 할인 및 혜택을 분석하여 사용자 위치 기반 최적의 할인 혜택을 제공하는 매장을 안내해주는 모바일 어플리케이션|
 |[20](#team-20--스카이화)|스카이화|AI 기반 예술 작품 해설 서비스|
@@ -58,6 +58,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |기술 솔루션 서술| 1. 스마트 컨트랙트의 보안 취약점 중 대표적인 Reentrancy Attack과 Integer Overflow/Underflow를 탐지하고 대응 방안을 제시하는 기능을 우선적으로 제공하는 솔루션 <br> 2. 스마트 컨트랙트 보안 취약점 데이터를 기반으로 CodeBERT AI모델을 Fine-tuning하여, 코드 내 보안 결함을 자동으로 탐지 및 분석하여 자동화하는 솔루션 <br> 3. 해킹 시뮬레이션 오픈 소스 (echidna)를 통해 보안 점수 및 개선 방안을 제공하는 솔루션 <br> 4. 보안 분야의 비전문가도 쉽게 이해할 수 있도록, 생성형 AI(GPT-4.5)를 활용해 쉬운 용어로 분석 리포트 생성을 자동화하는 솔루션 |
 |구현기술 키워드|  Fine-tuning, 블록체인 보안, Slither,<br> Fine-tuned CodeBERT, echidna, GPT-4.5  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  스마트 컨트랙트 보안 분석 도구 <br> - 스마트 컨트랙트 보안 분석을 위한 오픈 소스 도구: Slither (https://github.com/crytic/slither) <br> - 이더리움 해킹 시뮬레이션 오픈소스 : echidna (https://github.com/crytic/echidna) <br><br> AI 모델 <br> - 코드에 특화된 AI 모델 : CodeBERT (https://github.com/microsoft/CodeBERT) <br> -  생성형 AI 모델 : GPT-4.5 (https://openai.com/) <br><br> 파인튜닝 프레임워크 <br> - AI 모델을 쉽게 활용하고 파인튜닝 할 수 있는 라이브러리 :  Hugging Face Transformers (https://huggingface.co/docs/transformers) <br>- 오픈소스 머신러닝 프레임워크 : PyTorch (https://pytorch.org/) <br><br> 프론트엔드 <br> - UI개발을 위한 JS 라이브러리 :  React <br><br> 백엔드 <br> - JAVA 기반 프레임워크 : SpringBoot <br> - 서버 배포, 데이터 저장 : AWS (https://aws.amazon.com/) EC2, S3|
+|팀그라운드룰| https://github.com/EWHA-Best/Capstone/blob/main/GroundRule.md |
 |최종수정일| 2025.03.21 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
@@ -241,16 +242,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 17  그린데빌 
 |항목|내용|
 |---|---|
-|프로젝트명|  전자 의료 기록(EHR) 기반 질병 예측 모델의 Federated Learning 환경 성능 비교  |
-|프로젝트 키워드|  연합 학습, 전자 의료 기록(EHR), 질병 예측, 모델 비교  |
-|무엇을 만들고자 하는가|  연합 학습 환경에서 기록의 구조나 방식에서 이질성을 보이는 전자 의료 기록(EHR) 데이터를 활용한 질병 예측 모델을 각 의료 기관 및 환자군에 특화된 로컬 모델과 일반화된 기존 추론 모델을 각각 구현하여 둘의 성능을 비교하는 연구를 진행하고자 한다.  |
-|고객| 병원 기관(client), 환자 |
-|Pain Point| 전자 의료 기록(EHR) 데이터의 이질성으로 인해 종합적으로 데이터를 처리하는 데 어려움을 겪으며, 해당 데이터를 활용하더라도 일반화된 예측 모델은 각 병원 및 환자의 특수성을 반영하지 못해 성능 저하를 보일 수 있다. |
-|기술 솔루션 서술| non-IID(Independent and Identically Distributed) 데이터가 많은 의료 분야에 특화된 Federated Learning 플랫폼 환경에서 공개된 MIMIC_III 등의 EHR 데이터를 활용하여, Transformer 모델(ex. ClinicalBERT)을 일반화된 글로벌 모델과 각 병원에 특화된 로컬 모델로 각각 구현하여 성능을 비교하고자 한다. |
-|구현기술 키워드|  Federated Learning, Transformer model, NLP  |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  NVIDIA FLARE https://nvflare.readthedocs.io/en/main/flare_overview.html<br>FLOWER https://flower.ai/docs/framework/tutorial-series-get-started-with-flower-pytorch.html<br>Substra https://github.com/Substra/substra/tree/main/docs<br>ClinicalBERT https://github.com/kexinhuang12345/clinicalBERT  |
+|프로젝트명|  전자 의료 기록(EHR) 기반 질병 예측 모델의 Source-free domain adaptation 적용 및 성능 비교  |
+|프로젝트 키워드|  전자 의료 기록(EHR), 질병 예측, 모델 비교, Source-Free Domain Adaptation (SFDA), TENT (Test-time Entropy Minimization)   |
+|무엇을 만들고자 하는가|  전자 의료 기록(EHR) 데이터를 활용하여 특정 병원에서 구축된 질병 예측 모델이 별도의 추가 데이터 없이도(source-free) 타 병원의 환경에서 높은 예측 성능을 유지할 수 있도록 도메인 적응(Domain Adaptation)을 적용하고, 그 효과를 비교·분석하고자 한다.  |
+|고객| 병원 기관 |
+|Pain Point| 병원마다 질병 및 정상 환자의 데이터 분포, 측정 기기, 진단 기준 등이 서로 달라 데이터의 양상이 이질적이다. 또한 의료 데이터는 개인정보 보호 문제로 인해 병원 간 직접적인 데이터 공유가 어려워, 특정 병원에서 학습된 모델이 다른 병원에서는 충분한 성능을 발휘하지 못하는 경우가 많다. 따라서 원래 병원의 데이터를 추가로 사용하지 않고도 새로운 병원의 데이터에 잘 적응하여 성능을 유지할 수 있는 방법이 필요하다. |
+|기술 솔루션 서술| non-IID(Independent and Identically Distributed) 데이터인 MIMIC_III 등의 EHR 데이터를 활용한 질병 예측 모델에 source-free domain adaptation을 적용하여 여러 병원에서 general model과 entropy 기반 방법론인 TENT 방식을 적용한 모델의 성능을 비교한다. |
+|구현기술 키워드|  Source-Free Domain Adaptation (SFDA), TENT (Test-time Entropy Minimization), NLP  |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  TENT Official Github https://github.com/DequanWang/TENT<br>MIMIC_III https://github.com/MIT-LCP/mimic-code/<br>SHOT (Source Hypothesis Transfer) GitHub https://github.com/tim-learn/SHOT  |
 |팀그라운드룰| https://github.com/2025start-GreenDevil/2025-start/blob/main/Groundrule.md |
-|최종수정일| 2025-03-20 |
+|최종수정일| 2025-04-03 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
@@ -385,18 +386,18 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
 ## Team 27  용용
-|항목|내용|
-|---|---|
-|프로젝트명| **그린업(Green UP)**: CNN 기반 AI가 쓰레기 종류를 인식하고 올바른 분리배출 방법을 안내하는 스마트 분리배출 서비스 |
-|프로젝트 키워드| 분리배출, 환경 보호, 스마트 가이드 |
-|무엇을 만들고자 하는가| 사용자가 버리려는 물건을 촬영하면 CNN 기반 AI 이미지 분류 모델이 자동으로 물건의 종류를 인식하고, 지역별 맞춤 분리배출 방법을 안내하는 서비스 |
-|고객| - 김민지, 25세, 대학생<br>- 기본 정보: 자취 중이며, 자주 배달음식을 시켜 먹음. 깔끔한 성격을 가지고 있어 집안 환경을 정리하는 데 신경을 많이 쓴다.<br>- 목표: 환경을 생각하는 라이프스타일을 실천하고 싶지만, 어떻게 해야 할지 몰라 어려움을 겪고 있음.<br>- 주요 문제: 분리배출 방법에 대한 정보가 부족하고, 쓰레기마다 검색해야 하는 정보가 많고, 지역별 규정까지 따져야 해서 번거로움을 느낀다. 배달음식을 시키면 다양한 쓰레기가 생기는데, 어떻게 버려야 할지 잘 모른다.|
-|Pain Point| - 쓰레기마다 분리배출 방법이 달라 헷갈림 <br> - 지역별로 규정이 다르지만 이를 쉽게 찾을 방법이 없음<br>- 잘못된 분리배출로 인해 재활용이 어려워지는 문제 발생 |
-|기술 솔루션 서술| 사용자가 버리려는 물건을 촬영하면<br>→ CNN 기반 이미지 분류 모델이 해당 물건이 어떤 종류인지 인식<br>→ 인식된 물건의 카테고리를 기반으로 공공데이터 API에서 지역별 분리배출 정보를 가져옴<br>→ 사용자가 거주하는 지역에 맞는 분리배출 가이드를 제공<br>→ 사용자가 분리배출 방법을 따라 실행하면 데이터를 기록하고 패턴을 분석하여 개선점을 제안 |
-|구현기술 키워드| CNN, Spring Boot, React |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)| [BE]<br>- Framework: Spring https://spring.io/projects/spring-boot<br>- DB: MySQL https://www.mysql.com/<br>[FE]<br>- Framework: React https://react.dev/<br>[AI]<br>- CNN(Convolutional Neural Network, 이미지 분류)<br>- openCV https://opencv.org/<br>- LangChain https://python.langchain.com/docs/tutorials/rag/<br>[API]<br>- 공공데이터 포털 API(지역별 분리배출 가이드 제공): https://www.data.go.kr/index.do |
-|팀그라운드룰| https://github.com/EwhaCapstone-2025-Team27/GroundRule/blob/main/GroundRule.md |
-|최종수정일| 2025.03.31 |
+|항목| 내용                                                                                                                                                                                                                                                           |
+|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|프로젝트명| **성큼성큼**: 청소년이 성 지식에 한 걸음 더 나아갈 수 있도록 돕는 성교육 앱                                                                                                                                                                                                               |
+|프로젝트 키워드| 성교육, 청소년, 학습                                                                                                                                                                                                                                                 |
+|무엇을 만들고자 하는가| 성 지식에 미흡한 청소년이 성에 대해 건강하고 올바른 정보를 쉽게 접할 수 있는 서비스                                                                                                                                                                                                             |
+|고객| 10대 청소년                                                                                                                                                                                                                                                      |
+|Pain Point| - 청소년이 성 지식에 대해 궁금하지만, 믿을 수 있는 정보를 찾기가 어렵다. <br> - 부모, 교사와 대화하기 껄끄러워 인터넷에서 검색하는데, 부정확한 정보가 많다.<br>- 학교 교육만으로는 충분하지 않으며, 교과 과정에서도 성교육의 깊이가 부족하다.                                                                                                              |
+|기술 솔루션 서술| - NLP(자연어 처리)기반 AI 챗봇: ChatGPT API를 사용해 사용자 질문을 이해하고, 적절한 답변을 제공하며 채팅형 시뮬레이션을 통해 몰입도 높은 성교육 시나리오 제공 <br> - 성지식 수준 파악 테스트 : 사용자의 성지식 수준을 분석하여 개인 맞춤 콘텐츠 제공 <br> - 관심 카테고리 및 키워드 기반 추천 시스템: 검색 및 테스트 결과에서 추출한 키워드를 활용 <br> - FAQ 게시판: 청소년들이 자주 묻는 질문에 대한 답변 제공 |
+|구현기술 키워드| 자연어 처리(NLP), AI 챗봇                                                                                                                                                                                                                                           |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| [BE]<br>- Framework: Spring https://spring.io/projects/spring-boot<br>- DB: MySQL https://www.mysql.com/<br>[FE]<br>- Framework: React https://react.dev/<br>[AI]<br>- NLP: ChatGPT API <br> - Lang Chain                                                    |
+|팀그라운드룰| https://github.com/EwhaCapstone-2025-Team27/GroundRule/blob/main/GroundRule.md                                                                                                                                                                               |
+|최종수정일| 2025.04.04                                                                                                                                                                                                                                                   |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
