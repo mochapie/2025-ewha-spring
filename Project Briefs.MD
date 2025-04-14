@@ -14,7 +14,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[10](#team-10--2ys)|2ys|Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT|
 |[11](#team-11--DevEwha)|DevEwha|Serverless Architecture를 이용한 실시간 AI 추론 최적화|
 |[12](#team-12--내가그린)|내가그린|**소소행 (小小行)** : AI를 활용하여 소도시 여행 추천과 지역 축제 정보를 제공하고, 소상공인들의 온/오프라인 판매를 돕는 통합 모바일 플랫폼|
-|[13](#team-13--e시크)|e시크|멀티 모달 데이터 학습을 이용한 수요 예측도 향상|
+|[13](#team-13--e시크)|e시크| Wildfire Detection Using UAV With Edge AI |
 |[14](#team-14--team329)|team329|Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach|
 |[15](#team-15--GRAD)|GRAD|일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서|
 |[16](#team-16--배꽃엔딩)|배꽃엔딩|AI 기반 성분 분석 및 추천 알고리즘을 통해, 편의점 가공식품을 사용자 조건에 맞게 분석·비교하고, 맞춤형 제품을 제안하는 개인 맞춤형 서비스|
