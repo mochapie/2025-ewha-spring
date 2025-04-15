@@ -312,27 +312,9 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |무엇을 만들고자 하는가| 초보 부모가 실제 양육 상황을 AI로 분석하고 개선할 수 있도록 돕는 모바일 앱을 개발합니다. 대화를 분석해 감정과 말투 피드백을 제공하고, 개인 성향에 맞는 워크북 콘텐츠를 추천합니다. 실시간 챗봇 상담과 부모 커뮤니티도 함께 제공합니다. |
 |고객| 초보 부모 |
 |Pain Point| 초보 부모는 실전 경험이 부족해 아이의 감정을 이해하거나 대응하기 어렵고, 기존 교육은 현실 적용이 어렵거나 시간·비용 부담이 큽니다. 실시간 상담이나 커뮤니티도 부족합니다. |
-|기술 솔루션 서술|  
-1. **홈캠 기반 음성 분석**  
-S3에 저장된 오디오를 Whisper API로 텍스트 변환하고, Pyannote API로 화자 분리합니다. Claude Haiku를 활용해 감정, 말투, 빈도, 상호작용을 분석하고 피드백을 생성합니다.  
-
-2. **육아 성향 진단 및 워크북 추천**  
-PSDQ 기반 문항으로 성향을 진단하고, 분석 결과에 따라 맞춤형 워크북을 추천합니다. 콘텐츠는 퀴즈와 실천 과제로 구성되어 반복 학습을 유도합니다.  
-
-3. **RAG 기반 AI 챗봇**  
-사용자의 질문을 LangChain으로 전처리하고, ko-sbert-nli로 임베딩한 문서를 FAISS로 검색합니다. 관련 문서를 기반으로 GPT-4가 실시간 응답을 생성합니다.  
-
-4. **부모 커뮤니티**  
-게시글 기반 커뮤니티 기능을 제공하며, 유사한 고민이나 관심 키워드에 따라 글을 추천해 소통을 돕습니다. |
+|기술 솔루션 서술|1. **홈캠 기반 음성 분석** - S3에 저장된 오디오를 Whisper API로 텍스트 변환하고, Pyannote API로 화자 분리합니다. Claude Haiku를 활용해 감정, 말투, 빈도, 상호작용을 분석하고 피드백을 생성합니다.<br>2. **육아 성향 진단 및 워크북 추천** - PSDQ 기반 문항으로 성향을 진단하고, 분석 결과에 따라 맞춤형 워크북을 추천합니다. 콘텐츠는 퀴즈와 실천 과제로 구성되어 반복 학습을 유도합니다.<br>3. **RAG 기반 AI 챗봇** - 사용자의 질문을 LangChain으로 전처리하고, ko-sbert-nli로 임베딩한 문서를 FAISS로 검색합니다. 관련 문서를 기반으로 GPT-4가 실시간 응답을 생성합니다.<br>4. **부모 커뮤니티** - 게시글 기반 커뮤니티 기능을 제공하며, 유사한 고민이나 관심 키워드에 따라 글을 추천해 소통을 돕습니다. |
 |구현기술 키워드| Kotlin(Android), Spring Boot, EC2, Docker, Whisper API, Pyannote API, Claude Haiku, GPT-4, LangChain, FAISS, ko-sbert-nli, S3, RDS, DynamoDB |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)|  
-- **Whisper API**: 음성 인식 [https://openai.com/research/whisper](https://openai.com/research/whisper)  
-- **Pyannote API**: 화자 분리 [https://github.com/pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio)  
-- **Claude Haiku**: 대화 분석 [https://www.anthropic.com/index/claude-haiku](https://www.anthropic.com/index/claude-haiku)  
-- **OpenAI GPT-4**: 챗봇 응답 생성 [https://openai.com/gpt-4](https://openai.com/gpt-4)  
-- **LangChain**: RAG 프레임워크 [https://www.langchain.com](https://www.langchain.com)  
-- **FAISS**: 벡터 검색 [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)  
-- **ko-sbert-nli**: 문서 임베딩 [https://huggingface.co/skt/kobert-base-v1](https://huggingface.co/skt/kobert-base-v1) |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - **Whisper API**: https://openai.com/research/whisper <br> - **Pyannote API**: https://github.com/pyannote/pyannote-audio <br> - **Claude Haiku**: https://www.anthropic.com/index/claude-haiku <br> - **OpenAI GPT-4**: https://openai.com/gpt-4 <br> - **LangChain**: https://www.langchain.com <br> - **FAISS**: https://github.com/facebookresearch/faiss <br> - **ko-sbert-nli**: https://huggingface.co/skt/kobert-base-v1 |
 |팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
 |최종수정일| 2025.04.16 |
 
