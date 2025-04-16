@@ -22,7 +22,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[18](#team-18--코드만두(Code-만-Do!))|코드만두(Code 만 Do!)|채용 데이터 분석과 자연어 처리 기술을 활용하여 이력서 문장을 최적화하고 구직자와 기업을 자동으로 연결해주는 AI 기반 채용 지원 플랫폼|
 |[19](#team-19--카드메이트)|카드메이트|카드별 할인 및 혜택을 분석하여 사용자 위치 기반 최적의 할인 혜택을 제공하는 매장을 안내해주는 모바일 어플리케이션|
 |[20](#team-20--스카이화)|스카이화|트렌드 기반으로 실시간 피드백을 제공하는 모바일 어플리케이션|
-|[21](#team-21--투애니원)|투애니원|AI 기반 부모 교육 및 양육 시뮬레이션 앱: 초보 부모를 위한 맞춤형 연습과 상담 지원|
+|[21](#team-21--투애니원)|투애니원|AI 기반 부모 교육 및 육아 피드백 어플리케이션|
 |[22](#team-22--큐리호스(Curihous))|큐리호스(Curihous)|초보 투자자가 AI 기반 자동매매를 활용하며 투자 원리를 학습하고 성장할 수 있는 맞춤형 퀀트 트레이딩 플랫폼|
 |[23](#team-23--졸업하고싶조)|졸업하고싶조|여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스|
 |[24](#team-24--강배우)|강배우|SNS, 웹서핑 등을 통해 유용한 정보를 휴대폰 스크린샷으로 저장해두고 잊어버리는 사용자를 위해, 캡처된 정보를 카테고리별로 자동 분류·추천·알림 기능을 제공해주는 AI 기반 스마트 정보 관리 및 활용 서비스|
@@ -307,16 +307,16 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 21  투애니원 
 |항목|내용|
 |---|---|
-|프로젝트명| AI 기반 부모 교육 및 양육 시뮬레이션 앱 – 초보 부모를 위한 맞춤형 연습과 상담 지원 |
-|프로젝트 키워드| 부모 교육, 양육 시뮬레이션, AI 챗봇, 대화 분석, 부모 커뮤니티 |
-|무엇을 만들고자 하는가| 초보 부모와 예비 부모가 실전 양육을 연습하고 올바른 양육 방법을 학습할 수 있도록 AI 기반 시뮬레이션과 상담 기능을 제공하는 애플리케이션을 개발합니다. 시뮬레이션을 진행한 후, 부모의 대화와 행동을 분석해 감정 피드백을 제공하고, 실시간 양육 상담 및 부모 커뮤니티 기능을 통해 경험 공유와 지원을 받을 수 있도록 설계합니다. |
-|고객| 초보 부모, 예비 부모 |
-|Pain Point| 초보 부모들은 실전 양육 경험이 부족하여 아이의 감정을 이해하는 것이 어렵고, 적절한 대처 방법을 배우기 위한 체계적인 가이드가 부족합니다. 또한, 일상적인 양육 고민을 해결할 전문가 상담이나 같은 경험을 공유할 수 있는 커뮤니티가 제한적입니다. |
-|기술 솔루션 서술| AI 기반 양육 시뮬레이션과 상담 챗봇을 활용해 초보 부모가 실전 경험을 쌓을 수 있도록 합니다. <br><br> **1. AI 기반 양육 시뮬레이션** <br> - OpenAI GPT-4를 활용하여 부모와 가상의 아이 간 대화 및 행동 선택지를 생성하며, AI가 아이의 반응을 시뮬레이션하여 제공 <br> - Microsoft Azure Emotion API를 통해 부모의 음성 또는 표정을 분석하여 감정 피드백을 제공 <br> - OpenAI DALL·E를 활용해 아이의 감정 상태를 이미지로 표현하여 시각적 피드백 제공 <br> <br> **2. AI 감정 분석 및 피드백 제공** <br> - IBM Watson Tone Analyzer와 Google Cloud Natural Language API를 활용해 부모의 대화 패턴을 분석하고, 양육 스타일을 진단 <br> - 감정 분석 데이터를 바탕으로 맞춤형 양육 피드백을 제공하여 더 나은 대화법을 학습하도록 유도 <br> <br> **3. AI 기반 양육 고민 상담 챗봇** <br> - OpenAI GPT-4 기반 챗봇을 활용하여 양육 관련 질문에 실시간 답변 제공 <br> - Google Cloud Natural Language API를 이용해 부모의 질문에서 주요 키워드를 추출하고, 관련된 상담 자료 및 전문가 조언을 연결 <br> - 필요 시 Microsoft Azure의 음성 텍스트 변환 API를 활용하여 부모가 음성으로 질문할 수 있도록 지원 <br> <br> **4. 성장 발달 체크 및 전문가 상담 연계** <br> - 아이의 나이 및 행동 패턴을 입력하면 IBM Watson과 Google Cloud AI를 활용하여 발달 단계 평가 <br> - 이상 징후가 감지되면 전문가 상담 서비스와 연계하여 적절한 추가 조치를 안내 <br> <br> **5. 부모 커뮤니티 및 교육 시스템** <br> - AI 추천 시스템을 통해 유사한 고민을 가진 부모들의 게시물을 추천 <br> - 주차별 교육 콘텐츠를 제공하며, 퀴즈 및 실습형 워크북을 통해 학습 효과를 극대화 |
-|구현기술 키워드| Android, iOS, Spring, OpenAI GPT-4, IBM Watson Tone Analyzer, Google Cloud Natural Language API, Microsoft Azure Emotion API, OpenAI DALL·E |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - **OpenAI GPT-4**: AI 기반 챗봇 및 시뮬레이션 대화 생성 [https://openai.com/product/gpt-4](https://openai.com/product/gpt-4) <br> - **IBM Watson Tone Analyzer**: 부모의 대화 패턴 및 감정 분석 [https://www.ibm.com/cloud/watson-tone-analyzer](https://www.ibm.com/cloud/watson-tone-analyzer) <br> - **Google Cloud Natural Language API**: 대화 및 감정 분석을 통한 양육 피드백 제공 [https://cloud.google.com/natural-language](https://cloud.google.com/natural-language) <br> - **Microsoft Azure Emotion API**: 부모의 음성 및 표정 감정 분석 [https://azure.microsoft.com/en-us/services/cognitive-services/emotion/](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/) <br> - **OpenAI DALL·E**: 시뮬레이션에서 아이의 감정 상태를 이미지로 시각화 [https://openai.com/research/dall-e](https://openai.com/research/dall-e) |
+|프로젝트명| AI 기반 부모 교육 및 육아 피드백 어플리케이션 |
+|프로젝트 키워드| 부모 교육, 육아 피드백, STT 분석, AI 챗봇, 워크북, 커뮤니티 |
+|무엇을 만들고자 하는가| 초보 부모가 실제 양육 상황을 AI로 분석하고 개선할 수 있도록 돕는 모바일 앱을 개발합니다. 대화를 분석해 감정과 말투 피드백을 제공하고, 개인 성향에 맞는 워크북 콘텐츠를 추천합니다. 실시간 챗봇 상담과 부모 커뮤니티도 함께 제공합니다. |
+|고객| 초보 부모 |
+|Pain Point| 초보 부모는 실전 경험이 부족해 아이의 감정을 이해하거나 대응하기 어렵고, 기존 교육은 현실 적용이 어렵거나 시간·비용 부담이 큽니다. 실시간 상담이나 커뮤니티도 부족합니다. |
+|기술 솔루션 서술|1. **홈캠 기반 음성 분석** - S3에 저장된 오디오를 Whisper API로 텍스트 변환하고, Pyannote API로 화자 분리합니다. Claude Haiku를 활용해 감정, 말투, 빈도, 상호작용을 분석하고 피드백을 생성합니다.<br>2. **육아 성향 진단 및 워크북 추천** - PSDQ 기반 문항으로 성향을 진단하고, 분석 결과에 따라 맞춤형 워크북을 추천합니다. 콘텐츠는 퀴즈와 실천 과제로 구성되어 반복 학습을 유도합니다.<br>3. **RAG 기반 AI 챗봇** - 사용자의 질문을 LangChain으로 전처리하고, ko-sbert-nli로 임베딩한 문서를 FAISS로 검색합니다. 관련 문서를 기반으로 GPT-4가 실시간 응답을 생성합니다.<br>4. **부모 커뮤니티** - 게시글 기반 커뮤니티 기능을 제공하며, 유사한 고민이나 관심 키워드에 따라 글을 추천해 소통을 돕습니다. |
+|구현기술 키워드| Kotlin(Android), Spring Boot, EC2, Docker, Whisper API, Pyannote API, Claude Haiku, GPT-4, LangChain, FAISS, ko-sbert-nli, S3, RDS, DynamoDB |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - **Whisper API**: https://openai.com/research/whisper <br> - **Pyannote API**: https://github.com/pyannote/pyannote-audio <br> - **Claude Haiku**: https://www.anthropic.com/index/claude-haiku <br> - **OpenAI GPT-4**: https://openai.com/gpt-4 <br> - **LangChain**: https://www.langchain.com <br> - **FAISS**: https://github.com/facebookresearch/faiss <br> - **ko-sbert-nli**: https://huggingface.co/skt/kobert-base-v1 |
 |팀그라운드룰| https://github.com/unikohoho/21_project/blob/main/GroundRule.MD |
-|최종수정일| 2025.03.20 |
+|최종수정일| 2025.04.16 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
