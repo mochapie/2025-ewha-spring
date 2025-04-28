@@ -24,7 +24,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[20](#team-20--스카이화)|스카이화|트렌드 기반으로 실시간 피드백을 제공하는 모바일 어플리케이션|
 |[21](#team-21--투애니원)|투애니원|AI 기반 부모 교육 및 육아 피드백 어플리케이션|
 |[22](#team-22--큐리호스(Curihous))|큐리호스(Curihous)|초보 투자자가 AI 기반 자동매매를 활용하며 투자 원리를 학습하고 성장할 수 있는 맞춤형 퀀트 트레이딩 플랫폼|
-|[23](#team-23--졸업하고싶조)|졸업하고싶조|여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스|
+|[23](#team-23--졸업하고싶조)|Synchronizing Schedules Seamlessly: A Collaborative Web Application for Personal and Group Planning|
 |[24](#team-24--강배우)|강배우|SNS, 웹서핑 등을 통해 유용한 정보를 휴대폰 스크린샷으로 저장해두고 잊어버리는 사용자를 위해, 캡처된 정보를 카테고리별로 자동 분류·추천·알림 기능을 제공해주는 AI 기반 스마트 정보 관리 및 활용 서비스|
 |[25](#team-25--바위너구리)|바위너구리|개인 생활패턴과 날씨를 고려해 청소 & 위생 루틴을 추천하는 AI 서비스|
 |[27](#team-27--용용)|용용|그린업(Green UP): CNN 기반 AI가 쓰레기 종류를 인식하고 올바른 분리배출 방법을 안내하는 스마트 분리배출 서비스|
@@ -338,17 +338,17 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 23 졸업하고싶조
 |항목|내용|
 |---|---|
-|프로젝트명| YagInfo |
-|프로젝트 키워드| Ingredient list, Healthcare, Vision impairment assistance |
-|무엇을 만들고자 하는가| 여러 병원을 다니고, 많은 약을 복용하는 사람들을 위한 복약 지도 서비스 |
-|고객| - 다수의 처방약을 복용하는 만성질환자<br> - 시각장애인 또는 노인 등 소리로 정보를 듣고 싶은 사용자<br> - 보호자 또는 요양보호사 |
-|Pain Point| - 처방약의 성분 및 복용법을 쉽게 확인하기 어려움<br> - 약 포장지나 설명서의 작은 글씨로 인해 시각적으로 불편함<br> - 여러 병원의 처방약을 한눈에 관리하기 어려움 |
-|기술 솔루션 서술| - 스마트폰 카메라로 약 포장이나 처방전을 촬영하면 AI 이미지 인식으로 약 정보를 추출<br> - OCR (Optical Character Recognition) 기술을 활용하여 텍스트를 디지털화<br> - 약물 데이터베이스와 연동하여 약 성분 및 복용 정보를 제공 |
-|구현기술 키워드| AI, Photo recognition, Python |
-|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - AI 모델: [Google Vision API](https://cloud.google.com/vision) 또는 [OpenCV](https://opencv.org/) 기반 OCR<br> - Database: [Firebase Firestore](https://firebase.google.com/docs/firestore) 또는 [MySQL](https://www.mysql.com/)<br> - Frontend: [React Native](https://reactnative.dev/) / [Flutter](https://flutter.dev/)<br> - Backend: [FastAPI](https://fastapi.tiangolo.com/) / [Node.js](https://nodejs.org/en/) |
+|프로젝트명| ScheduleSync |
+|프로젝트 키워드| Scheduling, Social collaboration, Calendar management |
+|무엇을 만들고자 하는가| 친구들과 일정을 공유하고 서로 제안 및 조정할 수 있는 협업형 스케줄 관리 앱 |
+|고객| - 친구들과 일정을 맞추기 어려운 대학생 및 직장인<br> - 그룹 활동이나 약속을 쉽게 조율하고 싶은 사용자<br> - 일정 추천과 수정 제안을 받고 싶은 사용자 |
+|Pain Point| - 서로 다른 개인 일정 때문에 약속을 잡기 어려움<br> - 일정을 효율적으로 공유하고 조정할 수 있는 방법 부족<br> - 기존 캘린더 앱은 개인 관리 중심이라 그룹 협업에 불편함 |
+|기술 솔루션 서술| - 사용자가 개인 일정을 앱에 등록하고, 친구들에게 열람 및 제안 권한을 부여<br> - 친구들은 서로에게 스케줄 수정이나 제안을 보낼 수 있고, 사용자는 수락 또는 거절 가능<br> - 그룹 일정을 만들거나 개인 일정을 동기화할 수 있음 |
+|구현기술 키워드| Firebase, HTML/CSS/JavaScript, Real-time updates |
+|사용할 소프트웨어의 구체적 명세(명칭과 URL)| - Database: [Firebase Firestore](https://firebase.google.com/docs/firestore)<br> - Frontend: HTML / CSS / JavaScript<br> - Backend: [Firebase Functions](https://firebase.google.com/docs/functions) 또는 [Node.js](https://nodejs.org/en/) |
 |팀그라운드룰| [팀그라운드룰](https://github.com/wewannagraduate/wewannagraduate/blob/main/GroundRule.md) |
-|최종수정일| 2025.03.20 |
- 
+|최종수정일| 2025.04.28 |
+
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
