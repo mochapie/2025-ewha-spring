@@ -24,7 +24,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[20](#team-20--스카이화)|스카이화|트렌드 기반으로 실시간 피드백을 제공하는 모바일 어플리케이션|
 |[21](#team-21--투애니원)|투애니원|AI 기반 부모 교육 및 육아 피드백 어플리케이션|
 |[22](#team-22--큐리호스(Curihous))|큐리호스(Curihous)|초보 투자자가 AI 기반 자동매매를 활용하며 투자 원리를 학습하고 성장할 수 있는 맞춤형 퀀트 트레이딩 플랫폼|
-|[23](#team-23--졸업하고싶조)|Synchronizing Schedules Seamlessly: A Collaborative Web Application for Personal and Group Planning|
+|[23](#team-23--졸업하고싶조)|ScheduleSync| Synchronizing Schedules Seamlessly: A Collaborative Web Application for Personal and Group Planning
 |[24](#team-24--강배우)|강배우|SNS, 웹서핑 등을 통해 유용한 정보를 휴대폰 스크린샷으로 저장해두고 잊어버리는 사용자를 위해, 캡처된 정보를 카테고리별로 자동 분류·추천·알림 기능을 제공해주는 AI 기반 스마트 정보 관리 및 활용 서비스|
 |[25](#team-25--바위너구리)|바위너구리|개인 생활패턴과 날씨를 고려해 청소 & 위생 루틴을 추천하는 AI 서비스|
 |[27](#team-27--용용)|용용|그린업(Green UP): CNN 기반 AI가 쓰레기 종류를 인식하고 올바른 분리배출 방법을 안내하는 스마트 분리배출 서비스|
