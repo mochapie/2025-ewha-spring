@@ -184,7 +184,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |고객|  프랜차이즈 본사, 개별 가맹점 점주 |
 |Pain Point| 수요 예측을 점주의 경험에만 의존해 정확도가 낮고, 예측 실패 시 재고 과잉 또는 품절 문제가 발생한다. / 제품마다 유통기한이 짧고, 발주 단위(MOQ) 및 납기일 고려가 어렵다. / POS 데이터를 보유하고 있음에도 이를 활용한 정량적 발주 의사결정 시스템이 없다. / 발주 경험에 기반한 판단을 할 수 있어야 비용을 절감하고 오류를 줄일 수 있다. |
 |기술 솔루션 서술|  날짜, 요일, 품목, 카테고리, 시즌, 프로모션 여부 등 다양한 특성 데이터를 기반으로 품목별 일일 수요를 예측하는 머신러닝 모델을 구축한다. 예측된 수요값에 발주 버퍼율 및 최소 발주 단위를 적용해 현실적인 발주량을 계산하고, 이를 기반으로 점주가 선택 가능한 형태의 발주 추천 UI를 Streamlit을 활용해 구현한다.  |
-|구현기술 키워드|  LightGBM, Python, Pandas, Streamlit, POS 시계열 데이터, 재고/발주 연산 로직  |
+|구현기술 키워드|  LightGBM, Prophet, Python, Pandas, Streamlit, POS 시계열 데이터, 재고/발주 연산 로직  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  LightGBM: 고속 부스팅 기반 수요 예측 모델 (https://github.com/microsoft/LightGBM) / Streamlit: Python 기반 웹 시각화 도구 (https://streamlit.io) / Python, Pandas: 데이터 전처리 및 로직 구현 / 기상 데이터 API (https://openweathermap.org/api) / 공휴일 모듈 (https://pypi.org/project/holidays/)  |
 |최종수정일|  2025-05-21  |
 
