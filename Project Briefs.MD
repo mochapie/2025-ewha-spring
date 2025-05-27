@@ -186,7 +186,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |기술 솔루션 서술|  날짜, 요일, 품목, 카테고리, 시즌, 프로모션 여부 등 다양한 특성 데이터를 기반으로 품목별 일일 수요를 예측하는 머신러닝 모델을 구축한다. 예측된 수요값에 발주 버퍼율 및 최소 발주 단위를 적용해 현실적인 발주량을 계산한다.  |
 |구현기술 키워드|  LightGBM, Prophet, XGBoost, Python, Pandas, Streamlit, POS 시계열 데이터, 재고/발주 연산 로직  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  LightGBM: 고속 부스팅 기반 수요 예측 모델 (https://github.com/microsoft/LightGBM) / XGBoost: 결정 트리 기반 예측 모델로 성능 비교 및 실험에 활용 (https://github.com/dmlc/xgboost) / Prophet: 시계열의 추세, 계절성, 공휴일 효과 반영이 가능한 예측 모델 (https://github.com/facebook/prophet) / Streamlit: Python 기반 웹 시각화 도구 (https://streamlit.io) / Python, Pandas: 데이터 전처리 및 발주 로직 구현 (https://www.python.org, https://pandas.pydata.org) / 기상 데이터 API: 일별 기온, 강수량 정보 연동 (https://openweathermap.org/api) / 공휴일 모듈: 국가별 공휴일 자동 태깅용 라이브러리 (https://pypi.org/project/holidays/)  |
-|최종수정일|  2025-05-23  |
+|최종수정일|  2025-05-27  |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
