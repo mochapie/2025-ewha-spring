@@ -14,7 +14,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |[10](#team-10--2ys)|2ys|Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT|
 |[11](#team-11--DevEwha)|DevEwha|Serverless Architecture를 이용한 실시간 AI 추론 최적화|
 |[12](#team-12--내가그린)|내가그린|**소소행 (小小行)** : AI를 활용하여 소도시 여행 추천과 지역 축제 정보를 제공하고, 소상공인들의 온/오프라인 판매를 돕는 통합 모바일 플랫폼|
-|[13](#team-13--e시크)|e시크| 프랜차이즈 베이커리 가맹점 POS 데이터를 활용한 수요 예측 및 발주 시스템 개발 |
+|[13](#team-13--e시크)|e시크| 프랜차이즈 베이커리 가맹점 POS 데이터를 활용한 수요 예측 시스템 개발 |
 |[14](#team-14--team329)|team329|Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach|
 |[15](#team-15--GRAD)|GRAD|일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서|
 |[16](#team-16--배꽃엔딩)|배꽃엔딩|AI 기반 성분 분석 및 추천 알고리즘을 통해, 편의점 가공식품을 사용자 조건에 맞게 분석·비교하고, 맞춤형 제품을 제안하는 개인 맞춤형 서비스|
@@ -178,12 +178,12 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 ## Team 13  e시크 
 |항목|내용|
 |---|---|
-|프로젝트명|  프랜차이즈 베이커리 가맹점 POS 데이터를 활용한 수요 예측 및 발주 시스템 개발   |
+|프로젝트명|  프랜차이즈 베이커리 가맹점 POS 데이터를 활용한 수요 예측 시스템 개발   |
 |프로젝트 키워드|  POS 데이터, 베이커리, 프랜차이즈, 수요 예측, 발주 최적화, 시계열 분석, 재고 관리  |
 |무엇을 만들고자 하는가|  프랜차이즈 베이커리 가맹점에서 발생하는 POS 데이터를 활용하여 품목별 수요를 예측하고, 이를 기반으로 발주량을 추천하는 시스템을 구축하는 것을 목표로 한다. 기존의 발주 방식은 가맹점주의 경험에 의존하여 재고 과잉 또는 품절 등의 문제가 빈번하게 발생하며, 이는 매출 손실과 폐기 비용 증가로 이어진다. 이를 개선하기 위해 머신러닝 기반 수요 예측 모델을 도입하고, 예측 수요를 기준으로 발주량을 계산하고 시각화하여 제공하는 시제품 수준의 솔루션을 구현한다.  |
 |고객|  프랜차이즈 본사, 개별 가맹점 점주 |
 |Pain Point| 수요 예측을 점주의 경험에만 의존해 정확도가 낮고, 예측 실패 시 재고 과잉 또는 품절 문제가 발생한다. / 제품마다 유통기한이 짧고, 발주 단위(MOQ) 및 납기일 고려가 어렵다. / POS 데이터를 보유하고 있음에도 이를 활용한 정량적 발주 의사결정 시스템이 없다. / 발주 경험에 기반한 판단을 할 수 있어야 비용을 절감하고 오류를 줄일 수 있다. |
-|기술 솔루션 서술|  날짜, 요일, 품목, 카테고리, 시즌, 프로모션 여부 등 다양한 특성 데이터를 기반으로 품목별 일일 수요를 예측하는 머신러닝 모델을 구축한다. 예측된 수요값에 발주 버퍼율 및 최소 발주 단위를 적용해 현실적인 발주량을 계산하고, 이를 기반으로 점주가 선택 가능한 형태의 발주 추천 UI를 Streamlit을 활용해 구현한다.  |
+|기술 솔루션 서술|  날짜, 요일, 품목, 카테고리, 시즌, 프로모션 여부 등 다양한 특성 데이터를 기반으로 품목별 일일 수요를 예측하는 머신러닝 모델을 구축한다. 예측된 수요값에 발주 버퍼율 및 최소 발주 단위를 적용해 현실적인 발주량을 계산한다.  |
 |구현기술 키워드|  LightGBM, Prophet, XGBoost, Python, Pandas, Streamlit, POS 시계열 데이터, 재고/발주 연산 로직  |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  LightGBM: 고속 부스팅 기반 수요 예측 모델 (https://github.com/microsoft/LightGBM) / XGBoost: 결정 트리 기반 예측 모델로 성능 비교 및 실험에 활용 (https://github.com/dmlc/xgboost) / Prophet: 시계열의 추세, 계절성, 공휴일 효과 반영이 가능한 예측 모델 (https://github.com/facebook/prophet) / Streamlit: Python 기반 웹 시각화 도구 (https://streamlit.io) / Python, Pandas: 데이터 전처리 및 발주 로직 구현 (https://www.python.org, https://pandas.pydata.org) / 기상 데이터 API: 일별 기온, 강수량 정보 연동 (https://openweathermap.org/api) / 공휴일 모듈: 국가별 공휴일 자동 태깅용 라이브러리 (https://pypi.org/project/holidays/)  |
 |최종수정일|  2025-05-23  |
