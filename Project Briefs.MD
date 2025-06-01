@@ -254,8 +254,10 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
-## Team 18  코드만두(Code 만 Do!) 
+## Team 18  코드만두(Code 만 Do!)
+
 | 항목 | 내용 |
+|------|------|
 | **앱 이름** | Re:cord |
 | **프로젝트 제목** | AI 음성 요약으로 공연 후기를 간편하게 기록하고, 생성형 AI 티켓 이미지로 나만의 포토티켓을 간직하는 디지털 티켓북 |
 | **키워드** | - AI 음성 인식 후기 요약<br>- 생성형 AI 티켓 디자인<br>- 개인 맞춤 질문 시스템<br>- SNS 공유 |
@@ -266,7 +268,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 | **구현 기술 키워드** | - 음성 인식  - Google STT<br>- 자연어 처리 -  GPT-4, (Hugging Face)<br>- AI 티켓 이미지&디자인 생성 - DALL·E, Stable Diffusion<br>- React Native & Spring Boot 기반 웹 앱 개발 |
 | **사용할 소프트웨어의 구체적 명세** | - **음성 인식**<br>&nbsp;&nbsp;&nbsp;- Google Cloud Speech-to-Text : [Link](https://cloud.google.com/speech-to-text)<br>- **자연어 처리 (NLP)**<br>&nbsp;&nbsp;&nbsp;- GPT-4 : [OpenAI](https://openai.com/research/gpt-4)<br>- **AI 이미지 생성**<br>&nbsp;&nbsp;&nbsp;- DALL·E : [OpenAI](https://openai.com/dall-e)<br>&nbsp;&nbsp;&nbsp;- Stable Diffusion : [Stable Diffusion](https://stablediffusionweb.com/)<br>- **앱 & 백엔드**<br>&nbsp;&nbsp;&nbsp;- React Native : [React Native](https://reactnative.dev/)<br>&nbsp;&nbsp;&nbsp;- Spring Boot : [Spring Boot](https://spring.io/projects/spring-boot)<br>- **데이터베이스**<br>&nbsp;&nbsp;&nbsp;- AWS RDS : [AWS RDS](https://aws.amazon.com/rds/)<br>&nbsp;&nbsp;&nbsp;- PostgreSQL : [PostgreSQL](https://www.postgresql.org/) |
 | **팀 그라운드룰** | [CodeManDoo GroundRule](https://github.com/CodeManD00/CodeManDoo/blob/main/GroundRule.MD) |
-| **최종수정일** | 2025-04-17 |
+| **최종수정일** | 2025-06-01 | 
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
 
