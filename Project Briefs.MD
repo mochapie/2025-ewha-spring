@@ -283,7 +283,7 @@ blank line을 넣으면 table form이 깨지니 주의요망. PR전에 확인해
 |기술 솔루션 서술| 1. 크롤링 : 카드사의 카드 혜택 정보 크롤링<br>2. AI : 크롤링한 정보들을 정제 및 위치 기반 매장 추천<br>3. Naver Map : 지도에 핀으로 추천하는 매장 표시 |
 |구현기술 키워드| 추천 알고리즘, 자동 배포, GPS |
 |사용할 소프트웨어의 구체적 명세(명칭과 URL)|  React Native: https://reactnative.dev<br>springboot: https://spring.io/projects/spring-boot<br>mysql: https://www.mysql.com<br>docker: https://www.docker.com |
-|팀그라운드룰| https://github.com/TEAM-FITSEARCH/BACK/blob/main/GroundRule.MD |
+|팀그라운드룰| [#19 CardMates Ground Rule](https://github.com/CardMates/WiseCard/blob/main/GroundRule.md) |
 |최종수정일| 2025.04.08 |
 
   [Return Top](#2025-Spring-전체-프로젝트-리스트)
